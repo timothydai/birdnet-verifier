@@ -10,7 +10,7 @@
     <div>Bat recordings</div>
     <div>Choose a location:</div>
     <div>
-      <a href="labeling_interface.html">Lake 1</a>
+      <a href="labeler.php?sample=0">Lake 1</a>
       | 
       <a>Lake 2</a>
       | 
@@ -22,7 +22,7 @@
     </div>
     <img src="static_images/bat_recorder_map.png" width="800">
     <div>
-      <a href="index.html">Back to Labeler Home</a>
+      <a href="index.php">Back to Labeler Home</a>
     </div>
   </body>
 </html>
