@@ -8,23 +8,30 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div>Location:</div>
-    <div>Filename:</div>
-    <div>Datetime:</div>
+    <audio
+        controls
+        src="dummy/proc_lake1_D20130701T052015m180-Tabr.wav">
+            <a href="dummy/proc_lake1_D20130701T052015m180-Tabr.wav">
+                Download audio
+            </a>
+    </audio>
+    <div>Location: lake1</div>
+    <div>Filename: proc_lake1_D20130701T052015m180-Tabr.wav</div>
+    <div>Datetime: 2013-07-01 05:20:15</div>
     <div>
-        <form action="/action_page.php">
-            <label for="species">Enter species:</label>
-            <input type="text" id="species" name="species">
+        <form action="send_post.php" method="post">
+            <label for="species_common_name">Enter species:</label>
+            <input type="text" id="species_common_name" name="species_common_name">
+            <div>Additional notes: (Is there anything unique about this recording?)</div>
+            <textarea id="comments" name="comments" rows="4" cols="100"></textarea>
+            <div></div>
             <input type="submit" value="Submit">
         </form>
     </div>
-
-    <div>Additional notes: (Is there anything unique about this recording?)</div>
-    <div>Last updated by:</div>
     <div>
-        <a>Back to Bat Recordings Home</a>
+        <a href="bat_monitoring_recorders.html">Back to Bat Recordings Home</a>
         |
-        <a>Back to Labeler Home</a>
+        <a href="index.html">Back to Labeler Home</a>
     </div>
 	<script src="index.js"></script>
   </body>

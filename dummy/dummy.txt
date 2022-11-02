@@ -1,0 +1,1 @@
+classified/lake1/20130701/proc_lake1_D20130701T052015m180-Tabr.wav,2013-07-01 05:20:15,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,barswa,Barn Swallow,0.9161
