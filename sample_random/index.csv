@@ -1,0 +1,1000 @@
+id,File,Datetime,Selection,View,Channel,Begin Time (s),End Time (s),Low Freq (Hz),High Freq (Hz),Species Code,Common Name,Confidence
+4276,classified/lake1/20140510/proc_lake1_PST_D20140510T232710m203-Myca.wav,2014-05-10 23:27:10,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,mallar3,Mallard,0.2829
+7141,classified/marsh1/20140718/proc_marsh1_PST_D20140718T043451m651.wav,2014-07-18 04:34:51,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,barswa,Barn Swallow,0.97
+11385,classified/marsh1/20150506/proc_marsh1_PST_D20150506T042544m079.wav,2015-05-06 04:25:44,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,comyel,Common Yellowthroat,0.4137
+14977,classified/marsh1/20160326/proc_marsh1_PST_D20160326T061002m310.wav,2016-03-26 06:10:02,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,rewbla,Red-winged Blackbird,0.1786
+16827,classified/marsh2/20160520/proc_marsh2_PST_D20160520T190918m960.wav,2016-05-20 19:09:18,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,caltow,California Towhee,0.7959
+17130,classified/marsh2/20160527/proc_marsh2_PST_D20160527T030822m244-Tabr.wav,2016-05-27 03:08:22,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,barswa,Barn Swallow,0.237
+19127,classified/marsh1/20160802/proc_marsh1_PST_D20160802T043941m993-Lano.wav,2016-08-02 04:39:41,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,barswa,Barn Swallow,0.9918
+19808,classified/marsh1/20160815/proc_marsh1_PST_D20160815T221546m913-Tabr.wav,2016-08-15 22:15:46,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.2652
+23362,classified/upperlake1/20170708/proc_upperlake1_PST_D20170708T195054m331.wav,2017-07-08 19:50:54,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,barswa,Barn Swallow,0.6005
+26099,classified/lake1/20171026/proc_lake1_PST_D20171026T183556m199-Laci.wav,2017-10-26 18:35:56,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.1618
+28901,classified/marsh1/20180828/proc_marsh1_PST_D20180828T195417m940.wav,2018-08-28 19:54:17,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.1035
+32181,classified/marsh1/20190820/proc_marsh1_PST_D20190820T213135m514-Myca.wav,2019-08-20 21:31:35,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.1725
+32808,classified/upperlake1/20190826/proc_upperlake1_PST_D20190826T191826m300.wav,2019-08-26 19:18:26,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,mallar3,Mallard,0.1828
+33058,classified/upperlake1/20190905/proc_upperlake1_PST_D20190905T201504m906-Myyu.wav,2019-09-05 20:15:04,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.1473
+33508,classified/upperlake1/20190917/proc_upperlake1_PST_D20190917T190635m075-Myyu.wav,2019-09-17 19:06:35,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.229
+33643,classified/lake2/20190920/proc_lake2_PST_D20190920T220942m415.wav,2019-09-20 22:09:42,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.1992
+35781,classified/upperlake1/20200310/proc_upperlake1_PST_D20200310T184734m743-Myca.wav,2020-03-10 18:47:34,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,mallar3,Mallard,0.5086
+36344,classified/lake1/20200414/proc_lake1_PST_D20200414T065529m175.wav,2020-04-14 06:55:29,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,sonspa,Song Sparrow,0.4293
+36770,classified/upperlake1/20200422/proc_upperlake1_PST_D20200422T192352m833-Laci.wav,2020-04-22 19:23:52,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,pinsis,Pine Siskin,0.4321
+39995,classified/marsh1/20200613/proc_marsh1_PST_D20200613T195618m096-Myca.wav,2020-06-13 19:56:18,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,sora,Sora,0.3449
+41126,classified/ridge1/20200803/proc_ridge1_PST_D20200803T003911m969-Tabr.wav,2020-08-03 00:39:11,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,norgos,Northern Goshawk,0.1394
+41343,classified/marsh1/20200808/proc_marsh1_PST_D20200808T215017m055.wav,2020-08-08 21:50:17,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.2262
+42053,classified/upperlake1/20200823/proc_upperlake1_PST_D20200823T191408m659.wav,2020-08-23 19:14:08,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,gadwal,Gadwall,0.4228
+43930,classified/upperlake1/20201021/proc_upperlake1_PST_D20201021T220746m612-Tabr.wav,2020-10-21 22:07:46,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,mallar3,Mallard,0.2845
+51962,classified/barn1/20220429/proc_barn1_D20220429T041936m053-Coto.wav,2022-04-29 04:19:36,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,annhum,Anna's Hummingbird,0.1965
+54881,classified/barn1/20220517/proc_barn1_D20220517T033851m098-Coto.wav,2022-05-17 03:38:51,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,vigswa,Violet-green Swallow,0.8743
+56849,classified/upperlake1/20220731/proc_upperlake1_PST_D20220731T011000m265.wav,2022-07-31 01:10:00,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,grbher3,Great Blue Heron,0.2875
+57850,classified/upperlake1/20220907/proc_upperlake1_PST_D20220907T234335m837-Laci.wav,2022-09-07 23:43:35,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,gadwal,Gadwall,0.5954
+57856,classified/upperlake1/20220909/proc_upperlake1_PST_D20220909T000211m443.wav,2022-09-09 00:02:11,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.4913
+64550,scrubbed/Scrubbed_Files_03/marsh1/20000322/proc_marsh1_PST_D20000322T191052m554.wav,2000-03-22 19:10:52,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,pibgre,Pied-billed Grebe,0.2032
+68605,scrubbed/Scrubbed_Files_03/marsh1/20000501/proc_marsh1_PST_D20000501T004004m376.wav,2000-05-01 00:40:04,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,spotow,Spotted Towhee,0.8174
+69378,scrubbed/Scrubbed_Files_01/lake1/20130524/proc_lake1_D20130524T201731m153.wav,2013-05-24 20:17:31,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,caltow,California Towhee,0.3429
+73444,scrubbed/Scrubbed_Files_01/lake1/20130628/proc_lake1_D20130628T054505m864.wav,2013-06-28 05:45:05,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,barswa,Barn Swallow,0.1873
+73523,scrubbed/Scrubbed_Files_01/marsh2/20130628/proc_marsh2_D20130628T201216m910.wav,2013-06-28 20:12:16,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,vigswa,Violet-green Swallow,0.3475
+74653,scrubbed/Scrubbed_Files_01/lake2/20130702/proc_lake2_D20130702T055405m882.wav,2013-07-02 05:54:05,7.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,yelwar,Yellow Warbler,0.2775
+75250,scrubbed/Scrubbed_Files_01/marsh1/20130704/proc_marsh1_D20130704T014239m283.wav,2013-07-04 01:42:39,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,grbher3,Great Blue Heron,0.2043
+75884,scrubbed/Scrubbed_Files_01/lake1/20130705/proc_lake1_D20130705T014259m046.wav,2013-07-05 01:42:59,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,grhowl,Great Horned Owl,0.3407
+76013,scrubbed/Scrubbed_Files_01/lake1/20130705/proc_lake1_D20130705T054833m408.wav,2013-07-05 05:48:33,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,blkpho,Black Phoebe,0.8644
+76417,scrubbed/Scrubbed_Files_01/marsh1/20130707/proc_marsh1_D20130707T055906m973.wav,2013-07-07 05:59:06,4.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,y00475,American Coot,0.1358
+76596,scrubbed/Scrubbed_Files_01/lake1/20130707/proc_lake1_D20130707T205605m349.wav,2013-07-07 20:56:05,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,caltow,California Towhee,0.8115
+77814,scrubbed/Scrubbed_Files_01/marsh2/20130712/proc_marsh2_D20130712T050410m046.wav,2013-07-12 05:04:10,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,barswa,Barn Swallow,0.931
+79270,scrubbed/Scrubbed_Files_01/marsh1/20130717/proc_marsh1_D20130717T202608m614.wav,2013-07-17 20:26:08,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,bcnher,Black-crowned Night-Heron,0.9249
+84007,scrubbed/Scrubbed_Files_01/marsh1/20130810/proc_marsh1_D20130810T231650m389.wav,2013-08-10 23:16:50,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.1363
+86930,scrubbed/Scrubbed_Files_01/lake2/20130818/proc_lake2_D20130818T201700m057.wav,2013-08-18 20:17:00,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,wesowl1,Western Screech-Owl,0.1914
+92810,scrubbed/Scrubbed_Files_01/lake1/20130828/proc_lake1_D20130828T201529m768.wav,2013-08-28 20:15:29,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,cangoo,Canada Goose,0.1819
+93440,scrubbed/Scrubbed_Files_01/marsh2/20130830/proc_marsh2_D20130830T071754m622.wav,2013-08-30 07:17:54,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,acowoo,Acorn Woodpecker,0.9762
+97268,scrubbed/Scrubbed_Files_01/marsh1/20130908/proc_marsh1_D20130908T020911m628.wav,2013-09-08 02:09:11,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.2986
+100092,scrubbed/Scrubbed_Files_01/lake2/20130912/proc_lake2_D20130912T041423m880.wav,2013-09-12 04:14:23,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.1416
+106990,scrubbed/Scrubbed_Files_01/lake2/20130928/proc_lake2_D20130928T061507m241.wav,2013-09-28 06:15:07,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,mallar3,Mallard,0.1741
+107832,scrubbed/Scrubbed_Files_01/lake1/20130929/proc_lake1_D20130929T180508m443.wav,2013-09-29 18:05:08,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,chbchi,Chestnut-backed Chickadee,0.4594
+110416,scrubbed/Scrubbed_Files_01/marsh2/20131006/proc_marsh2_D20131006T200919m544.wav,2013-10-06 20:09:19,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.7621
+111896,scrubbed/Scrubbed_Files_01/lake1/20131013/proc_lake1_D20131013T200154m993.wav,2013-10-13 20:01:54,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.375
+111928,scrubbed/Scrubbed_Files_01/lake1/20131013/proc_lake1_D20131013T213151m925.wav,2013-10-13 21:31:51,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,mallar3,Mallard,0.2132
+114681,scrubbed/Scrubbed_Files_01/marsh1/20131027/proc_marsh1_D20131027T070838m906.wav,2013-10-27 07:08:38,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,whtspa,White-throated Sparrow,0.1795
+120007,scrubbed/Scrubbed_Files_01/lake2/20131123/proc_lake2_PST_D20131123T195420m159.wav,2013-11-23 19:54:20,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,cangoo,Canada Goose,0.1784
+120241,scrubbed/Scrubbed_Files_01/marsh1/20131127/proc_marsh1_PST_D20131127T073532m220.wav,2013-11-27 07:35:32,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,sonspa,Song Sparrow,0.5336
+124551,scrubbed/Scrubbed_Files_01/lake1/20131214/proc_lake1_PST_D20131214T022510m939.wav,2013-12-14 02:25:10,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,mallar3,Mallard,0.7581
+127751,scrubbed/Scrubbed_Files_01/lake1/20131225/proc_lake1_PST_D20131225T000628m139.wav,2013-12-25 00:06:28,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,mallar3,Mallard,0.3316
+128124,scrubbed/Scrubbed_Files_01/lake1/20131225/proc_lake1_PST_D20131225T233640m125.wav,2013-12-25 23:36:40,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,gadwal,Gadwall,0.2088
+130029,scrubbed/Scrubbed_Files_01/lake2/20140105/proc_lake2_PST_D20140105T011656m984.wav,2014-01-05 01:16:56,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,mallar3,Mallard,0.1472
+130842,scrubbed/Scrubbed_Files_01/lake2/20140109/proc_lake2_PST_D20140109T064234m314.wav,2014-01-09 06:42:34,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,amewig,American Wigeon,0.1609
+132965,scrubbed/Scrubbed_Files_01/lake1/20140125/proc_lake1_PST_D20140125T061121m123.wav,2014-01-25 06:11:21,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,mallar3,Mallard,0.2727
+133873,scrubbed/Scrubbed_Files_01/lake2/20140129/proc_lake2_PST_D20140129T171010m859.wav,2014-01-29 17:10:10,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,cangoo,Canada Goose,0.6876
+134955,scrubbed/Scrubbed_Files_01/lake1/20140206/proc_lake1_PST_D20140206T171941m620.wav,2014-02-06 17:19:41,2.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,y00475,American Coot,0.1166
+135826,scrubbed/Scrubbed_Files_01/lake2/20140213/proc_lake2_PST_D20140213T172246m144.wav,2014-02-13 17:22:46,4.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,lobdow,Long-billed Dowitcher,0.1205
+140712,scrubbed/Scrubbed_Files_01/lake1/20140322/proc_lake1_PST_D20140322T011144m373.wav,2014-03-22 01:11:44,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,mallar3,Mallard,0.3136
+142685,scrubbed/Scrubbed_Files_01/lake1/20140412/proc_lake1_PST_D20140412T042615m833.wav,2014-04-12 04:26:15,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,comyel,Common Yellowthroat,0.3015
+142702,scrubbed/Scrubbed_Files_01/lake1/20140412/proc_lake1_PST_D20140412T043422m917.wav,2014-04-12 04:34:22,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,comyel,Common Yellowthroat,0.6275
+145139,scrubbed/Scrubbed_Files_01/lake1/20140423/proc_lake1_PST_D20140423T180257m400.wav,2014-04-23 18:02:57,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,annhum,Anna's Hummingbird,0.1582
+147419,scrubbed/Scrubbed_Files_01/lake1/20140506/proc_lake1_PST_D20140506T190258m086.wav,2014-05-06 19:02:58,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,caltow,California Towhee,0.6154
+147586,scrubbed/Scrubbed_Files_01/lake1/20140508/proc_lake1_PST_D20140508T053233m933.wav,2014-05-08 05:32:33,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,pibgre,Pied-billed Grebe,0.175
+148768,scrubbed/Scrubbed_Files_01/lake2/20140513/proc_lake2_PST_D20140513T044445m316.wav,2014-05-13 04:44:45,4.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,blkpho,Black Phoebe,0.2796
+153036,scrubbed/Scrubbed_Files_01/lake1/20140526/proc_lake1_PST_D20140526T043258m543.wav,2014-05-26 04:32:58,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,indbun,Indigo Bunting,0.1213
+154064,scrubbed/Scrubbed_Files_01/marsh2/20140529/proc_marsh2_PST_D20140529T044628m380.wav,2014-05-29 04:46:28,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,caltow,California Towhee,0.6323
+156664,scrubbed/Scrubbed_Files_01/marsh2/20140606/proc_marsh2_PST_D20140606T191907m195.wav,2014-06-06 19:19:07,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,vigswa,Violet-green Swallow,0.513
+162846,scrubbed/Scrubbed_Files_01/marsh2/20140623/proc_marsh2_PST_D20140623T184734m445.wav,2014-06-23 18:47:34,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,spotow,Spotted Towhee,0.4337
+165541,scrubbed/Scrubbed_Files_01/marsh2/20140702/proc_marsh2_PST_D20140702T043830m704.wav,2014-07-02 04:38:30,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,spotow,Spotted Towhee,0.4432
+167358,scrubbed/Scrubbed_Files_01/marsh2/20140705/proc_marsh2_PST_D20140705T042805m849.wav,2014-07-05 04:28:05,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,caltow,California Towhee,0.2868
+171317,scrubbed/Scrubbed_Files_01/lake1/20140715/proc_lake1_PST_D20140715T015503m497.wav,2014-07-15 01:55:03,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,mallar3,Mallard,0.3824
+172780,scrubbed/Scrubbed_Files_01/marsh2/20140718/proc_marsh2_PST_D20140718T041515m204.wav,2014-07-18 04:15:15,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,barswa,Barn Swallow,0.8485
+172939,scrubbed/Scrubbed_Files_01/lake2/20140718/proc_lake2_PST_D20140718T182528m169.wav,2014-07-18 18:25:28,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,chbchi,Chestnut-backed Chickadee,0.714
+173213,scrubbed/Scrubbed_Files_01/lake2/20140719/proc_lake2_PST_D20140719T192533m692.wav,2014-07-19 19:25:33,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,caltow,California Towhee,0.5961
+174642,scrubbed/Scrubbed_Files_01/lake2/20140726/proc_lake2_PST_D20140726T052101m871.wav,2014-07-26 05:21:01,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,comyel,Common Yellowthroat,0.8151
+178669,scrubbed/Scrubbed_Files_01/marsh2/20140811/proc_marsh2_PST_D20140811T230730m007.wav,2014-08-11 23:07:30,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.5964
+179518,scrubbed/Scrubbed_Files_01/marsh2/20140814/proc_marsh2_PST_D20140814T211051m223.wav,2014-08-14 21:10:51,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.5571
+185061,scrubbed/Scrubbed_Files_01/marsh2/20140831/proc_marsh2_PST_D20140831T215713m993.wav,2014-08-31 21:57:13,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.2014
+186177,scrubbed/Scrubbed_Files_01/marsh2/20140906/proc_marsh2_PST_D20140906T210652m081.wav,2014-09-06 21:06:52,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.1508
+186279,scrubbed/Scrubbed_Files_01/lake1/20140907/proc_lake1_PST_D20140907T053920m791.wav,2014-09-07 05:39:20,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,blkpho,Black Phoebe,0.9486
+189856,scrubbed/Scrubbed_Files_01/lake2/20140925/proc_lake2_PST_D20140925T172605m796.wav,2014-09-25 17:26:05,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,belkin1,Belted Kingfisher,0.5979
+190751,scrubbed/Scrubbed_Files_01/lake2/20140927/proc_lake2_PST_D20140927T055424m236.wav,2014-09-27 05:54:24,2.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,blkpho,Black Phoebe,0.1162
+192690,scrubbed/Scrubbed_Files_01/marsh2/20141006/proc_marsh2_PST_D20141006T055948m132.wav,2014-10-06 05:59:48,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,annhum,Anna's Hummingbird,0.1605
+193368,scrubbed/Scrubbed_Files_01/lake2/20141008/proc_lake2_PST_D20141008T062922m815.wav,2014-10-08 06:29:22,2.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,pygnut,Pygmy Nuthatch,0.2683
+196068,scrubbed/Scrubbed_Files_01/lake2/20141021/proc_lake2_PST_D20141021T192717m776.wav,2014-10-21 19:27:17,2.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,cangoo,Canada Goose,0.1194
+199419,scrubbed/Scrubbed_Files_01/marsh2/20141115/proc_marsh2_PST_D20141115T071202m083.wav,2014-11-15 07:12:02,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,acowoo,Acorn Woodpecker,0.8369
+201284,scrubbed/Scrubbed_Files_01/lake2/20141130/proc_lake2_PST_D20141130T070102m198.wav,2014-11-30 07:01:02,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,gadwal,Gadwall,0.4837
+201951,scrubbed/Scrubbed_Files_01/marsh2/20141212/proc_marsh2_PST_D20141212T024233m412.wav,2014-12-12 02:42:33,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,mallar3,Mallard,0.1168
+202047,scrubbed/Scrubbed_Files_01/marsh2/20141213/proc_marsh2_PST_D20141213T040852m985.wav,2014-12-13 04:08:52,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,mallar3,Mallard,0.1681
+202995,scrubbed/Scrubbed_Files_01/marsh2/20141229/proc_marsh2_PST_D20141229T063445m033.wav,2014-12-29 06:34:45,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,redwin,Redwing,0.1042
+203169,scrubbed/Scrubbed_Files_01/marsh2/20141230/proc_marsh2_PST_D20141230T165402m446.wav,2014-12-30 16:54:02,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,acowoo,Acorn Woodpecker,0.9941
+207648,scrubbed/Scrubbed_Files_01/lake1/20150203/proc_lake1_PST_D20150203T070928m358.wav,2015-02-03 07:09:28,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,rewbla,Red-winged Blackbird,0.1168
+210842,scrubbed/Scrubbed_Files_01/marsh1/20150305/proc_marsh1_PST_D20150305T064559m922.wav,2015-03-05 06:45:59,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,rewbla,Red-winged Blackbird,0.1697
+211337,scrubbed/Scrubbed_Files_01/lake2/20150307/proc_lake2_PST_D20150307T173730m387.wav,2015-03-07 17:37:30,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,comrav,Common Raven,0.133
+211940,scrubbed/Scrubbed_Files_01/lake2/20150314/proc_lake2_PST_D20150314T171852m633.wav,2015-03-14 17:18:52,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,blkpho,Black Phoebe,0.3875
+213488,scrubbed/Scrubbed_Files_01/marsh1/20150321/proc_marsh1_PST_D20150321T195412m223.wav,2015-03-21 19:54:12,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,virrai,Virginia Rail,0.1189
+221275,scrubbed/Scrubbed_Files_01/lake2/20150504/proc_lake2_PST_D20150504T051403m756.wav,2015-05-04 05:14:03,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,caltow,California Towhee,0.1976
+227258,scrubbed/Scrubbed_Files_01/lake2/20150619/proc_lake2_PST_D20150619T042257m015.wav,2015-06-19 04:22:57,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,gadwal,Gadwall,0.1028
+227401,scrubbed/Scrubbed_Files_01/marsh1/20150620/proc_marsh1_PST_D20150620T023758m556.wav,2015-06-20 02:37:58,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,barswa,Barn Swallow,0.511
+231182,scrubbed/Scrubbed_Files_01/lake1/20150724/proc_lake1_PST_D20150724T195450m290.wav,2015-07-24 19:54:50,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.185
+233232,scrubbed/Scrubbed_Files_01/lake2/20150822/proc_lake2_PST_D20150822T021616m366.wav,2015-08-22 02:16:16,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.1584
+235247,scrubbed/Scrubbed_Files_01/lake2/20150904/proc_lake2_PST_D20150904T193923m056.wav,2015-09-04 19:39:23,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.3403
+238527,scrubbed/Scrubbed_Files_01/lake1/20150914/proc_lake1_PST_D20150914T052809m337.wav,2015-09-14 05:28:09,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,caltow,California Towhee,0.401
+242604,scrubbed/Scrubbed_Files_01/lake2/20151006/proc_lake2_PST_D20151006T054149m184.wav,2015-10-06 05:41:49,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,whtswi,White-throated Swift,0.1106
+246518,scrubbed/Scrubbed_Files_01/lake2/20151107/proc_lake2_PST_D20151107T163827m049.wav,2015-11-07 16:38:27,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,blkpho,Black Phoebe,0.1451
+247584,scrubbed/Scrubbed_Files_01/lake2/20151125/proc_lake2_PST_D20151125T174116m632.wav,2015-11-25 17:41:16,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,pilwoo,Pileated Woodpecker,0.1417
+249293,scrubbed/Scrubbed_Files_01/marsh2/20160128/proc_marsh2_PST_D20160128T025629m323.wav,2016-01-28 02:56:29,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.2815
+253524,scrubbed/Scrubbed_Files_01/marsh1/20160318/proc_marsh1_PST_D20160318T071646m999.wav,2016-03-18 07:16:46,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,sonspa,Song Sparrow,0.175
+255402,scrubbed/Scrubbed_Files_01/lake1/20160328/proc_lake1_PST_D20160328T065744m123.wav,2016-03-28 06:57:44,4.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,comyel,Common Yellowthroat,0.1723
+256653,scrubbed/Scrubbed_Files_01/lake2/20160409/proc_lake2_PST_D20160409T052423m299.wav,2016-04-09 05:24:23,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,mallar3,Mallard,0.3039
+256698,scrubbed/Scrubbed_Files_01/marsh1/20160411/proc_marsh1_PST_D20160411T041713m665.wav,2016-04-11 04:17:13,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,barswa,Barn Swallow,0.7627
+257931,scrubbed/Scrubbed_Files_01/marsh1/20160418/proc_marsh1_PST_D20160418T190734m439.wav,2016-04-18 19:07:34,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,caltow,California Towhee,0.1071
+261933,scrubbed/Scrubbed_Files_01/marsh1/20160518/proc_marsh1_PST_D20160518T044812m800.wav,2016-05-18 04:48:12,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,rewbla,Red-winged Blackbird,0.1558
+262704,scrubbed/Scrubbed_Files_01/lake1/20160521/proc_lake1_PST_D20160521T045933m052.wav,2016-05-21 04:59:33,4.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,comyel,Common Yellowthroat,0.1405
+263822,scrubbed/Scrubbed_Files_01/marsh1/20160524/proc_marsh1_PST_D20160524T034000m586.wav,2016-05-24 03:40:00,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,barswa,Barn Swallow,0.7752
+264393,scrubbed/Scrubbed_Files_01/lake1/20160526/proc_lake1_PST_D20160526T043533m794.wav,2016-05-26 04:35:33,2.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,lazbun,Lazuli Bunting,0.1664
+265391,scrubbed/Scrubbed_Files_01/lake1/20160530/proc_lake1_PST_D20160530T195009m840.wav,2016-05-30 19:50:09,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,mallar3,Mallard,0.1292
+267484,scrubbed/Scrubbed_Files_01/lake2/20160608/proc_lake2_PST_D20160608T042059m874.wav,2016-06-08 04:20:59,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,vigswa,Violet-green Swallow,0.3005
+267563,scrubbed/Scrubbed_Files_01/lake1/20160609/proc_lake1_PST_D20160609T005442m852.wav,2016-06-09 00:54:42,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,grbher3,Great Blue Heron,0.1005
+269319,scrubbed/Scrubbed_Files_01/lake1/20160618/proc_lake1_PST_D20160618T194222m973.wav,2016-06-18 19:42:22,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,comyel,Common Yellowthroat,0.3893
+269364,scrubbed/Scrubbed_Files_01/marsh1/20160618/proc_marsh1_PST_D20160618T195339m022.wav,2016-06-18 19:53:39,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,comyel,Common Yellowthroat,0.3627
+271765,scrubbed/Scrubbed_Files_01/marsh1/20160628/proc_marsh1_PST_D20160628T034201m497.wav,2016-06-28 03:42:01,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,barswa,Barn Swallow,0.7865
+273806,scrubbed/Scrubbed_Files_01/marsh1/20160705/proc_marsh1_PST_D20160705T031055m038.wav,2016-07-05 03:10:55,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,barswa,Barn Swallow,0.9278
+274057,scrubbed/Scrubbed_Files_01/marsh1/20160706/proc_marsh1_PST_D20160706T034410m198.wav,2016-07-06 03:44:10,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,barswa,Barn Swallow,0.7224
+277865,scrubbed/Scrubbed_Files_01/lake2/20160719/proc_lake2_PST_D20160719T193944m540.wav,2016-07-19 19:39:44,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,caltow,California Towhee,0.4891
+282110,scrubbed/Scrubbed_Files_01/marsh1/20160811/proc_marsh1_PST_D20160811T190807m812.wav,2016-08-11 19:08:07,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,weskin,Western Kingbird,0.4514
+282900,scrubbed/Scrubbed_Files_01/lake2/20160816/proc_lake2_PST_D20160816T184129m665.wav,2016-08-16 18:41:29,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,blkpho,Black Phoebe,0.2252
+283544,scrubbed/Scrubbed_Files_01/lake2/20160818/proc_lake2_PST_D20160818T235302m543.wav,2016-08-18 23:53:02,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,bcnher,Black-crowned Night-Heron,0.5697
+284875,scrubbed/Scrubbed_Files_01/marsh1/20160903/proc_marsh1_PST_D20160903T184412m078.wav,2016-09-03 18:44:12,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,blkpho,Black Phoebe,0.1286
+285239,scrubbed/Scrubbed_Files_01/lake2/20160908/proc_lake2_PST_D20160908T050120m374.wav,2016-09-08 05:01:20,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,gadwal,Gadwall,0.1455
+286506,scrubbed/Scrubbed_Files_01/lake1/20160910/proc_lake1_PST_D20160910T180556m464.wav,2016-09-10 18:05:56,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,comyel,Common Yellowthroat,0.1187
+293071,scrubbed/Scrubbed_Files_01/lake1/20161012/proc_lake1_PST_D20161012T003710m224.wav,2016-10-12 00:37:10,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,mallar3,Mallard,0.1823
+295050,scrubbed/Scrubbed_Files_01/lake1/20161022/proc_lake1_PST_D20161022T063737m663.wav,2016-10-22 06:37:37,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,sonspa,Song Sparrow,0.6621
+297604,scrubbed/Scrubbed_Files_01/marsh1/20161105/proc_marsh1_PST_D20161105T192509m873.wav,2016-11-05 19:25:09,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,mallar3,Mallard,0.2959
+300048,scrubbed/Scrubbed_Files_01/lake2/20161113/proc_lake2_PST_D20161113T065743m455.wav,2016-11-13 06:57:43,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,pygnut,Pygmy Nuthatch,0.1593
+301564,scrubbed/Scrubbed_Files_01/marsh1/20161123/proc_marsh1_PST_D20161123T045110m025.wav,2016-11-23 04:51:10,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,mallar3,Mallard,0.7072
+301700,scrubbed/Scrubbed_Files_01/marsh1/20161123/proc_marsh1_PST_D20161123T062015m011.wav,2016-11-23 06:20:15,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,mallar3,Mallard,0.3186
+304117,scrubbed/Scrubbed_Files_01/lake1/20161207/proc_lake1_PST_D20161207T012940m812.wav,2016-12-07 01:29:40,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,mallar3,Mallard,0.4301
+304403,scrubbed/Scrubbed_Files_01/marsh1/20161212/proc_marsh1_PST_D20161212T063901m272.wav,2016-12-12 06:39:01,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,mallar3,Mallard,0.1727
+306418,scrubbed/Scrubbed_Files_01/lake2/20170102/proc_lake2_PST_D20170102T065214m256.wav,2017-01-02 06:52:14,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,mallar3,Mallard,0.5645
+306935,scrubbed/Scrubbed_Files_01/lake1/20170112/proc_lake1_PST_D20170112T171058m181.wav,2017-01-12 17:10:58,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,blkpho,Black Phoebe,0.4677
+308000,scrubbed/Scrubbed_Files_01/marsh1/20170125/proc_marsh1_PST_D20170125T024436m530.wav,2017-01-25 02:44:36,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,mallar3,Mallard,0.3038
+308202,scrubbed/Scrubbed_Files_01/marsh1/20170125/proc_marsh1_PST_D20170125T203949m093.wav,2017-01-25 20:39:49,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,gadwal,Gadwall,0.126
+320702,scrubbed/Scrubbed_Files_01/marsh1/20170429/proc_marsh1_PST_D20170429T004819m488.wav,2017-04-29 00:48:19,2.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,greegr,Great Egret,0.1412
+323473,scrubbed/Scrubbed_Files_01/marsh1/20170518/proc_marsh1_PST_D20170518T190945m336.wav,2017-05-18 19:09:45,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,rusbla,Rusty Blackbird,0.1789
+325866,scrubbed/Scrubbed_Files_01/lake1/20170529/proc_lake1_PST_D20170529T190849m973.wav,2017-05-29 19:08:49,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.8326
+327411,scrubbed/Scrubbed_Files_01/lake1/20170606/proc_lake1_PST_D20170606T034823m317.wav,2017-06-06 03:48:23,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,vigswa,Violet-green Swallow,0.7608
+329647,scrubbed/Scrubbed_Files_01/marsh1/20170615/proc_marsh1_PST_D20170615T030912m245.wav,2017-06-15 03:09:12,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,barswa,Barn Swallow,0.3005
+330148,scrubbed/Scrubbed_Files_01/upperlake1/20170618/proc_upperlake1_PST_D20170618T014049m944.wav,2017-06-18 01:40:49,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,barswa,Barn Swallow,0.842
+330587,scrubbed/Scrubbed_Files_01/upperlake1/20170619/proc_upperlake1_PST_D20170619T025757m014.wav,2017-06-19 02:57:57,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,barswa,Barn Swallow,0.8809
+334891,scrubbed/Scrubbed_Files_01/marsh1/20170706/proc_marsh1_PST_D20170706T194233m401.wav,2017-07-06 19:42:33,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,comyel,Common Yellowthroat,0.5915
+337569,scrubbed/Scrubbed_Files_01/marsh1/20170718/proc_marsh1_PST_D20170718T034454m806.wav,2017-07-18 03:44:54,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,barswa,Barn Swallow,0.4158
+338602,scrubbed/Scrubbed_Files_01/marsh1/20170728/proc_marsh1_PST_D20170728T183417m488.wav,2017-07-28 18:34:17,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,pibgre,Pied-billed Grebe,0.9316
+340276,scrubbed/Scrubbed_Files_01/lake1/20170810/proc_lake1_PST_D20170810T051808m137.wav,2017-08-10 05:18:08,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,bushti,Bushtit,0.2489
+344898,scrubbed/Scrubbed_Files_01/upperlake1/20170906/proc_upperlake1_PST_D20170906T004025m110.wav,2017-09-06 00:40:25,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,mallar3,Mallard,0.1339
+345195,scrubbed/Scrubbed_Files_01/upperlake1/20170907/proc_upperlake1_PST_D20170907T222905m237.wav,2017-09-07 22:29:05,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,mallar3,Mallard,0.2278
+348032,scrubbed/Scrubbed_Files_02/lake2/20170920/proc_lake2_PST_D20170920T025041m659.wav,2017-09-20 02:50:41,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.3408
+348896,scrubbed/Scrubbed_Files_02/lake1/20170922/proc_lake1_PST_D20170922T064849m393.wav,2017-09-22 06:48:49,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,blkpho,Black Phoebe,0.9761
+349749,scrubbed/Scrubbed_Files_02/lake2/20170923/proc_lake2_PST_D20170923T101558m119.wav,2017-09-23 10:15:58,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,caltow,California Towhee,0.251
+349950,scrubbed/Scrubbed_Files_02/lake1/20170923/proc_lake1_PST_D20170923T215830m540.wav,2017-09-23 21:58:30,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,annhum,Anna's Hummingbird,0.5828
+350342,scrubbed/Scrubbed_Files_02/lake2/20170924/proc_lake2_PST_D20170924T064835m684.wav,2017-09-24 06:48:35,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,blkpho,Black Phoebe,0.6413
+350966,scrubbed/Scrubbed_Files_02/lake1/20170925/proc_lake1_PST_D20170925T014507m427.wav,2017-09-25 01:45:07,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,annhum,Anna's Hummingbird,0.4384
+351433,scrubbed/Scrubbed_Files_02/lake2/20170925/proc_lake2_PST_D20170925T180345m266.wav,2017-09-25 18:03:45,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,blkpho,Black Phoebe,0.1991
+355418,scrubbed/Scrubbed_Files_02/lake2/20171002/proc_lake2_PST_D20171002T154334m669.wav,2017-10-02 15:43:34,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,chbchi,Chestnut-backed Chickadee,0.2042
+356174,scrubbed/Scrubbed_Files_02/lake2/20171003/proc_lake2_PST_D20171003T100919m685.wav,2017-10-03 10:09:19,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,yelwar,Yellow Warbler,0.1134
+359798,scrubbed/Scrubbed_Files_02/lake2/20171017/proc_lake2_PST_D20171017T065411m320.wav,2017-10-17 06:54:11,4.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,comyel,Common Yellowthroat,0.3217
+362318,scrubbed/Scrubbed_Files_02/lake1/20171022/proc_lake1_PST_D20171022T031125m087.wav,2017-10-22 03:11:25,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,mallar3,Mallard,0.411
+362932,scrubbed/Scrubbed_Files_02/lake1/20171022/proc_lake1_PST_D20171022T224814m264.wav,2017-10-22 22:48:14,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,mallar3,Mallard,0.2121
+364950,scrubbed/Scrubbed_Files_02/marsh1/20171026/proc_marsh1_PST_D20171026T035355m899.wav,2017-10-26 03:53:55,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,stejay,Steller's Jay,0.1227
+365645,scrubbed/Scrubbed_Files_02/marsh1/20171027/proc_marsh1_PST_D20171027T005611m240.wav,2017-10-27 00:56:11,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,mallar3,Mallard,0.1978
+370443,scrubbed/Scrubbed_Files_02/marsh1/20171102/proc_marsh1_PST_D20171102T042428m991.wav,2017-11-02 04:24:28,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,mallar3,Mallard,0.2053
+370595,scrubbed/Scrubbed_Files_02/lake2/20171102/proc_lake2_PST_D20171102T083658m126.wav,2017-11-02 08:36:58,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,acowoo,Acorn Woodpecker,0.742
+373283,scrubbed/Scrubbed_Files_02/lake1/20171109/proc_lake1_PST_D20171109T230123m143.wav,2017-11-09 23:01:23,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,gadwal,Gadwall,0.2547
+378302,scrubbed/Scrubbed_Files_03/marsh1/20171128/proc_marsh1_PST_D20171128T055745m419.wav,2017-11-28 05:57:45,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,mallar3,Mallard,0.1451
+380502,scrubbed/Scrubbed_Files_03/lake1/20171211/proc_lake1_PST_D20171211T033345m463.wav,2017-12-11 03:33:45,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,mallar3,Mallard,0.4503
+380782,scrubbed/Scrubbed_Files_03/marsh1/20171213/proc_marsh1_PST_D20171213T043901m898.wav,2017-12-13 04:39:01,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,mallar3,Mallard,0.4255
+388898,scrubbed/Scrubbed_Files_03/lake1/20180329/proc_lake1_PST_D20180329T071344m626.wav,2018-03-29 07:13:44,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,annhum,Anna's Hummingbird,0.1578
+388997,scrubbed/Scrubbed_Files_03/lake1/20180329/proc_lake1_PST_D20180329T183001m547.wav,2018-03-29 18:30:01,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,sonspa,Song Sparrow,0.3619
+395318,scrubbed/Scrubbed_Files_03/upperlake1/20180430/proc_upperlake1_PST_D20180430T033943m627.wav,2018-04-30 03:39:43,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,barswa,Barn Swallow,0.9271
+395960,scrubbed/Scrubbed_Files_03/upperlake1/20180502/proc_upperlake1_PST_D20180502T030712m625.wav,2018-05-02 03:07:12,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,barswa,Barn Swallow,0.9241
+399684,scrubbed/Scrubbed_Files_03/lake1/20180519/proc_lake1_PST_D20180519T181642m552.wav,2018-05-19 18:16:42,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,chbchi,Chestnut-backed Chickadee,0.5906
+401573,scrubbed/Scrubbed_Files_03/marsh1/20180531/proc_marsh1_PST_D20180531T034519m925.wav,2018-05-31 03:45:19,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,grbher3,Great Blue Heron,0.3824
+403142,scrubbed/Scrubbed_Files_03/lake2/20180604/proc_lake2_PST_D20180604T051802m840.wav,2018-06-04 05:18:02,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,chbchi,Chestnut-backed Chickadee,0.5237
+408394,scrubbed/Scrubbed_Files_03/lake2/20180628/proc_lake2_PST_D20180628T041421m415.wav,2018-06-28 04:14:21,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,acowoo,Acorn Woodpecker,0.1106
+410417,scrubbed/Scrubbed_Files_03/upperlake1/20180705/proc_upperlake1_PST_D20180705T040533m446.wav,2018-07-05 04:05:33,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,barswa,Barn Swallow,0.9956
+414168,scrubbed/Scrubbed_Files_03/upperlake1/20180717/proc_upperlake1_PST_D20180717T040442m444.wav,2018-07-17 04:04:42,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,barswa,Barn Swallow,0.9431
+414875,scrubbed/Scrubbed_Files_03/lake1/20180719/proc_lake1_PST_D20180719T215851m016.wav,2018-07-19 21:58:51,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,cangoo,Canada Goose,0.1095
+416090,scrubbed/Scrubbed_Files_03/marsh1/20180723/proc_marsh1_PST_D20180723T184319m853.wav,2018-07-23 18:43:19,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,chbchi,Chestnut-backed Chickadee,0.4146
+424091,scrubbed/Scrubbed_Files_03/upperlake1/20180823/proc_upperlake1_PST_D20180823T185148m219.wav,2018-08-23 18:51:48,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,blkpho,Black Phoebe,0.9093
+426799,scrubbed/Scrubbed_Files_03/marsh1/20180908/proc_marsh1_PST_D20180908T194108m679.wav,2018-09-08 19:41:08,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,brnowl,Barn Owl,0.2314
+427786,scrubbed/Scrubbed_Files_03/lake1/20180914/proc_lake1_PST_D20180914T195510m885.wav,2018-09-14 19:55:10,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.7157
+428162,scrubbed/Scrubbed_Files_03/marsh1/20180918/proc_marsh1_PST_D20180918T035027m486.wav,2018-09-18 03:50:27,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,gadwal,Gadwall,0.9615
+432819,scrubbed/Scrubbed_Files_03/marsh1/20190119/proc_marsh1_PST_D20190119T023030m177.wav,2019-01-19 02:30:30,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.2318
+435966,scrubbed/Scrubbed_Files_03/marsh1/20190513/proc_marsh1_PST_D20190513T185247m933.wav,2019-05-13 18:52:47,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,wilfly,Willow Flycatcher,0.2186
+436650,scrubbed/Scrubbed_Files_03/marsh1/20190518/proc_marsh1_PST_D20190518T032934m697.wav,2019-05-18 03:29:34,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,barswa,Barn Swallow,0.3487
+437723,scrubbed/Scrubbed_Files_03/marsh1/20190525/proc_marsh1_PST_D20190525T050531m149.wav,2019-05-25 05:05:31,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,rewbla,Red-winged Blackbird,0.4824
+438618,scrubbed/Scrubbed_Files_03/marsh1/20190606/proc_marsh1_PST_D20190606T043517m149.wav,2019-06-06 04:35:17,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,treswa,Tree Swallow,0.6444
+444779,scrubbed/Scrubbed_Files_03/lake1/20190708/proc_lake1_PST_D20190708T190016m821.wav,2019-07-08 19:00:16,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,vigswa,Violet-green Swallow,0.8676
+445257,scrubbed/Scrubbed_Files_03/marsh1/20190710/proc_marsh1_PST_D20190710T181522m503.wav,2019-07-10 18:15:22,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,blkpho,Black Phoebe,0.1778
+449622,scrubbed/Scrubbed_Files_03/lake1/20190724/proc_lake1_PST_D20190724T185646m844.wav,2019-07-24 18:56:46,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,vigswa,Violet-green Swallow,0.7752
+452907,scrubbed/Scrubbed_Files_03/lake1/20190807/proc_lake1_PST_D20190807T183228m395.wav,2019-08-07 18:32:28,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,chbchi,Chestnut-backed Chickadee,0.1436
+457252,scrubbed/Scrubbed_Files_03/lake1/20190821/proc_lake1_PST_D20190821T045821m222.wav,2019-08-21 04:58:21,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,gadwal,Gadwall,0.8167
+458275,scrubbed/Scrubbed_Files_03/marsh1/20190822/proc_marsh1_PST_D20190822T224408m977.wav,2019-08-22 22:44:08,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.1468
+458429,scrubbed/Scrubbed_Files_03/lake1/20190823/proc_lake1_PST_D20190823T010224m795.wav,2019-08-23 01:02:24,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.2066
+459547,scrubbed/Scrubbed_Files_03/marsh1/20190825/proc_marsh1_PST_D20190825T182209m904.wav,2019-08-25 18:22:09,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,wrenti,Wrentit,0.1437
+459806,scrubbed/Scrubbed_Files_03/upperlake1/20190826/proc_upperlake1_PST_D20190826T183041m838.wav,2019-08-26 18:30:41,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,vigswa,Violet-green Swallow,0.7922
+463760,scrubbed/Scrubbed_Files_03/lake1/20190906/proc_lake1_PST_D20190906T210155m334.wav,2019-09-06 21:01:55,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.4875
+469007,scrubbed/Scrubbed_Files_03/marsh1/20190922/proc_marsh1_PST_D20190922T215642m836.wav,2019-09-22 21:56:42,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.3037
+471533,scrubbed/Scrubbed_Files_03/marsh1/20191006/proc_marsh1_PST_D20191006T183720m517.wav,2019-10-06 18:37:20,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.4252
+474600,scrubbed/Scrubbed_Files_03/marsh1/20191021/proc_marsh1_PST_D20191021T185113m441.wav,2019-10-21 18:51:13,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.2464
+476098,scrubbed/Scrubbed_Files_03/lake1/20191027/proc_lake1_PST_D20191027T205159m943.wav,2019-10-27 20:51:59,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.1095
+478887,scrubbed/Scrubbed_Files_03/lake1/20191113/proc_lake1_PST_D20191113T180059m762.wav,2019-11-13 18:00:59,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.1458
+479860,scrubbed/Scrubbed_Files_03/lake1/20191120/proc_lake1_PST_D20191120T071422m012.wav,2019-11-20 07:14:22,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,wrenti,Wrentit,0.1771
+480118,scrubbed/Scrubbed_Files_03/lake1/20191123/proc_lake1_PST_D20191123T220435m156.wav,2019-11-23 22:04:35,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,grhowl,Great Horned Owl,0.5124
+481184,scrubbed/Scrubbed_Files_03/marsh1/20191202/proc_marsh1_PST_D20191202T182130m969.wav,2019-12-02 18:21:30,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,gadwal,Gadwall,0.6646
+482759,scrubbed/Scrubbed_Files_03/lake2/20191227/proc_lake2_PST_D20191227T172621m885.wav,2019-12-27 17:26:21,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,amewig,American Wigeon,0.811
+491223,scrubbed/Scrubbed_Files_03/upperlake1/20200214/proc_upperlake1_PST_D20200214T032525m285.wav,2020-02-14 03:25:25,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,gwfgoo,Greater White-fronted Goose,0.1237
+493189,scrubbed/Scrubbed_Files_03/upperlake1/20200216/proc_upperlake1_PST_D20200216T215726m946.wav,2020-02-16 21:57:26,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,mallar3,Mallard,0.6083
+495108,scrubbed/Scrubbed_Files_03/marsh1/20200219/proc_marsh1_PST_D20200219T181810m079.wav,2020-02-19 18:18:10,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,wooduc,Wood Duck,0.9402
+495128,scrubbed/Scrubbed_Files_03/marsh1/20200219/proc_marsh1_PST_D20200219T182831m305.wav,2020-02-19 18:28:31,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,mallar3,Mallard,0.3385
+495558,scrubbed/Scrubbed_Files_03/lake1/20200220/proc_lake1_PST_D20200220T195112m361.wav,2020-02-20 19:51:12,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,gadwal,Gadwall,0.2025
+496632,scrubbed/Scrubbed_Files_03/ridge1/20200223/proc_ridge1_PST_D20200223T062801m712.wav,2020-02-23 06:28:01,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,calthr,California Thrasher,0.1914
+499925,scrubbed/Scrubbed_Files_03/ridge1/20200302/proc_ridge1_PST_D20200302T061327m272.wav,2020-03-02 06:13:27,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,spotow,Spotted Towhee,0.8308
+501650,scrubbed/Scrubbed_Files_03/ridge1/20200306/proc_ridge1_PST_D20200306T070828m963.wav,2020-03-06 07:08:28,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,chbchi,Chestnut-backed Chickadee,0.6519
+501753,scrubbed/Scrubbed_Files_03/upperlake1/20200306/proc_upperlake1_PST_D20200306T222656m946.wav,2020-03-06 22:26:56,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,mallar3,Mallard,0.4469
+503331,scrubbed/Scrubbed_Files_03/ridge1/20200310/proc_ridge1_PST_D20200310T065032m745.wav,2020-03-10 06:50:32,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,spotow,Spotted Towhee,0.8064
+503507,scrubbed/Scrubbed_Files_03/upperlake1/20200311/proc_upperlake1_PST_D20200311T003501m345.wav,2020-03-11 00:35:01,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,wooduc,Wood Duck,0.9021
+503933,scrubbed/Scrubbed_Files_03/lake1/20200313/proc_lake1_PST_D20200313T071202m886.wav,2020-03-13 07:12:02,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,comyel,Common Yellowthroat,0.3821
+504488,scrubbed/Scrubbed_Files_03/upperlake1/20200316/proc_upperlake1_PST_D20200316T181353m280.wav,2020-03-16 18:13:53,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,blkpho,Black Phoebe,0.19
+505219,scrubbed/Scrubbed_Files_03/upperlake1/20200318/proc_upperlake1_PST_D20200318T062019m656.wav,2020-03-18 06:20:19,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,comyel,Common Yellowthroat,0.106
+508238,scrubbed/Scrubbed_Files_03/ridge1/20200325/proc_ridge1_PST_D20200325T183452m676.wav,2020-03-25 18:34:52,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,macwar,MacGillivray's Warbler,0.1299
+510401,scrubbed/Scrubbed_Files_03/upperlake1/20200402/proc_upperlake1_PST_D20200402T064008m959.wav,2020-04-02 06:40:08,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,sonspa,Song Sparrow,0.2366
+513455,scrubbed/Scrubbed_Files_03/ridge1/20200414/proc_ridge1_PST_D20200414T060849m874.wav,2020-04-14 06:08:49,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,gocspa,Golden-crowned Sparrow,0.6771
+514745,scrubbed/Scrubbed_Files_03/ridge1/20200419/proc_ridge1_PST_D20200419T045709m367.wav,2020-04-19 04:57:09,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,gocspa,Golden-crowned Sparrow,0.5594
+522741,scrubbed/Scrubbed_Files_03/marsh1/20200507/proc_marsh1_PST_D20200507T032901m345.wav,2020-05-07 03:29:01,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,barswa,Barn Swallow,0.1031
+525189,scrubbed/Scrubbed_Files_03/marsh1/20200511/proc_marsh1_PST_D20200511T034252m964.wav,2020-05-11 03:42:52,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,barswa,Barn Swallow,0.9247
+531153,scrubbed/Scrubbed_Files_03/ridge1/20200524/proc_ridge1_PST_D20200524T043401m076.wav,2020-05-24 04:34:01,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.9653
+532443,scrubbed/Scrubbed_Files_03/lake1/20200526/proc_lake1_PST_D20200526T070232m925.wav,2020-05-26 07:02:32,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,wrenti,Wrentit,0.2825
+532573,scrubbed/Scrubbed_Files_03/lake1/20200526/proc_lake1_PST_D20200526T174626m804.wav,2020-05-26 17:46:26,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,comyel,Common Yellowthroat,0.3803
+536629,scrubbed/Scrubbed_Files_03/upperlake1/20200602/proc_upperlake1_PST_D20200602T041613m336.wav,2020-06-02 04:16:13,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,barswa,Barn Swallow,0.3861
+538060,scrubbed/Scrubbed_Files_03/upperlake1/20200603/proc_upperlake1_PST_D20200603T040214m250.wav,2020-06-03 04:02:14,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,barswa,Barn Swallow,0.4366
+538772,scrubbed/Scrubbed_Files_03/lake1/20200604/proc_lake1_PST_D20200604T043550m419.wav,2020-06-04 04:35:50,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,caltow,California Towhee,0.7579
+539248,scrubbed/Scrubbed_Files_03/lake1/20200604/proc_lake1_PST_D20200604T192600m415.wav,2020-06-04 19:26:00,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,vigswa,Violet-green Swallow,0.711
+539430,scrubbed/Scrubbed_Files_03/ridge1/20200605/proc_ridge1_PST_D20200605T045752m266.wav,2020-06-05 04:57:52,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,calthr,California Thrasher,0.5866
+544509,scrubbed/Scrubbed_Files_03/lake1/20200612/proc_lake1_PST_D20200612T185638m827.wav,2020-06-12 18:56:38,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,cliswa,Cliff Swallow,0.5203
+548793,scrubbed/Scrubbed_Files_03/upperlake1/20200622/proc_upperlake1_PST_D20200622T051144m287.wav,2020-06-22 05:11:44,2.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,comyel,Common Yellowthroat,0.1973
+549094,scrubbed/Scrubbed_Files_03/marsh1/20200622/proc_marsh1_PST_D20200622T195047m490.wav,2020-06-22 19:50:47,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,barswa,Barn Swallow,0.2501
+550689,scrubbed/Scrubbed_Files_03/lake1/20200626/proc_lake1_PST_D20200626T053742m821.wav,2020-06-26 05:37:42,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,calqua,California Quail,0.5823
+552050,scrubbed/Scrubbed_Files_03/ridge1/20200629/proc_ridge1_PST_D20200629T190407m750.wav,2020-06-29 19:04:07,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.9378
+554332,scrubbed/Scrubbed_Files_03/lake1/20200702/proc_lake1_PST_D20200702T194048m597.wav,2020-07-02 19:40:48,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,blkpho,Black Phoebe,0.7516
+555969,scrubbed/Scrubbed_Files_03/ridge1/20200706/proc_ridge1_PST_D20200706T044939m664.wav,2020-07-06 04:49:39,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,reshaw,Red-shouldered Hawk,0.2904
+556092,scrubbed/Scrubbed_Files_03/upperlake1/20200706/proc_upperlake1_PST_D20200706T055532m629.wav,2020-07-06 05:55:32,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,barswa,Barn Swallow,0.8574
+556341,scrubbed/Scrubbed_Files_03/upperlake1/20200706/proc_upperlake1_PST_D20200706T184617m911.wav,2020-07-06 18:46:17,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,barswa,Barn Swallow,0.6237
+556426,scrubbed/Scrubbed_Files_03/upperlake1/20200706/proc_upperlake1_PST_D20200706T193610m595.wav,2020-07-06 19:36:10,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,barswa,Barn Swallow,0.3367
+558986,scrubbed/Scrubbed_Files_03/upperlake1/20200712/proc_upperlake1_PST_D20200712T063207m546.wav,2020-07-12 06:32:07,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,pasfly,Pacific-slope Flycatcher,0.1162
+559836,scrubbed/Scrubbed_Files_03/ridge1/20200713/proc_ridge1_PST_D20200713T184300m792.wav,2020-07-13 18:43:00,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,wrenti,Wrentit,0.7508
+562602,scrubbed/Scrubbed_Files_03/upperlake1/20200718/proc_upperlake1_PST_D20200718T192318m673.wav,2020-07-18 19:23:18,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,virrai,Virginia Rail,0.9357
+564834,scrubbed/Scrubbed_Files_03/ridge1/20200723/proc_ridge1_PST_D20200723T043733m477.wav,2020-07-23 04:37:33,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,caltow,California Towhee,0.2788
+565497,scrubbed/Scrubbed_Files_03/lake1/20200724/proc_lake1_PST_D20200724T053225m463.wav,2020-07-24 05:32:25,2.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,cangoo,Canada Goose,0.151
+566294,scrubbed/Scrubbed_Files_03/lake1/20200725/proc_lake1_PST_D20200725T174851m582.wav,2020-07-25 17:48:51,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,caltow,California Towhee,0.943
+569256,scrubbed/Scrubbed_Files_03/lake1/20200731/proc_lake1_PST_D20200731T065347m172.wav,2020-07-31 06:53:47,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,cliswa,Cliff Swallow,0.5859
+574849,scrubbed/Scrubbed_Files_03/lake2/20200810/proc_lake2_PST_D20200810T071438m313.wav,2020-08-10 07:14:38,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,blkpho,Black Phoebe,0.6395
+575374,scrubbed/Scrubbed_Files_03/marsh1/20200811/proc_marsh1_PST_D20200811T054112m732.wav,2020-08-11 05:41:12,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,comyel,Common Yellowthroat,0.5445
+578357,scrubbed/Scrubbed_Files_03/lake2/20200819/proc_lake2_PST_D20200819T062900m013.wav,2020-08-19 06:29:00,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,belkin1,Belted Kingfisher,0.5899
+579270,scrubbed/Scrubbed_Files_03/lake1/20200820/proc_lake1_PST_D20200820T232641m970.wav,2020-08-20 23:26:41,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,brnowl,Barn Owl,0.851
+579338,scrubbed/Scrubbed_Files_03/upperlake1/20200821/proc_upperlake1_PST_D20200821T055530m836.wav,2020-08-21 05:55:30,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,barswa,Barn Swallow,0.6984
+580186,scrubbed/Scrubbed_Files_03/lake1/20200822/proc_lake1_PST_D20200822T063951m525.wav,2020-08-22 06:39:51,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,reshaw,Red-shouldered Hawk,0.8932
+584696,scrubbed/Scrubbed_Files_03/upperlake1/20200901/proc_upperlake1_PST_D20200901T055901m881.wav,2020-09-01 05:59:01,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,chbchi,Chestnut-backed Chickadee,0.7666
+585020,scrubbed/Scrubbed_Files_03/ridge1/20200901/proc_ridge1_PST_D20200901T211539m349.wav,2020-09-01 21:15:39,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.118
+585979,scrubbed/Scrubbed_Files_03/upperlake1/20200904/proc_upperlake1_PST_D20200904T180118m671.wav,2020-09-04 18:01:18,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,blkpho,Black Phoebe,0.4985
+586319,scrubbed/Scrubbed_Files_03/lake1/20200905/proc_lake1_PST_D20200905T012339m521.wav,2020-09-05 01:23:39,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.23
+587601,scrubbed/Scrubbed_Files_03/upperlake1/20200906/proc_upperlake1_PST_D20200906T175553m121.wav,2020-09-06 17:55:53,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,chbchi,Chestnut-backed Chickadee,0.3018
+587613,scrubbed/Scrubbed_Files_03/upperlake1/20200906/proc_upperlake1_PST_D20200906T180453m365.wav,2020-09-06 18:04:53,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,blkpho,Black Phoebe,0.1423
+588798,scrubbed/Scrubbed_Files_03/upperlake1/20200909/proc_upperlake1_PST_D20200909T062030m553.wav,2020-09-09 06:20:30,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,chbchi,Chestnut-backed Chickadee,0.1245
+590930,scrubbed/Scrubbed_Files_03/upperlake1/20200916/proc_upperlake1_PST_D20200916T173918m533.wav,2020-09-16 17:39:18,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,chbchi,Chestnut-backed Chickadee,0.2111
+591367,scrubbed/Scrubbed_Files_03/upperlake1/20200917/proc_upperlake1_PST_D20200917T181138m525.wav,2020-09-17 18:11:38,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,amecro,American Crow,0.3517
+592231,scrubbed/Scrubbed_Files_03/lake1/20200919/proc_lake1_PST_D20200919T071007m706.wav,2020-09-19 07:10:07,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,acowoo,Acorn Woodpecker,0.9501
+592532,scrubbed/Scrubbed_Files_03/ridge1/20200920/proc_ridge1_PST_D20200920T054443m060.wav,2020-09-20 05:44:43,2.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,caltow,California Towhee,0.1687
+594007,scrubbed/Scrubbed_Files_03/lake1/20200922/proc_lake1_PST_D20200922T231018m671.wav,2020-09-22 23:10:18,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,brnowl,Barn Owl,0.7112
+595488,scrubbed/Scrubbed_Files_03/lake1/20200925/proc_lake1_PST_D20200925T194221m885.wav,2020-09-25 19:42:21,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,bcnher,Black-crowned Night-Heron,0.2509
+598064,scrubbed/Scrubbed_Files_03/ridge1/20200929/proc_ridge1_PST_D20200929T055115m338.wav,2020-09-29 05:51:15,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,gocspa,Golden-crowned Sparrow,0.7505
+599989,scrubbed/Scrubbed_Files_03/ridge1/20201003/proc_ridge1_PST_D20201003T060124m009.wav,2020-10-03 06:01:24,2.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,foxspa,Fox Sparrow,0.192
+601763,scrubbed/Scrubbed_Files_03/ridge1/20201009/proc_ridge1_PST_D20201009T061602m423.wav,2020-10-09 06:16:02,2.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,warvir,Warbling Vireo,0.2075
+604811,scrubbed/Scrubbed_Files_03/lake1/20201015/proc_lake1_PST_D20201015T055814m260.wav,2020-10-15 05:58:14,4.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,sonspa,Song Sparrow,0.3492
+609270,scrubbed/Scrubbed_Files_03/upperlake1/20201026/proc_upperlake1_PST_D20201026T173209m841.wav,2020-10-26 17:32:09,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,mallar3,Mallard,0.5167
+610202,scrubbed/Scrubbed_Files_03/upperlake1/20201031/proc_upperlake1_PST_D20201031T202231m979.wav,2020-10-31 20:22:31,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,grhowl,Great Horned Owl,0.2502
+611929,scrubbed/Scrubbed_Files_03/lake1/20201110/proc_lake1_PST_D20201110T173556m232.wav,2020-11-10 17:35:56,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,mallar3,Mallard,0.1977
+612446,scrubbed/Scrubbed_Files_03/lake2/20201112/proc_lake2_PST_D20201112T064422m444.wav,2020-11-12 06:44:22,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,blkpho,Black Phoebe,0.2336
+613280,scrubbed/Scrubbed_Files_03/lake1/20201119/proc_lake1_PST_D20201119T181508m423.wav,2020-11-19 18:15:08,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,cangoo,Canada Goose,0.7228
+615266,scrubbed/Scrubbed_Files_03/lake1/20201128/proc_lake1_PST_D20201128T025215m069.wav,2020-11-28 02:52:15,4.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,gwfgoo,Greater White-fronted Goose,0.1132
+616551,scrubbed/Scrubbed_Files_03/lake1/20201207/proc_lake1_PST_D20201207T010656m286.wav,2020-12-07 01:06:56,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,cangoo,Canada Goose,0.6572
+618322,scrubbed/Scrubbed_Files_03/lake1/20201223/proc_lake1_PST_D20201223T202340m235.wav,2020-12-23 20:23:40,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,mallar3,Mallard,0.3047
+621798,scrubbed/Scrubbed_Files_03/lake1/20210115/proc_lake1_PST_D20210115T191612m956.wav,2021-01-15 19:16:12,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,mallar3,Mallard,0.1373
+622360,scrubbed/Scrubbed_Files_03/lake1/20210121/proc_lake1_PST_D20210121T010807m971.wav,2021-01-21 01:08:07,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,mallar3,Mallard,0.2742
+622372,scrubbed/Scrubbed_Files_03/lake1/20210121/proc_lake1_PST_D20210121T015254m523.wav,2021-01-21 01:52:54,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,mallar3,Mallard,0.5903
+623167,scrubbed/Scrubbed_Files_03/lake1/20210122/proc_lake1_PST_D20210122T224024m659.wav,2021-01-22 22:40:24,1.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,grbher3,Great Blue Heron,0.1098
+625632,scrubbed/Scrubbed_Files_04/ridge1/20210324/proc_ridge1_PST_D20210324T180200m827.wav,2021-03-24 18:02:00,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,calthr,California Thrasher,0.5529
+626862,scrubbed/Scrubbed_Files_04/marsh1/20210411/proc_marsh1_PST_D20210411T052138m214.wav,2021-04-11 05:21:38,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,comyel,Common Yellowthroat,0.6448
+627232,scrubbed/Scrubbed_Files_04/marsh1/20210418/proc_marsh1_PST_D20210418T183821m595.wav,2021-04-18 18:38:21,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,rewbla,Red-winged Blackbird,0.3167
+629083,scrubbed/Scrubbed_Files_04/ridge1/20210511/proc_ridge1_PST_D20210511T070920m599.wav,2021-05-11 07:09:20,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,astfly,Ash-throated Flycatcher,0.1129
+630041,scrubbed/Scrubbed_Files_04/marsh1/20210526/proc_marsh1_PST_D20210526T044038m925.wav,2021-05-26 04:40:38,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,rewbla,Red-winged Blackbird,0.1133
+630960,scrubbed/Scrubbed_Files_04/marsh1/20210606/proc_marsh1_PST_D20210606T030550m493.wav,2021-06-06 03:05:50,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,barswa,Barn Swallow,0.9882
+638317,scrubbed/Scrubbed_Files_04/marsh1/20211211/proc_marsh1_PST_D20211211T192232m278.wav,2021-12-11 19:22:32,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,annhum,Anna's Hummingbird,0.3966
+643054,scrubbed/Scrubbed_Files_04/ridge1/20220612/proc_ridge1_PST_D20220612T173638m078.wav,2022-06-12 17:36:38,1.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.9937
+647550,SYNC/Cam10/2020-04-25/UniFiVideo.Export.20200425.191001-20200425.132001/20200425.142001.JRNVR1Cam10.mp4,2020-04-25 07:20:01,18.0,Spectrogram 1,1.0,60.0,63.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.8175
+648534,SYNC/Cam07/2020-04-25/UniFiVideo.Export.20200425.230000-20200425.232000/20200425.151000.JRNVR1Cam7.mp4,2020-04-25 08:10:00,124.0,Spectrogram 1,1.0,393.0,396.0,150.0,12000.0,pibgre,Pied-billed Grebe,0.4903
+649906,SYNC/Cam07/2020-04-25/UniFiVideo.Export.20200425.230000-20200425.232000/20200425.161001.JRNVR1Cam7.mp4,2020-04-25 09:10:01,77.0,Spectrogram 1,1.0,468.0,471.0,150.0,12000.0,wrenti,Wrentit,0.1286
+652638,SYNC/Cam10/2020-04-25/UniFiVideo.Export.20200425.191001-20200425.132001/20200425.181001.JRNVR1Cam10.mp4,2020-04-25 11:10:01,27.0,Spectrogram 1,1.0,69.0,72.0,150.0,12000.0,spotow,Spotted Towhee,0.124
+652728,SYNC/Cam10/2020-04-25/UniFiVideo.Export.20200425.191001-20200425.132001/20200425.181001.JRNVR1Cam10.mp4,2020-04-25 11:10:01,122.0,Spectrogram 1,1.0,363.0,366.0,150.0,12000.0,houwre,House Wren,0.6822
+652872,SYNC/Cam10/2020-04-25/UniFiVideo.Export.20200425.191001-20200425.132001/20200425.182001.JRNVR1Cam10.mp4,2020-04-25 11:20:01,44.0,Spectrogram 1,1.0,123.0,126.0,150.0,12000.0,linspa,Lincoln's Sparrow,0.5371
+654902,SYNC/Cam10/2020-04-25/UniFiVideo.Export.20200426.024000-20200425.193001/20200425.202001.JRNVR1Cam10.mp4,2020-04-25 13:20:01,2.0,Spectrogram 1,1.0,12.0,15.0,150.0,12000.0,astfly,Ash-throated Flycatcher,0.1618
+655546,SYNC/Cam07/2020-04-25/UniFiVideo.Export.20200425.230000-20200425.232000/20200425.210001.JRNVR1Cam7.mp4,2020-04-25 14:00:01,70.0,Spectrogram 1,1.0,366.0,369.0,150.0,12000.0,wrenti,Wrentit,0.1851
+659145,SYNC/Cam01/2020-04-25/UniFiVideo.Export.20200426.024001-20200425.193000/20200426.024001.JRNVR1Cam1.mp4,2020-04-25 19:40:01,4.0,Spectrogram 1,1.0,57.0,60.0,150.0,12000.0,lesgol,Lesser Goldfinch,0.1701
+662232,SYNC/Cam07/2020-04-26/UniFiVideo.Export.20200426.232001-20200426.234001/20200426.155001.JRNVR1Cam7.mp4,2020-04-26 08:50:01,98.0,Spectrogram 1,1.0,480.0,483.0,150.0,12000.0,wilfly,Willow Flycatcher,0.103
+663132,SYNC/Cam07/2020-04-26/UniFiVideo.Export.20200426.232001-20200426.234001/20200426.175001.JRNVR1Cam7.mp4,2020-04-26 10:50:01,120.0,Spectrogram 1,1.0,585.0,588.0,150.0,12000.0,comyel,Common Yellowthroat,0.1743
+664011,SYNC/Cam01/2020-04-26/UniFiVideo.Export.20200426.192000-20200426.132000/20200426.191000.JRNVR1Cam1.mp4,2020-04-26 12:10:00,31.0,Spectrogram 1,1.0,285.0,288.0,150.0,12000.0,pasfly,Pacific-slope Flycatcher,0.3114
+664722,SYNC/Cam07/2020-04-26/UniFiVideo.Export.20200426.232001-20200426.234001/20200426.204001.JRNVR1Cam7.mp4,2020-04-26 13:40:01,15.0,Spectrogram 1,1.0,117.0,120.0,150.0,12000.0,warvir,Warbling Vireo,0.1256
+668726,SYNC/Cam10/2020-04-26/UniFiVideo.Export.20200427.024001-20200426.132000/20200427.013001.JRNVR1Cam10.mp4,2020-04-27 06:00:01,107.0,Spectrogram 1,1.0,561.0,564.0,150.0,12000.0,wilfly,Willow Flycatcher,0.2312
+669930,SYNC/Cam02/2020-04-26/UniFiVideo.Export.20200427.024001-20200426.141001/20200427.015001.JRNVR1Cam2.mp4,2020-04-27 08:00:01,43.0,Spectrogram 1,1.0,489.0,492.0,150.0,12000.0,wrenti,Wrentit,0.915
+670251,SYNC/Cam07/2020-04-27/UniFiVideo.Export.20200427.210001-20200427.140001/20200427.161000.JRNVR1Cam7.mp4,2020-04-27 09:10:00,5.0,Spectrogram 1,1.0,48.0,51.0,150.0,12000.0,wrenti,Wrentit,0.1597
+672315,SYNC/Cam02/2020-04-26/UniFiVideo.Export.20200427.024001-20200426.141001/20200427.022001.JRNVR1Cam2.mp4,2020-04-27 15:00:01,48.0,Spectrogram 1,1.0,285.0,288.0,150.0,12000.0,wrenti,Wrentit,0.3348
+675965,SYNC/Cam01/2020-04-28/UniFiVideo.Export.20200428.190000-20200428.132000/20200428.170001.JRNVR1Cam1.mp4,2020-04-28 10:00:01,35.0,Spectrogram 1,1.0,177.0,180.0,150.0,12000.0,lesgol,Lesser Goldfinch,0.1436
+676693,SYNC/Cam09/2020-04-28/UniFiVideo.Export.20200428.175959-20200429.070001/20200428.182000.JRNVR1Cam9.mp4,2020-04-28 11:20:00,36.0,Spectrogram 1,1.0,291.0,294.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.1372
+676950,SYNC/Cam01/2020-04-28/UniFiVideo.Export.20200428.190000-20200428.132000/20200428.184000.JRNVR1Cam1.mp4,2020-04-28 11:40:00,34.0,Spectrogram 1,1.0,114.0,117.0,150.0,12000.0,spotow,Spotted Towhee,0.3134
+678568,SYNC/Cam07/2020-04-28/UniFiVideo.Export.20200428.203000-20200429.070000/20200428.225001.JRNVR1Cam7.mp4,2020-04-28 15:50:01,10.0,Spectrogram 1,1.0,48.0,51.0,150.0,12000.0,wilfly,Willow Flycatcher,0.2889
+681081,SYNC/Cam07/2020-04-28/UniFiVideo.Export.20200428.203000-20200429.070000/20200429.014001.JRNVR1Cam7.mp4,2020-04-29 07:00:01,9.0,Spectrogram 1,1.0,69.0,72.0,150.0,12000.0,bkhgro,Black-headed Grosbeak,0.1025
+682700,SYNC/Cam09/2020-04-29/UniFiVideo.Export.20200429.190000-20200430.070001/20200429.191000.JRNVR1Cam9.mp4,2020-04-29 12:10:00,33.0,Spectrogram 1,1.0,231.0,234.0,150.0,12000.0,whcspa,White-crowned Sparrow,0.1146
+688140,SYNC/Cam07/2020-04-30/UniFiVideo.Export.20200430.185001-20200430.071003/20200430.161000.JRNVR1Cam7.mp4,2020-04-30 09:10:00,72.0,Spectrogram 1,1.0,372.0,375.0,150.0,12000.0,bkhgro,Black-headed Grosbeak,0.322
+693651,SYNC/Cam10/2020-05-01/UniFiVideo.Export.20200502.024001-20200501.132000/20200501.133000.JRNVR1Cam10.mp4,2020-05-01 06:30:00,58.0,Spectrogram 1,1.0,162.0,165.0,150.0,12000.0,spotow,Spotted Towhee,0.5158
+694388,SYNC/Cam10/2020-05-01/UniFiVideo.Export.20200502.024001-20200501.132000/20200501.140000.JRNVR1Cam10.mp4,2020-05-01 07:00:00,62.0,Spectrogram 1,1.0,291.0,294.0,150.0,12000.0,caltow,California Towhee,0.1465
+697935,SYNC/Cam09/2020-05-01/UniFiVideo.Export.20200501.185000-20200501.072001/20200501.163000.JRNVR1Cam9.mp4,2020-05-01 09:30:00,23.0,Spectrogram 1,1.0,102.0,105.0,150.0,12000.0,acowoo,Acorn Woodpecker,0.3801
+701629,SYNC/Cam10/2020-05-01/UniFiVideo.Export.20200502.024001-20200501.132000/20200501.203000.JRNVR1Cam10.mp4,2020-05-01 13:30:00,25.0,Spectrogram 1,1.0,309.0,312.0,150.0,12000.0,houwre,House Wren,0.3205
+704025,SYNC/Cam07/2020-05-01/UniFiVideo.Export.20200501.190001-20200502.070001/20200501.232001.JRNVR1Cam7.mp4,2020-05-01 16:20:01,103.0,Spectrogram 1,1.0,567.0,570.0,150.0,12000.0,barswa,Barn Swallow,0.2544
+704339,SYNC/Cam10/2020-05-01/UniFiVideo.Export.20200502.024001-20200501.132000/20200501.234001.JRNVR1Cam10.mp4,2020-05-01 16:40:01,103.0,Spectrogram 1,1.0,534.0,537.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.1024
+704358,SYNC/Cam09/2020-05-01/UniFiVideo.Export.20200501.190000-20200502.070000/20200501.235000.JRNVR1Cam9.mp4,2020-05-01 16:50:00,15.0,Spectrogram 1,1.0,198.0,201.0,150.0,12000.0,houfin,House Finch,0.1158
+707877,SYNC/Cam09/2020-05-02/UniFiVideo.Export.20200502.185001-20200502.071000/20200502.124001.JRNVR1Cam9.mp4,2020-05-02 05:40:01,18.0,Spectrogram 1,1.0,42.0,45.0,150.0,12000.0,spotow,Spotted Towhee,0.1433
+710032,SYNC/Cam10/2020-05-01/UniFiVideo.Export.20200502.024001-20200501.132000/20200502.014001.JRNVR1Cam10.mp4,2020-05-02 07:00:01,2.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,spotow,Spotted Towhee,0.8612
+710831,SYNC/Cam09/2020-05-02/UniFiVideo.Export.20200502.185001-20200502.071000/20200502.142001.JRNVR1Cam9.mp4,2020-05-02 07:20:01,42.0,Spectrogram 1,1.0,213.0,216.0,150.0,12000.0,caltow,California Towhee,0.5705
+714018,SYNC/Cam02/2020-05-02/UniFiVideo.Export.20200503.024001-20200502.141001/20200502.160001.JRNVR1Cam2.mp4,2020-05-02 09:00:01,19.0,Spectrogram 1,1.0,90.0,93.0,150.0,12000.0,calqua,California Quail,0.5574
+717698,SYNC/Cam09/2020-05-02/UniFiVideo.Export.20200502.185001-20200502.071000/20200502.183001.JRNVR1Cam9.mp4,2020-05-02 11:30:01,21.0,Spectrogram 1,1.0,399.0,402.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.8803
+719172,SYNC/Cam01/2020-05-02/UniFiVideo.Export.20200502.202001-20200502.132000/20200502.193001.JRNVR1Cam1.mp4,2020-05-02 12:30:01,20.0,Spectrogram 1,1.0,207.0,210.0,150.0,12000.0,lazbun,Lazuli Bunting,0.1871
+719270,SYNC/Cam07/2020-05-02/UniFiVideo.Export.20200502.190001-20200503.070000/20200502.194000.JRNVR1Cam7.mp4,2020-05-02 12:40:00,12.0,Spectrogram 1,1.0,42.0,45.0,150.0,12000.0,y00475,American Coot,0.2021
+723536,SYNC/Cam10/2020-05-01/UniFiVideo.Export.20200502.024001-20200501.132000/20200502.022001.JRNVR1Cam10.mp4,2020-05-02 15:00:01,3.0,Spectrogram 1,1.0,3.0,6.0,150.0,12000.0,lesgol,Lesser Goldfinch,0.1602
+727159,SYNC/Cam07/2020-05-02/UniFiVideo.Export.20200502.190001-20200503.070000/20200503.245001.JRNVR1Cam7.mp4,2020-05-02 17:50:01,31.0,Spectrogram 1,1.0,99.0,102.0,150.0,12000.0,comyel,Common Yellowthroat,0.3934
+738932,SYNC/Cam07/2020-05-03/UniFiVideo.Export.20200503.191001-20200504.070001/20200503.225419.JRNVR1Cam7.mp4,2020-05-03 15:54:19,17.0,Spectrogram 1,1.0,129.0,132.0,150.0,12000.0,cintea,Cinnamon Teal,0.1289
+740456,SYNC/Cam07/2020-05-03/UniFiVideo.Export.20200503.191001-20200504.070001/20200504.052000.JRNVR1Cam7.mp4,2020-05-03 22:20:00,2.0,Spectrogram 1,1.0,444.0,447.0,150.0,12000.0,virrai,Virginia Rail,0.2085
+742553,SYNC/Cam10/2020-05-04/UniFiVideo.Export.20200504.192001-20200504.132000/20200504.145000.JRNVR1Cam10.mp4,2020-05-04 07:50:00,28.0,Spectrogram 1,1.0,87.0,90.0,150.0,12000.0,caltow,California Towhee,0.2172
+745359,SYNC/Cam10/2020-05-04/UniFiVideo.Export.20200504.192001-20200504.132000/20200504.180001.JRNVR1Cam10.mp4,2020-05-04 11:00:01,88.0,Spectrogram 1,1.0,300.0,303.0,150.0,12000.0,wesblu,Western Bluebird,0.4597
+745828,SYNC/Cam10/2020-05-04/UniFiVideo.Export.20200504.192001-20200504.132000/20200504.183001.JRNVR1Cam10.mp4,2020-05-04 11:30:01,36.0,Spectrogram 1,1.0,117.0,120.0,150.0,12000.0,wesblu,Western Bluebird,0.1427
+747376,SYNC/Cam10/2020-05-04/UniFiVideo.Export.20200504.193001-20200505.024459/20200504.195001.JRNVR1Cam10.mp4,2020-05-04 12:50:01,135.0,Spectrogram 1,1.0,384.0,387.0,150.0,12000.0,wesblu,Western Bluebird,0.782
+749377,SYNC/Cam02/2020-05-03/UniFiVideo.Export.20200504.024000-20200503.141000/20200504.022000.JRNVR1Cam2.mp4,2020-05-04 15:00:00,63.0,Spectrogram 1,1.0,399.0,402.0,150.0,12000.0,wrenti,Wrentit,0.1807
+751891,SYNC/Cam07/2020-05-05/UniFiVideo.Export.20200505.190000-20200505.071000/20200505.123000.JRNVR1Cam7.mp4,2020-05-05 05:30:00,65.0,Spectrogram 1,1.0,597.0,600.0,150.0,12000.0,treswa,Tree Swallow,0.1895
+753031,SYNC/Cam07/2020-05-05/UniFiVideo.Export.20200505.190000-20200505.071000/20200505.160325.JRNVR1Cam7.mp4,2020-05-05 09:03:25,68.0,Spectrogram 1,1.0,333.0,336.0,150.0,12000.0,rusbla,Rusty Blackbird,0.2239
+756944,SYNC/Cam10/2020-05-04/UniFiVideo.Export.20200504.193001-20200505.024459/20200505.021001.JRNVR1Cam10.mp4,2020-05-05 14:00:01,28.0,Spectrogram 1,1.0,165.0,168.0,150.0,12000.0,bulori,Bullock's Oriole,0.1027
+757688,SYNC/Cam07/2020-05-05/UniFiVideo.Export.20200505.191001-20200506.070000/20200505.214001.JRNVR1Cam7.mp4,2020-05-05 14:40:01,20.0,Spectrogram 1,1.0,297.0,300.0,150.0,12000.0,barswa,Barn Swallow,0.7149
+760444,SYNC/Cam07/2020-05-06/UniFiVideo.Export.20200506.163000-20200506.071000/20200506.133001.JRNVR1Cam7.mp4,2020-05-06 06:30:01,68.0,Spectrogram 1,1.0,480.0,483.0,150.0,12000.0,rewbla,Red-winged Blackbird,0.1331
+760974,SYNC/Cam07/2020-05-06/UniFiVideo.Export.20200506.163000-20200506.071000/20200506.143001.JRNVR1Cam7.mp4,2020-05-06 07:30:01,46.0,Spectrogram 1,1.0,273.0,276.0,150.0,12000.0,wrenti,Wrentit,0.4754
+761046,SYNC/Cam09/2020-05-06/UniFiVideo.Export.20200506.154000-20200506.071001/20200506.144000.JRNVR1Cam9.mp4,2020-05-06 07:40:00,68.0,Spectrogram 1,1.0,285.0,288.0,150.0,12000.0,spotow,Spotted Towhee,0.3805
+762955,SYNC/Cam07/2020-05-06/UniFiVideo.Export.20200507.240001-20200506.165000/20200506.180001.JRNVR1Cam7.mp4,2020-05-06 11:00:01,50.0,Spectrogram 1,1.0,363.0,366.0,150.0,12000.0,cliswa,Cliff Swallow,0.1438
+763654,SYNC/Cam07/2020-05-06/UniFiVideo.Export.20200507.240001-20200506.165000/20200506.191000.JRNVR1Cam7.mp4,2020-05-06 12:10:00,16.0,Spectrogram 1,1.0,105.0,108.0,150.0,12000.0,rewbla,Red-winged Blackbird,0.1627
+764077,SYNC/Cam07/2020-05-06/UniFiVideo.Export.20200507.240001-20200506.165000/20200506.201000.JRNVR1Cam7.mp4,2020-05-06 13:10:00,99.0,Spectrogram 1,1.0,570.0,573.0,150.0,12000.0,nopowl,Northern Pygmy-Owl,0.152
+768594,SYNC/Cam07/2020-05-07/UniFiVideo.Export.20200507.233001-20200507.071000/20200507.161000.JRNVR1Cam7.mp4,2020-05-07 09:10:00,29.0,Spectrogram 1,1.0,114.0,117.0,150.0,12000.0,rusbla,Rusty Blackbird,0.392
+771942,SYNC/Cam10/2020-05-06/UniFiVideo.Export.20200507.024001-20200506.132000/20200507.023001.JRNVR1Cam10.mp4,2020-05-07 16:00:01,69.0,Spectrogram 1,1.0,270.0,273.0,150.0,12000.0,larspa,Lark Sparrow,0.7598
+772873,SYNC/Cam07/2020-05-07/UniFiVideo.Export.20200508.065001-20200507.235001/20200508.245001.JRNVR1Cam7.mp4,2020-05-07 17:50:01,62.0,Spectrogram 1,1.0,363.0,366.0,150.0,12000.0,rewbla,Red-winged Blackbird,0.105
+773031,SYNC/Cam07/2020-05-07/UniFiVideo.Export.20200508.065001-20200507.235001/20200508.024001.JRNVR1Cam7.mp4,2020-05-07 19:40:01,127.0,Spectrogram 1,1.0,357.0,360.0,150.0,12000.0,amebit,American Bittern,0.1014
+773582,SYNC/Cam07/2020-05-07/UniFiVideo.Export.20200508.065001-20200507.235001/20200508.011001.JRNVR1Cam7.mp4,2020-05-08 04:00:01,74.0,Spectrogram 1,1.0,291.0,294.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.7552
+773626,SYNC/Cam07/2020-05-08/UniFiVideo.Export.20200509.242000-20200508.071001/20200508.112000.JRNVR1Cam7.mp4,2020-05-08 04:20:00,17.0,Spectrogram 1,1.0,594.0,597.0,150.0,12000.0,treswa,Tree Swallow,0.104
+778206,SYNC/Cam10/2020-05-08/UniFiVideo.Export.20200509.024001-20200508.132001/20200508.153000.JRNVR1Cam10.mp4,2020-05-08 08:30:00,61.0,Spectrogram 1,1.0,333.0,336.0,150.0,12000.0,chispa,Chipping Sparrow,0.1543
+780824,SYNC/Cam02/2020-05-08/UniFiVideo.Export.20200509.024000-20200508.141000/20200508.173000.JRNVR1Cam2.mp4,2020-05-08 10:30:00,55.0,Spectrogram 1,1.0,258.0,261.0,150.0,12000.0,caltow,California Towhee,0.1184
+782544,SYNC/Cam01/2020-05-08/UniFiVideo.Export.20200508.192000-20200508.132001/20200508.184001.JRNVR1Cam1.mp4,2020-05-08 11:40:01,14.0,Spectrogram 1,1.0,39.0,42.0,150.0,12000.0,spotow,Spotted Towhee,0.1129
+783039,SYNC/Cam07/2020-05-08/UniFiVideo.Export.20200509.242000-20200508.071001/20200508.190000.JRNVR1Cam7.mp4,2020-05-08 12:00:00,110.0,Spectrogram 1,1.0,507.0,510.0,150.0,12000.0,whfibi,White-faced Ibis,0.1015
+783820,SYNC/Cam02/2020-05-08/UniFiVideo.Export.20200509.024000-20200508.141000/20200508.194000.JRNVR1Cam2.mp4,2020-05-08 12:40:00,24.0,Spectrogram 1,1.0,285.0,288.0,150.0,12000.0,spotow,Spotted Towhee,0.3455
+784421,SYNC/Cam10/2020-05-08/UniFiVideo.Export.20200509.024001-20200508.132001/20200508.202000.JRNVR1Cam10.mp4,2020-05-08 13:20:00,33.0,Spectrogram 1,1.0,348.0,351.0,150.0,12000.0,wesblu,Western Bluebird,0.8139
+789013,SYNC/Cam10/2020-05-08/UniFiVideo.Export.20200509.024001-20200508.132001/20200509.245001.JRNVR1Cam10.mp4,2020-05-08 17:50:01,2.0,Spectrogram 1,1.0,6.0,9.0,150.0,12000.0,lesgol,Lesser Goldfinch,0.8526
+791640,SYNC/Cam10/2020-05-08/UniFiVideo.Export.20200509.024001-20200508.132001/20200509.014000.JRNVR1Cam10.mp4,2020-05-09 07:00:00,65.0,Spectrogram 1,1.0,186.0,189.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.994
+793289,SYNC/Cam01/2020-05-09/UniFiVideo.Export.20200509.191000-20200509.132001/20200509.171001.JRNVR1Cam1.mp4,2020-05-09 10:10:01,2.0,Spectrogram 1,1.0,6.0,9.0,150.0,12000.0,astfly,Ash-throated Flycatcher,0.1009
+795018,SYNC/Cam07/2020-05-09/UniFiVideo.Export.20200509.230000-20200509.071000/20200509.200000.JRNVR1Cam7.mp4,2020-05-09 13:00:00,26.0,Spectrogram 1,1.0,291.0,294.0,150.0,12000.0,pibgre,Pied-billed Grebe,0.9221
+802181,SYNC/Cam01/2020-05-10/UniFiVideo.Export.20200510.200001-20200510.132001/20200510.200001.JRNVR1Cam1.mp4,2020-05-10 13:00:01,133.0,Spectrogram 1,1.0,465.0,468.0,150.0,12000.0,spotow,Spotted Towhee,0.4433
+802630,SYNC/Cam07/2020-05-10/UniFiVideo.Export.20200511.065000-20200510.194000/20200510.211000.JRNVR1Cam7.mp4,2020-05-10 14:10:00,27.0,Spectrogram 1,1.0,240.0,243.0,150.0,12000.0,wrenti,Wrentit,0.1829
+816891,SYNC/Cam10/2020-05-12/UniFiVideo.Export.20200513.035001-20200512.204000/20200513.031001.JRNVR1Cam10.mp4,2020-05-12 20:10:01,92.0,Spectrogram 1,1.0,417.0,420.0,150.0,12000.0,spotow,Spotted Towhee,0.4866
+817140,SYNC/Cam07/2020-05-12/UniFiVideo.Export.20200513.065001-20200512.205000/20200513.044001.JRNVR1Cam7.mp4,2020-05-12 21:40:01,25.0,Spectrogram 1,1.0,267.0,270.0,150.0,12000.0,sora,Sora,0.1205
+827030,SYNC/Cam07/2020-05-14/UniFiVideo.Export.20200514.223000-20200514.121000/20200514.143000.JRNVR1Cam7.mp4,2020-05-14 07:30:00,70.0,Spectrogram 1,1.0,306.0,309.0,150.0,12000.0,amebit,American Bittern,0.1541
+832086,SYNC/Cam07/2020-05-14/UniFiVideo.Export.20200515.065001-20200514.225000/20200514.234000.JRNVR1Cam7.mp4,2020-05-14 16:40:00,58.0,Spectrogram 1,1.0,417.0,420.0,150.0,12000.0,pibgre,Pied-billed Grebe,0.9985
+833524,SYNC/Cam10/2020-05-14/UniFiVideo.Export.20200515.035001-20200514.204000 (1)/20200515.032001.JRNVR1Cam10.mp4,2020-05-14 20:20:01,6.0,Spectrogram 1,1.0,30.0,33.0,150.0,12000.0,caltow,California Towhee,0.6091
+836068,SYNC/Cam07/2020-05-15/UniFiVideo.Export.20200515.223001-20200515.071001/20200515.144001.JRNVR1Cam7.mp4,2020-05-15 07:40:01,81.0,Spectrogram 1,1.0,432.0,435.0,150.0,12000.0,orcwar,Orange-crowned Warbler,0.2675
+839554,SYNC/Cam07/2020-05-15/UniFiVideo.Export.20200515.223001-20200515.071001/20200515.211001.JRNVR1Cam7.mp4,2020-05-15 14:10:01,56.0,Spectrogram 1,1.0,342.0,345.0,150.0,12000.0,comyel,Common Yellowthroat,0.2646
+841698,SYNC/Cam10/2020-05-15/UniFiVideo.Export.20200516.035001-20200515.203959/20200516.032001.JRNVR1Cam10.mp4,2020-05-15 20:20:01,109.0,Spectrogram 1,1.0,456.0,459.0,150.0,12000.0,caltow,California Towhee,0.3043
+843757,SYNC/Cam01/2020-05-16/UniFiVideo.Export.20200516.160000-20200516.131001/20200516.140001.JRNVR1Cam1.mp4,2020-05-16 07:00:01,71.0,Spectrogram 1,1.0,357.0,360.0,150.0,12000.0,bkhgro,Black-headed Grosbeak,0.8068
+852264,SYNC/Cam07/2020-05-16/UniFiVideo.Export.20200517.065000-20200516.220001/20200517.243001.JRNVR1Cam7.mp4,2020-05-16 17:30:01,85.0,Spectrogram 1,1.0,555.0,558.0,150.0,12000.0,rewbla,Red-winged Blackbird,0.2596
+852998,SYNC/Cam10/2020-05-16/UniFiVideo.Export.20200517.035000-20200516.204000/20200517.031000.JRNVR1Cam10.mp4,2020-05-16 20:10:00,53.0,Spectrogram 1,1.0,171.0,174.0,150.0,12000.0,wrenti,Wrentit,0.1263
+853825,SYNC/Cam07/2020-05-16/UniFiVideo.Export.20200517.065000-20200516.220001/20200517.011001.JRNVR1Cam7.mp4,2020-05-17 04:00:01,86.0,Spectrogram 1,1.0,567.0,570.0,150.0,12000.0,rewbla,Red-winged Blackbird,0.2592
+853906,SYNC/Cam07/2020-05-16/UniFiVideo.Export.20200517.065000-20200516.220001/20200517.012001.JRNVR1Cam7.mp4,2020-05-17 05:00:01,33.0,Spectrogram 1,1.0,144.0,147.0,150.0,12000.0,rethaw,Red-tailed Hawk,0.1106
+855455,SYNC/Cam07/2020-05-17/UniFiVideo.Export.20200517.205001-20200517.071000/20200517.164000.JRNVR1Cam7.mp4,2020-05-17 09:40:00,76.0,Spectrogram 1,1.0,384.0,387.0,150.0,12000.0,rewbla,Red-winged Blackbird,0.1549
+855873,SYNC/Cam07/2020-05-17/UniFiVideo.Export.20200517.205001-20200517.071000/20200517.175001.JRNVR1Cam7.mp4,2020-05-17 10:50:01,105.0,Spectrogram 1,1.0,585.0,588.0,150.0,12000.0,pibgre,Pied-billed Grebe,0.2297
+857843,SYNC/Cam07/2020-05-17/UniFiVideo.Export.20200518.065001-20200517.211001/20200517.222001.JRNVR1Cam7.mp4,2020-05-17 15:20:01,65.0,Spectrogram 1,1.0,417.0,420.0,150.0,12000.0,lesgol,Lesser Goldfinch,0.777
+859776,SYNC/Cam07/2020-05-18/UniFiVideo.Export.20200518.205000-20200518.071001/20200518.130001.JRNVR1Cam7.mp4,2020-05-18 06:00:01,63.0,Spectrogram 1,1.0,279.0,282.0,150.0,12000.0,pibgre,Pied-billed Grebe,0.9902
+862291,SYNC/Cam07/2020-05-18/UniFiVideo.Export.20200518.205000-20200518.071001/20200518.192000.JRNVR1Cam7.mp4,2020-05-18 12:20:00,55.0,Spectrogram 1,1.0,333.0,336.0,150.0,12000.0,rewbla,Red-winged Blackbird,0.3359
+864976,SYNC/Cam07/2020-05-18/UniFiVideo.Export.20200519.065000-20200518.211000/20200519.033001.JRNVR1Cam7.mp4,2020-05-18 20:30:01,41.0,Spectrogram 1,1.0,255.0,258.0,150.0,12000.0,comyel,Common Yellowthroat,0.4755
+865771,SYNC/Cam07/2020-05-19/UniFiVideo.Export.20200519.223001-20200519.071000/20200519.122001.JRNVR1Cam7.mp4,2020-05-19 05:20:01,118.0,Spectrogram 1,1.0,477.0,480.0,150.0,12000.0,nrwswa,Northern Rough-winged Swallow,0.2767
+870423,SYNC/Cam07/2020-05-19/UniFiVideo.Export.20200520.065000-20200519.225001/20200519.231000.JRNVR1Cam7.mp4,2020-05-19 16:10:00,54.0,Spectrogram 1,1.0,330.0,333.0,150.0,12000.0,pibgre,Pied-billed Grebe,0.3572
+870931,SYNC/Cam07/2020-05-19/UniFiVideo.Export.20200520.065000-20200519.225001/20200520.244001.JRNVR1Cam7.mp4,2020-05-19 17:40:01,18.0,Spectrogram 1,1.0,135.0,138.0,150.0,12000.0,wilfly,Willow Flycatcher,0.113
+872144,SYNC/Cam07/2020-05-20/UniFiVideo.Export.20200520.210000-20200520.071000/20200520.115001.JRNVR1Cam7.mp4,2020-05-20 04:50:01,73.0,Spectrogram 1,1.0,543.0,546.0,150.0,12000.0,comyel,Common Yellowthroat,0.1165
+872194,SYNC/Cam07/2020-05-19/UniFiVideo.Export.20200520.065000-20200519.225001/20200520.012001.JRNVR1Cam7.mp4,2020-05-20 05:00:01,32.0,Spectrogram 1,1.0,258.0,261.0,150.0,12000.0,wrenti,Wrentit,0.645
+872249,SYNC/Cam07/2020-05-20/UniFiVideo.Export.20200520.210000-20200520.071000/20200520.120001.JRNVR1Cam7.mp4,2020-05-20 05:00:01,68.0,Spectrogram 1,1.0,324.0,327.0,150.0,12000.0,comyel,Common Yellowthroat,0.3199
+872918,SYNC/Cam07/2020-05-20/UniFiVideo.Export.20200520.210000-20200520.071000/20200520.132001.JRNVR1Cam7.mp4,2020-05-20 06:20:01,52.0,Spectrogram 1,1.0,366.0,369.0,150.0,12000.0,wrenti,Wrentit,0.1655
+874753,SYNC/Cam07/2020-05-20/UniFiVideo.Export.20200520.210000-20200520.071000/20200520.183000.JRNVR1Cam7.mp4,2020-05-20 11:30:00,33.0,Spectrogram 1,1.0,285.0,288.0,150.0,12000.0,rewbla,Red-winged Blackbird,0.1314
+874924,SYNC/Cam07/2020-05-20/UniFiVideo.Export.20200520.210000-20200520.071000/20200520.190000.JRNVR1Cam7.mp4,2020-05-20 12:00:00,22.0,Spectrogram 1,1.0,150.0,153.0,150.0,12000.0,comyel,Common Yellowthroat,0.4438
+877843,SYNC/Cam07/2020-05-20/UniFiVideo.Export.20200521.065001-20200520.212000/20200521.031001.JRNVR1Cam7.mp4,2020-05-20 20:10:01,20.0,Spectrogram 1,1.0,138.0,141.0,150.0,12000.0,comyel,Common Yellowthroat,0.1275
+878595,SYNC/Cam07/2020-05-21/UniFiVideo.Export.20200521.201000-20200521.071001/20200521.114000.JRNVR1Cam7.mp4,2020-05-21 04:40:00,106.0,Spectrogram 1,1.0,594.0,597.0,150.0,12000.0,comyel,Common Yellowthroat,0.4729
+879125,SYNC/Cam07/2020-05-21/UniFiVideo.Export.20200521.201000-20200521.071001/20200521.124000.JRNVR1Cam7.mp4,2020-05-21 05:40:00,108.0,Spectrogram 1,1.0,561.0,564.0,150.0,12000.0,rewbla,Red-winged Blackbird,0.1019
+883088,SYNC/Cam07/2020-05-21/UniFiVideo.Export.20200522.065001-20200521.203000/20200521.204000.JRNVR1Cam7.mp4,2020-05-21 13:40:00,75.0,Spectrogram 1,1.0,447.0,450.0,150.0,12000.0,comyel,Common Yellowthroat,0.1862
+883510,SYNC/Cam07/2020-05-21/UniFiVideo.Export.20200522.065001-20200521.203000/20200521.214000.JRNVR1Cam7.mp4,2020-05-21 14:40:00,57.0,Spectrogram 1,1.0,447.0,450.0,150.0,12000.0,gadwal,Gadwall,0.41
+887918,SYNC/Cam07/2020-05-22/UniFiVideo.Export.20200522.200000-20200522.071001/20200522.123000.JRNVR1Cam7.mp4,2020-05-22 05:30:00,12.0,Spectrogram 1,1.0,111.0,114.0,150.0,12000.0,cliswa,Cliff Swallow,0.234
+892272,SYNC/Cam07/2020-05-22/UniFiVideo.Export.20200523.065000-20200522.202000/20200522.215000.JRNVR1Cam7.mp4,2020-05-22 14:50:00,15.0,Spectrogram 1,1.0,135.0,138.0,150.0,12000.0,comyel,Common Yellowthroat,0.7684
+896465,SYNC/Cam07/2020-05-23/UniFiVideo.Export.20200523.200001-20200523.071000/20200523.133001.JRNVR1Cam7.mp4,2020-05-23 06:30:01,21.0,Spectrogram 1,1.0,120.0,123.0,150.0,12000.0,mallar3,Mallard,0.3683
+899219,SYNC/Cam10/2020-05-23/UniFiVideo.Export.20200523.204001-20200523.121001/20200523.194001.JRNVR1Cam10.mp4,2020-05-23 12:40:01,78.0,Spectrogram 1,1.0,435.0,438.0,150.0,12000.0,caltow,California Towhee,0.3375
+901101,SYNC/Cam07/2020-05-23/UniFiVideo.Export.20200524.065001-20200523.201036/20200523.235001.JRNVR1Cam7.mp4,2020-05-23 16:50:01,6.0,Spectrogram 1,1.0,54.0,57.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.1072
+908550,SYNC/Cam10/2020-05-25/UniFiVideo.Export.20200526.042001-20200525.210000/20200526.015001.Cam10old.mp4,2020-05-26 08:00:01,57.0,Spectrogram 1,1.0,456.0,459.0,150.0,12000.0,warvir,Warbling Vireo,0.1166
+909128,SYNC/Cam10/2020-05-26/UniFiVideo.Export.20200526.204000-20200526.121000/20200526.193001.Cam10old.mp4,2020-05-26 12:30:01,34.0,Spectrogram 1,1.0,81.0,84.0,150.0,12000.0,acowoo,Acorn Woodpecker,0.1035
+909732,SYNC/Cam02/2020-05-25/UniFiVideo.Export.20200526.042001-20200525.121000/20200526.020000.JRNVR1Cam2.mp4,2020-05-26 13:00:00,2.0,Spectrogram 1,1.0,0.0,3.0,150.0,12000.0,wrenti,Wrentit,0.3038
+909736,SYNC/Cam10/2020-05-26/UniFiVideo.Export.20200526.204000-20200526.121000/20200526.200000.Cam10old.mp4,2020-05-26 13:00:00,4.0,Spectrogram 1,1.0,6.0,9.0,150.0,12000.0,wrenti,Wrentit,0.79
+911035,SYNC/Cam10/2020-05-25/UniFiVideo.Export.20200526.042001-20200525.210000/20200526.022001.Cam10old.mp4,2020-05-26 15:00:01,152.0,Spectrogram 1,1.0,372.0,375.0,150.0,12000.0,wrenti,Wrentit,0.2894
+912173,SYNC/Cam02/2020-05-26/UniFiVideo.Export.20200527.042000-20200526.121001/20200527.034000.JRNVR1Cam2.mp4,2020-05-26 20:40:00,43.0,Spectrogram 1,1.0,417.0,420.0,150.0,12000.0,warvir,Warbling Vireo,0.1114
+914728,SYNC/Cam10/2020-05-27/UniFiVideo.Export.20200528.042001-20200527.205000/20200528.025001.Cam10old.mp4,2020-05-27 19:50:01,3.0,Spectrogram 1,1.0,9.0,12.0,150.0,12000.0,spotow,Spotted Towhee,0.2395
+918024,SYNC/Cam01/2020-05-28/UniFiVideo.Export.20200528.211000-20200528.154000/20200528.200001.JRNVR1Cam1.mp4,2020-05-28 13:00:01,57.0,Spectrogram 1,1.0,351.0,354.0,150.0,12000.0,houfin,House Finch,0.1211
+918299,SYNC/Cam01/2020-05-28/UniFiVideo.Export.20200528.211000-20200528.154000/20200528.203000.JRNVR1Cam1.mp4,2020-05-28 13:30:00,59.0,Spectrogram 1,1.0,441.0,444.0,150.0,12000.0,nutwoo,Nuttall's Woodpecker,0.1043
+921382,SYNC/Cam02/2020-05-30/UniFiVideo.Export.20200531.042000-20200530.121000/20200531.032001.JRNVR1Cam2.mp4,2020-05-30 20:20:01,56.0,Spectrogram 1,1.0,381.0,384.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.9906
+921391,SYNC/Cam02/2020-05-30/UniFiVideo.Export.20200531.042000-20200530.121000/20200531.032001.JRNVR1Cam2.mp4,2020-05-30 20:20:01,66.0,Spectrogram 1,1.0,411.0,414.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.9865
+921437,SYNC/Cam02/2020-05-30/UniFiVideo.Export.20200531.042000-20200530.121000/20200531.032001.JRNVR1Cam2.mp4,2020-05-30 20:20:01,118.0,Spectrogram 1,1.0,588.0,591.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.9924
+923521,SYNC/Cam01/2020-05-31/UniFiVideo.Export.20200531.205000-20200531.163001/20200531.174001.JRNVR1Cam1.mp4,2020-05-31 10:40:01,15.0,Spectrogram 1,1.0,60.0,63.0,150.0,12000.0,amekes,American Kestrel,0.2967
+924583,SYNC/Cam01/2020-05-31/UniFiVideo.Export.20200531.205000-20200531.163001/20200531.193000.JRNVR1Cam1.mp4,2020-05-31 12:30:00,113.0,Spectrogram 1,1.0,414.0,417.0,150.0,12000.0,treswa,Tree Swallow,0.1027
+929670,SYNC/Cam01/2020-06-03/UniFiVideo.Export.20200603.201001-20200603.131001/20200603.190000.JRNVR1Cam1.mp4,2020-06-03 12:00:00,115.0,Spectrogram 1,1.0,558.0,561.0,150.0,12000.0,warvir,Warbling Vireo,0.4696
+932070,SYNC/Cam02/2020-06-04/UniFiVideo.Export.20200605.042001-20200604.121000/20200605.033001.JRNVR1Cam2.mp4,2020-06-04 20:30:01,20.0,Spectrogram 1,1.0,48.0,51.0,150.0,12000.0,spotow,Spotted Towhee,0.2181
+932662,SYNC/Cam01/2020-06-05/UniFiVideo.Export.20200605.200001-20200605.131001/20200605.172001.JRNVR1Cam1.mp4,2020-06-05 10:20:01,46.0,Spectrogram 1,1.0,423.0,426.0,150.0,12000.0,amekes,American Kestrel,0.3588
+935736,SYNC/Cam02/2020-06-08/UniFiVideo.Export.20200608.151000-20200608.121001/20200608.133000.JRNVR1Cam2.mp4,2020-06-08 06:30:00,47.0,Spectrogram 1,1.0,522.0,525.0,150.0,12000.0,leasan,Least Sandpiper,0.3165
+937546,SYNC/Cam07/2020-06-09/UniFiVideo.Export.20200609.200001-20200609.071001/20200609.200001.JRNVR1Cam7.mp4,2020-06-09 13:00:01,26.0,Spectrogram 1,1.0,159.0,162.0,150.0,12000.0,gadwal,Gadwall,0.1001
+937639,SYNC/Cam10/2020-06-08/UniFiVideo.Export.20200609.042001-20200608.121000/20200609.023001.Cam10old.mp4,2020-06-09 16:00:01,8.0,Spectrogram 1,1.0,42.0,45.0,150.0,12000.0,spotow,Spotted Towhee,0.2297
+939669,SYNC/Cam01/2020-06-10/UniFiVideo.Export.20200611.035002-20200610.203001/20200611.025000.JRNVR1Cam1.mp4,2020-06-10 19:50:00,54.0,Spectrogram 1,1.0,246.0,249.0,150.0,12000.0,caltow,California Towhee,0.1411
+940616,SYNC/Cam01/2020-06-10/UniFiVideo.Export.20200611.035002-20200610.203001/20200611.015000.JRNVR1Cam1.mp4,2020-06-11 08:00:00,35.0,Spectrogram 1,1.0,186.0,189.0,150.0,12000.0,caltow,California Towhee,0.2399
+942179,SYNC/Cam01/2020-06-12/UniFiVideo.Export.20200612.160000-20200612.131000/20200612.130008.JRNVR1Cam1.mp4,2020-06-12 06:00:08,169.0,Spectrogram 1,1.0,534.0,537.0,150.0,12000.0,amekes,American Kestrel,0.2795
+945201,SYNC/Cam07/2020-06-12/UniFiVideo.Export.20200612.200001-20200612.102000/20200612.192001.JRNVR1Cam7.mp4,2020-06-12 12:20:01,12.0,Spectrogram 1,1.0,42.0,45.0,150.0,12000.0,cliswa,Cliff Swallow,0.7535
+945471,SYNC/Cam07/2020-06-12/UniFiVideo.Export.20200612.200001-20200612.102000/20200612.192001.JRNVR1Cam7.mp4,2020-06-12 12:20:01,206.0,Spectrogram 1,1.0,546.0,549.0,150.0,12000.0,cliswa,Cliff Swallow,0.4165
+948458,SYNC/Cam01/2020-06-13/UniFiVideo.Export.20200613.133000-20200613.121000/20200613.130000.JRNVR1Cam1.mp4,2020-06-13 06:00:00,27.0,Spectrogram 1,1.0,330.0,333.0,150.0,12000.0,amekes,American Kestrel,0.9779
+951653,SYNC/Cam09/2020-06-14/UniFiVideo.Export.20200614.200000-20200614.071001/20200614.195000.JRNVR1Cam9.mp4,2020-06-14 12:50:00,32.0,Spectrogram 1,1.0,183.0,186.0,150.0,12000.0,wesblu,Western Bluebird,0.9275
+953144,SYNC/Cam02/2020-06-14/UniFiVideo.Export.20200615.042000-20200614.121000/20200615.030000.JRNVR1Cam2.mp4,2020-06-14 20:00:00,7.0,Spectrogram 1,1.0,15.0,18.0,150.0,12000.0,wrenti,Wrentit,0.8249
+954283,SYNC/Cam01/2020-06-15/UniFiVideo.Export.20200615.151000-20200615.121000/20200615.121000.JRNVR1Cam1.mp4,2020-06-15 05:10:00,54.0,Spectrogram 1,1.0,174.0,177.0,150.0,12000.0,caltow,California Towhee,0.1648
+955738,SYNC/Cam10/2020-06-15/UniFiVideo.Export.20200615.151001-20200615.121000/20200615.130000.Cam10old.mp4,2020-06-15 06:00:00,63.0,Spectrogram 1,1.0,366.0,369.0,150.0,12000.0,wilfly,Willow Flycatcher,0.2539
+961892,SYNC/Cam10/2020-06-16/UniFiVideo.Export.20200617.042000-20200616.231000/20200617.242001.Cam10old.mp4,2020-06-16 17:20:01,64.0,Spectrogram 1,1.0,198.0,201.0,150.0,12000.0,rethaw,Red-tailed Hawk,0.908
+962858,SYNC/Cam10/2020-06-16/UniFiVideo.Export.20200617.042000-20200616.231000/20200617.032000.Cam10old.mp4,2020-06-16 20:20:00,62.0,Spectrogram 1,1.0,495.0,498.0,150.0,12000.0,comgol,Common Goldeneye,0.1423
+962886,SYNC/Cam10/2020-06-16/UniFiVideo.Export.20200617.042000-20200616.231000/20200617.033000.Cam10old.mp4,2020-06-16 20:30:00,31.0,Spectrogram 1,1.0,174.0,177.0,150.0,12000.0,caltow,California Towhee,0.1303
+964168,SYNC/Cam01/2020-06-17/UniFiVideo.Export.20200617.133000-20200617.121000/20200617.123000.JRNVR1Cam1.mp4,2020-06-17 05:30:00,26.0,Spectrogram 1,1.0,81.0,84.0,150.0,12000.0,spotow,Spotted Towhee,0.2651
+968779,SYNC/Cam10/2020-06-18/UniFiVideo.Export.20200619.042000-20200618.121000/20200619.025000.Cam10old.mp4,2020-06-18 19:50:00,70.0,Spectrogram 1,1.0,588.0,591.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.8909
+975857,SYNC/Cam10/2020-06-21/UniFiVideo.Export.20200622.041959-20200621.121001/20200622.033000.Cam10old.mp4,2020-06-21 20:30:00,94.0,Spectrogram 1,1.0,282.0,285.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.3194
+976631,SYNC/Cam01/2020-06-22/UniFiVideo.Export.20200622.135001-20200622.121001/20200622.124001.JRNVR1Cam1.mp4,2020-06-22 05:40:01,28.0,Spectrogram 1,1.0,366.0,369.0,150.0,12000.0,wilfly,Willow Flycatcher,0.1317
+978532,SYNC/Cam10/2020-06-22/UniFiVideo.Export.20200623.042000-20200622.121000/20200623.041000.Cam10old.mp4,2020-06-22 21:10:00,50.0,Spectrogram 1,1.0,204.0,207.0,150.0,12000.0,brnowl,Barn Owl,0.1108
+979464,SYNC/Cam09/2020-06-23/UniFiVideo.Export.20200623.200000-20200623.071000/20200623.191001.JRNVR1Cam9.mp4,2020-06-23 12:10:01,107.0,Spectrogram 1,1.0,492.0,495.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.7488
+982952,SYNC/Cam02/2020-06-24/UniFiVideo.Export.20200625.035002-20200624.121000/20200625.021002.JRNVR1Cam2.mp4,2020-06-25 14:00:02,204.0,Spectrogram 1,1.0,2982.0,2985.0,150.0,12000.0,bewwre,Bewick's Wren,0.1523
+989359,SYNC/Cam10/2020-06-26/UniFiVideo.Export.20200627.042001-20200626.172000/20200627.042001.Cam10old.mp4,2020-06-26 21:20:01,13.0,Spectrogram 1,1.0,123.0,126.0,150.0,12000.0,brnowl,Barn Owl,0.1824
+993256,SYNC/Cam09/2020-06-29/UniFiVideo.Export.20200629.160001-20200629.145000/20200629.160001.JRNVR1Cam9.mp4,2020-06-29 09:00:01,64.0,Spectrogram 1,1.0,537.0,540.0,150.0,12000.0,vigswa,Violet-green Swallow,0.6407
+994737,SYNC/Cam10/2020-06-29/UniFiVideo.Export.20200630.042001-20200629.135001/20200630.031001.Cam10old.mp4,2020-06-29 20:10:01,82.0,Spectrogram 1,1.0,462.0,465.0,150.0,12000.0,rethaw,Red-tailed Hawk,0.6681
+996272,SYNC/Cam07/2020-06-30/UniFiVideo.Export.20200630.231001-20200630.172000/20200630.224001.JRNVR1Cam7.mp4,2020-06-30 15:40:01,107.0,Spectrogram 1,1.0,531.0,534.0,150.0,12000.0,pygnut,Pygmy Nuthatch,0.2785
+999124,SYNC/Cam07/2020-07-02/UniFiVideo.Export.20200702.200001-20200702.103001/20200702.194001.JRNVR1Cam7.mp4,2020-07-02 12:40:01,82.0,Spectrogram 1,1.0,435.0,438.0,150.0,12000.0,mallar3,Mallard,0.2026
+1003960,SYNC/Cam10/2020-07-05/UniFiVideo.Export.20200706.042000-20200706.011001/20200706.020001.Cam10old.mp4,2020-07-06 13:00:01,20.0,Spectrogram 1,1.0,474.0,477.0,150.0,12000.0,wrenti,Wrentit,0.133
+1004278,SYNC/Cam01/2020-07-05/UniFiVideo.Export.20200706.042000-20200706.011001/20200706.022001.JRNVR1Cam1.mp4,2020-07-06 15:00:01,59.0,Spectrogram 1,1.0,375.0,378.0,150.0,12000.0,banswa,Bank Swallow,0.4305
+1006608,SYNC/Cam10/2020-07-07/UniFiVideo.Export.20200708.042000-20200707.121001/20200708.042000.Cam10old.mp4,2020-07-07 21:20:00,22.0,Spectrogram 1,1.0,204.0,207.0,150.0,12000.0,grhowl,Great Horned Owl,0.1143
+1006631,SYNC/Cam09/2020-07-07/UniFiVideo.Export.20200708.065001-20200707.202000/20200708.064003.JRNVR1Cam9.mp4,2020-07-07 23:40:03,3.0,Spectrogram 1,1.0,291.0,294.0,150.0,12000.0,brnowl,Barn Owl,0.388
+1009285,SYNC/Cam01/2020-07-09/UniFiVideo.Export.20200709.192000-20200709.121000/20200709.192000.JRNVR1Cam1.mp4,2020-07-09 12:20:00,241.0,Spectrogram 1,1.0,546.0,549.0,150.0,12000.0,vigswa,Violet-green Swallow,0.1209
+1010309,SYNC/Cam01/2020-07-11/UniFiVideo.Export.20200712.042001-20200712.243001/20200712.244001.JRNVR1Cam1.mp4,2020-07-11 17:40:01,154.0,Spectrogram 1,1.0,540.0,543.0,150.0,12000.0,bnhcow,Brown-headed Cowbird,0.1432
+1011168,SYNC/Cam01/2020-07-11/UniFiVideo.Export.20200712.042001-20200712.243001/20200712.010001.JRNVR1Cam1.mp4,2020-07-12 03:00:01,21.0,Spectrogram 1,1.0,60.0,63.0,150.0,12000.0,caltow,California Towhee,0.1207
+1014753,SYNC/Cam01/2020-07-13/UniFiVideo.Export.20200713.132001-20200713.121001/20200713.132001.JRNVR1Cam1.mp4,2020-07-13 06:20:01,63.0,Spectrogram 1,1.0,441.0,444.0,150.0,12000.0,blkpho,Black Phoebe,0.4932
+1017181,SYNC/Cam01/2020-07-15/UniFiVideo.Export.20200715.133000-20200715.121000/20200715.132000.JRNVR1Cam1.mp4,2020-07-15 06:20:00,111.0,Spectrogram 1,1.0,588.0,591.0,150.0,12000.0,caltow,California Towhee,0.6397
+1019062,SYNC/Cam07/2020-07-15/UniFiVideo.Export.20200715.223001-20200715.143000/20200715.222001.JRNVR1Cam7.mp4,2020-07-15 15:20:01,47.0,Spectrogram 1,1.0,312.0,315.0,150.0,12000.0,nrwswa,Northern Rough-winged Swallow,0.3043
+1023001,SYNC/Cam10/2020-07-18/UniFiVideo.Export.20200718.130000-20200718.121000/20200718.130000.JRNVR1Cam10.mp4,2020-07-18 06:00:00,65.0,Spectrogram 1,1.0,300.0,303.0,150.0,12000.0,astfly,Ash-throated Flycatcher,0.557
+1023215,SYNC/Cam01/2020-07-18/UniFiVideo.Export.20200718.131000-20200718.121000/20200718.131000.JRNVR1Cam1.mp4,2020-07-18 06:10:00,123.0,Spectrogram 1,1.0,456.0,459.0,150.0,12000.0,caltow,California Towhee,0.1257
+1025095,SYNC/Cam01/2020-07-19/UniFiVideo.Export.20200719.140001-20200719.121001/20200719.135001.JRNVR1Cam1.mp4,2020-07-19 06:50:01,14.0,Spectrogram 1,1.0,126.0,129.0,150.0,12000.0,lesgol,Lesser Goldfinch,0.1058
+1025441,SYNC/Cam10/2020-07-19/UniFiVideo.Export.20200720.042000-20200719.210000/20200720.033000.JRNVR1Cam10.mp4,2020-07-19 20:30:00,19.0,Spectrogram 1,1.0,147.0,150.0,150.0,12000.0,caltow,California Towhee,0.1432
+1027666,SYNC/Cam01/2020-07-22/UniFiVideo.Export.20200722.133000-20200722.121000/20200722.125000.JRNVR1Cam1.mp4,2020-07-22 05:50:00,50.0,Spectrogram 1,1.0,195.0,198.0,150.0,12000.0,baleag,Bald Eagle,0.1267
+1037808,SYNC/Cam02/2020-08-01/UniFiVideo.Export.20200801.165001-20200801.121000/20200801.154001.JRNVR1Cam2.mp4,2020-08-01 08:40:01,15.0,Spectrogram 1,1.0,300.0,303.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.6341
+1039636,SYNC/Cam07/2020-08-02/UniFiVideo.Export.20200802.231001-20200802.142000/20200802.231001.JRNVR1Cam7.mp4,2020-08-02 16:10:01,49.0,Spectrogram 1,1.0,396.0,399.0,150.0,12000.0,calqua,California Quail,0.9699
+1041128,SYNC/Cam01/2020-08-04/UniFiVideo.Export.20200804.130000-20200804.121000/20200804.130000.JRNVR1Cam1.mp4,2020-08-04 06:00:00,52.0,Spectrogram 1,1.0,537.0,540.0,150.0,12000.0,caltow,California Towhee,0.1227
+1046299,SYNC/Cam02/2020-08-10/UniFiVideo.Export.20200811.042000-20200810.171001/20200811.014000.JRNVR1Cam2.mp4,2020-08-11 07:00:00,26.0,Spectrogram 1,1.0,369.0,372.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.2452
+1046996,SYNC/Cam02/2020-08-12/UniFiVideo.Export.20200812.151001-20200812.121000/20200812.133000.JRNVR1Cam2.mp4,2020-08-12 06:30:00,26.0,Spectrogram 1,1.0,396.0,399.0,150.0,12000.0,wrenti,Wrentit,0.7066
+1048250,SYNC/Cam02/2020-08-13/UniFiVideo.Export.20200813.165001-20200813.120959/20200813.134000.JRNVR1Cam2.mp4,2020-08-13 06:40:00,9.0,Spectrogram 1,1.0,159.0,162.0,150.0,12000.0,reshaw,Red-shouldered Hawk,0.2745
+1048262,SYNC/Cam02/2020-08-13/UniFiVideo.Export.20200813.165001-20200813.120959/20200813.135000.JRNVR1Cam2.mp4,2020-08-13 06:50:00,13.0,Spectrogram 1,1.0,81.0,84.0,150.0,12000.0,lobdow,Long-billed Dowitcher,0.2973
+1052249,SYNC/Cam09/2020-08-18/UniFiVideo.Export.20200818.140000-20200818.071001/20200818.130000.JRNVR1Cam9.mp4,2020-08-18 06:00:00,48.0,Spectrogram 1,1.0,459.0,462.0,150.0,12000.0,caltow,California Towhee,0.6353
+1052643,SYNC/Cam10/2020-08-18/UniFiVideo.Export.20200818.205001-20200818.124001/20200818.155001.JRNVR1Cam10.mp4,2020-08-18 08:50:01,37.0,Spectrogram 1,1.0,279.0,282.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.1349
+1052919,SYNC/Cam10/2020-08-18/UniFiVideo.Export.20200818.205001-20200818.124001/20200818.202001.JRNVR1Cam10.mp4,2020-08-18 13:20:01,9.0,Spectrogram 1,1.0,531.0,534.0,150.0,12000.0,barswa,Barn Swallow,0.2083
+1053395,SYNC/Cam09/2020-08-19/UniFiVideo.Export.20200819.134001-20200819.071000/20200819.134001.JRNVR1Cam9.mp4,2020-08-19 06:40:01,67.0,Spectrogram 1,1.0,441.0,444.0,150.0,12000.0,wesblu,Western Bluebird,0.9683
+1054170,SYNC/Cam02/2020-08-21/UniFiVideo.Export.20200821.161000-20200821.131001/20200821.133001.JRNVR1Cam2.mp4,2020-08-21 06:30:01,26.0,Spectrogram 1,1.0,312.0,315.0,150.0,12000.0,wrenti,Wrentit,0.1708
+1058269,SYNC/Cam02/2020-08-23/UniFiVideo.Export.20200824.032000-20200823.131000/20200824.023001.JRNVR1Cam2.mp4,2020-08-24 16:00:01,11.0,Spectrogram 1,1.0,90.0,93.0,150.0,12000.0,wrenti,Wrentit,0.6809
+1059426,SYNC/Cam01/2020-08-26/UniFiVideo.Export.20200826.194001-20200826.131001/20200826.174001.JRNVR1Cam1.mp4,2020-08-26 10:40:01,26.0,Spectrogram 1,1.0,234.0,237.0,150.0,12000.0,lesgol,Lesser Goldfinch,0.1197
+1060609,SYNC/Cam01/2020-08-28/UniFiVideo.Export.20200828.195001-20200828.131000/20200828.194001.JRNVR1Cam1.mp4,2020-08-28 12:40:01,7.0,Spectrogram 1,1.0,366.0,369.0,150.0,12000.0,blkpho,Black Phoebe,0.3992
+1061213,SYNC/Cam07/2020-08-28/UniFiVideo.Export.20200829.065001-20200828.212001/20200829.245000.JRNVR1Cam7.mp4,2020-08-28 17:50:00,25.0,Spectrogram 1,1.0,387.0,390.0,150.0,12000.0,caltow,California Towhee,0.136
+1064704,SYNC/Cam09/2020-08-31/UniFiVideo.Export.20200831.204001-20200831.124001/20200831.200959.JRNVR1Cam9.mp4,2020-08-31 13:09:59,84.0,Spectrogram 1,1.0,381.0,384.0,150.0,12000.0,acowoo,Acorn Woodpecker,0.2682
+1066771,SYNC/Cam01/2020-09-01/UniFiVideo.Export.20200901.202001-20200901.170001/20200901.200513.JRNVR1Cam1.mp4,2020-09-01 13:05:13,2.0,Spectrogram 1,1.0,192.0,195.0,150.0,12000.0,blkpho,Black Phoebe,0.2582
+1068333,SYNC/Cam07/2020-09-04/UniFiVideo.Export.20200904.132000-20200904.071001/20200904.132000.JRNVR1Cam7.mp4,2020-09-04 06:20:00,37.0,Spectrogram 1,1.0,417.0,420.0,150.0,12000.0,blkpho,Black Phoebe,0.8521
+1071459,SYNC/Cam02/2020-09-08/UniFiVideo.Export.20200909.032000-20200908.131001/20200909.244000.JRNVR1Cam2.mp4,2020-09-08 17:40:00,18.0,Spectrogram 1,1.0,549.0,552.0,150.0,12000.0,wrenti,Wrentit,0.2477
+1072254,SYNC/Cam07/2020-09-10/UniFiVideo.Export.20200910.182001-20200910.071001/20200910.181001.JRNVR1Cam7.mp4,2020-09-10 11:10:01,1.0,Spectrogram 1,1.0,24.0,27.0,150.0,12000.0,killde,Killdeer,0.2143
+1074686,SYNC/Cam10/2020-09-13/UniFiVideo.Export.20200913.194001-20200913.131000/20200913.171001.JRNVR1Cam10.mp4,2020-09-13 10:10:01,6.0,Spectrogram 1,1.0,207.0,210.0,150.0,12000.0,norfli,Northern Flicker,0.1731
+1079232,SYNC/Cam01/2020-09-19/UniFiVideo.Export.20200919.194000-20200919.131000/20200919.183001.JRNVR1Cam1.mp4,2020-09-19 11:30:01,8.0,Spectrogram 1,1.0,288.0,291.0,150.0,12000.0,houfin,House Finch,0.2641
+1081371,SYNC/Cam01/2020-09-20/UniFiVideo.Export.20200920.194001-20200920.131000/20200920.183001.JRNVR1Cam1.mp4,2020-09-20 11:30:01,52.0,Spectrogram 1,1.0,378.0,381.0,150.0,12000.0,caltow,California Towhee,0.1511
+1084649,SYNC/Cam07/2020-09-22/UniFiVideo.Export.20200922.182001-20200922.071002/20200922.173001.JRNVR1Cam7.mp4,2020-09-22 10:30:01,67.0,Spectrogram 1,1.0,483.0,486.0,150.0,12000.0,blkpho,Black Phoebe,0.5986
+1085477,SYNC/Cam02/2020-09-21/UniFiVideo.Export.20200922.032000-20200921.131001/20200922.020001.JRNVR1Cam2.mp4,2020-09-22 13:00:01,132.0,Spectrogram 1,1.0,525.0,528.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.644
+1086067,SYNC/Cam09/2020-09-24/UniFiVideo.Export.20200924.175000-20200924.071001/20200924.174000.JRNVR1Cam9.mp4,2020-09-24 10:40:00,86.0,Spectrogram 1,1.0,423.0,426.0,150.0,12000.0,greyel,Greater Yellowlegs,0.1948
+1087398,SYNC/Cam10/2020-09-26/UniFiVideo.Export.20200926.194000-20200926.131001/20200926.182000.JRNVR1Cam10.mp4,2020-09-26 11:20:00,22.0,Spectrogram 1,1.0,501.0,504.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.1278
+1088393,SYNC/Cam10/2020-09-27/UniFiVideo.Export.20200927.194001-20200927.131000/20200927.183001.JRNVR1Cam10.mp4,2020-09-27 11:30:01,54.0,Spectrogram 1,1.0,303.0,306.0,150.0,12000.0,banswa,Bank Swallow,0.1077
+1091735,SYNC/Cam02/2020-09-30/UniFiVideo.Export.20201001.032001-20200930.131000/20201001.013000.JRNVR1Cam2.mp4,2020-10-01 06:00:00,41.0,Spectrogram 1,1.0,357.0,360.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.8781
+1092343,SYNC/Cam02/2020-10-01/UniFiVideo.Export.20201001.161000-20201001.131001/20201001.140000.JRNVR1Cam2.mp4,2020-10-01 07:00:00,25.0,Spectrogram 1,1.0,360.0,363.0,150.0,12000.0,cliswa,Cliff Swallow,0.1139
+1093884,SYNC/Cam01/2020-10-01/UniFiVideo.Export.20201001.214717-20201001.155001/20201001.170001.JRNVR1Cam1.mp4,2020-10-01 10:00:01,50.0,Spectrogram 1,1.0,249.0,252.0,150.0,12000.0,blkpho,Black Phoebe,0.298
+1093932,SYNC/Cam01/2020-10-01/UniFiVideo.Export.20201001.214717-20201001.155001/20201001.171000.JRNVR1Cam1.mp4,2020-10-01 10:10:00,3.0,Spectrogram 1,1.0,18.0,21.0,150.0,12000.0,caltow,California Towhee,0.1438
+1095182,SYNC/Cam01/2020-10-01/UniFiVideo.Export.20201001.214717-20201001.155001/20201001.205001.JRNVR1Cam1.mp4,2020-10-01 13:50:01,17.0,Spectrogram 1,1.0,195.0,198.0,150.0,12000.0,norfli,Northern Flicker,0.4452
+1099707,SYNC/Cam07/2020-10-05/UniFiVideo.Export.20201005.182001-20201005.071001/20201005.181001.JRNVR1Cam7.mp4,2020-10-05 11:10:01,101.0,Spectrogram 1,1.0,381.0,384.0,150.0,12000.0,blkpho,Black Phoebe,0.7703
+1099734,SYNC/Cam07/2020-10-05/UniFiVideo.Export.20201005.182001-20201005.071001/20201005.181001.JRNVR1Cam7.mp4,2020-10-05 11:10:01,128.0,Spectrogram 1,1.0,459.0,462.0,150.0,12000.0,pygnut,Pygmy Nuthatch,0.7116
+1100131,SYNC/Cam01/2020-10-05/UniFiVideo.Export.20201005.194000-20201005.131001/20201005.192000.JRNVR1Cam1.mp4,2020-10-05 12:20:00,33.0,Spectrogram 1,1.0,270.0,273.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.8979
+1100146,SYNC/Cam01/2020-10-05/UniFiVideo.Export.20201005.194000-20201005.131001/20201005.192000.JRNVR1Cam1.mp4,2020-10-05 12:20:00,48.0,Spectrogram 1,1.0,417.0,420.0,150.0,12000.0,spotow,Spotted Towhee,0.5265
+1105001,SYNC/Cam10/2020-10-11/UniFiVideo.Export.20201011.195000-20201011.132001/20201011.172001.JRNVR1Cam10.mp4,2020-10-11 10:20:01,59.0,Spectrogram 1,1.0,528.0,531.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.3591
+1105264,SYNC/Cam01/2020-10-11/UniFiVideo.Export.20201011.195001-20201011.131000/20201011.195001.JRNVR1Cam1.mp4,2020-10-11 12:50:01,22.0,Spectrogram 1,1.0,420.0,423.0,150.0,12000.0,rebnut,Red-breasted Nuthatch,0.2487
+1108422,SYNC/Cam09/2020-10-16/UniFiVideo.Export.20201016.135000-20201016.071000/20201016.135000.JRNVR1Cam9.mp4,2020-10-16 06:50:00,71.0,Spectrogram 1,1.0,378.0,381.0,150.0,12000.0,amecro,American Crow,0.3173
+1110673,SYNC/Cam09/2020-10-19/UniFiVideo.Export.20201019.205001-20201019.125001/20201019.205001.JRNVR1Cam9.mp4,2020-10-19 13:50:01,9.0,Spectrogram 1,1.0,51.0,54.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.1144
+1111373,SYNC/Cam09/2020-10-20/UniFiVideo.Export.20201020.205000-20201020.125001/20201020.200000.JRNVR1Cam9.mp4,2020-10-20 13:00:00,5.0,Spectrogram 1,1.0,387.0,390.0,150.0,12000.0,warvir,Warbling Vireo,0.2775
+1111555,SYNC/Cam02/2020-10-21/UniFiVideo.Export.20201021.161000-20201021.131001/20201021.143000.JRNVR1Cam2.mp4,2020-10-21 07:30:00,20.0,Spectrogram 1,1.0,372.0,375.0,150.0,12000.0,wrenti,Wrentit,0.3081
+1113425,SYNC/Cam07/2020-10-24/UniFiVideo.Export.20201024.165000-20201024.071001/20201024.160001.JRNVR1Cam7.mp4,2020-10-24 09:00:01,1.0,Spectrogram 1,1.0,33.0,36.0,150.0,12000.0,yerwar,Yellow-rumped Warbler,0.1316
+1114126,SYNC/Cam01/2020-10-25/UniFiVideo.Export.20201025.194000-20201025.131000/20201025.185000.JRNVR1Cam1.mp4,2020-10-25 11:50:00,49.0,Spectrogram 1,1.0,162.0,165.0,150.0,12000.0,caltow,California Towhee,0.414
+1116565,SYNC/Cam01/2020-10-28/UniFiVideo.Export.20201029.013000-20201028.200001/20201029.244000.JRNVR1Cam1.mp4,2020-10-28 17:40:00,32.0,Spectrogram 1,1.0,477.0,480.0,150.0,12000.0,norfli,Northern Flicker,0.5545
+1117931,SYNC/Cam01/2020-10-29/UniFiVideo.Export.20201029.194000-20201029.141000/20201029.183001.JRNVR1Cam1.mp4,2020-10-29 11:30:01,77.0,Spectrogram 1,1.0,426.0,429.0,150.0,12000.0,whfibi,White-faced Ibis,0.1149
+1120463,SYNC/Cam01/2020-10-30/UniFiVideo.Export.20201030.203001-20201030.141001/20201030.202001.JRNVR1Cam1.mp4,2020-10-30 13:20:01,139.0,Spectrogram 1,1.0,369.0,372.0,150.0,12000.0,reshaw,Red-shouldered Hawk,0.5839
+1122701,SYNC/Cam01/2020-10-31/UniFiVideo.Export.20201031.175001-20201031.141000/20201031.154959.JRNVR1Cam1.mp4,2020-10-31 08:49:59,48.0,Spectrogram 1,1.0,186.0,189.0,150.0,12000.0,houfin,House Finch,0.2006
+1128572,SYNC/Cam09/2020-11-02/UniFiVideo.Export.20201102.225000-20201102.140001/20201102.225000.JRNVR1Cam9.mp4,2020-11-02 15:50:00,5.0,Spectrogram 1,1.0,27.0,30.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.6775
+1129244,SYNC/Cam01/2020-11-03/UniFiVideo.Export.20201103.175001-20201103.141001/20201103.174001.JRNVR1Cam1.mp4,2020-11-03 10:40:01,3.0,Spectrogram 1,1.0,9.0,12.0,150.0,12000.0,stejay,Steller's Jay,0.2422
+1129849,SYNC/Cam01/2020-11-04/UniFiVideo.Export.20201104.181001-20201104.141000/20201104.163000.JRNVR1Cam1.mp4,2020-11-04 09:30:00,140.0,Spectrogram 1,1.0,498.0,501.0,150.0,12000.0,houfin,House Finch,0.4317
+1129908,SYNC/Cam10/2020-11-04/UniFiVideo.Export.20201104.174001-20201104.141000/20201104.163001.JRNVR1Cam10.mp4,2020-11-04 09:30:01,58.0,Spectrogram 1,1.0,312.0,315.0,150.0,12000.0,norfli,Northern Flicker,0.2829
+1130673,SYNC/Cam01/2020-11-04/UniFiVideo.Export.20201104.181001-20201104.141000/20201104.171001.JRNVR1Cam1.mp4,2020-11-04 10:10:01,112.0,Spectrogram 1,1.0,378.0,381.0,150.0,12000.0,gocspa,Golden-crowned Sparrow,0.6932
+1131305,SYNC/Cam01/2020-11-04/UniFiVideo.Export.20201104.181001-20201104.141000/20201104.181001.JRNVR1Cam1.mp4,2020-11-04 11:10:01,23.0,Spectrogram 1,1.0,306.0,309.0,150.0,12000.0,norfli,Northern Flicker,0.7805
+1132744,SYNC/Cam10/2020-11-05/UniFiVideo.Export.20201105.174000-20201105.141000/20201105.164000.JRNVR1Cam10.mp4,2020-11-05 09:40:00,6.0,Spectrogram 1,1.0,30.0,33.0,150.0,12000.0,norfli,Northern Flicker,0.7135
+1134093,SYNC/Cam01/2020-11-06/UniFiVideo.Export.20201106.192350-20201106.140204/20201106.175001.JRNVR1Cam1.mp4,2020-11-06 10:50:01,20.0,Spectrogram 1,1.0,576.0,579.0,150.0,12000.0,houfin,House Finch,0.1123
+1134773,SYNC/Cam01/2020-11-06/UniFiVideo.Export.20201107.013000-20201106.193000/20201107.243000.JRNVR1Cam1.mp4,2020-11-06 17:30:00,34.0,Spectrogram 1,1.0,471.0,474.0,150.0,12000.0,caltow,California Towhee,0.5093
+1141376,SYNC/Cam01/2020-11-14/UniFiVideo.Export.20201114.171001-20201114.142000/20201114.155000.JRNVR1Cam1.mp4,2020-11-14 08:50:00,52.0,Spectrogram 1,1.0,243.0,246.0,150.0,12000.0,gocspa,Golden-crowned Sparrow,0.3334
+1146466,SYNC/Cam01/2020-11-16/UniFiVideo.Export.20201116.171000-20201116.142001/20201116.142001.JRNVR1Cam1.mp4,2020-11-16 07:20:01,11.0,Spectrogram 1,1.0,105.0,108.0,150.0,12000.0,gocspa,Golden-crowned Sparrow,0.3157
+1148024,SYNC/Cam01/2020-11-16/UniFiVideo.Export.20201116.171000-20201116.142001/20201116.161001.JRNVR1Cam1.mp4,2020-11-16 09:10:01,42.0,Spectrogram 1,1.0,126.0,129.0,150.0,12000.0,caltow,California Towhee,0.4438
+1151021,SYNC/Cam02/2020-11-19/UniFiVideo.Export.20201119.171001-20201119.143001/20201119.150000.JRNVR1Cam2.mp4,2020-11-19 08:00:00,8.0,Spectrogram 1,1.0,165.0,168.0,150.0,12000.0,wrenti,Wrentit,0.8908
+1154424,SYNC/Cam01/2020-11-20/UniFiVideo.Export.20201120.171001-20201120.142000/20201120.151000.JRNVR1Cam1.mp4,2020-11-20 08:10:00,22.0,Spectrogram 1,1.0,459.0,462.0,150.0,12000.0,yerwar,Yellow-rumped Warbler,0.1532
+1154608,SYNC/Cam01/2020-11-20/UniFiVideo.Export.20201120.171001-20201120.142000/20201120.155000.JRNVR1Cam1.mp4,2020-11-20 08:50:00,55.0,Spectrogram 1,1.0,300.0,303.0,150.0,12000.0,houfin,House Finch,0.2746
+1155522,SYNC/Cam01/2020-11-20/UniFiVideo.Export.20201120.171001-20201120.142000/20201120.163001.JRNVR1Cam1.mp4,2020-11-20 09:30:01,97.0,Spectrogram 1,1.0,294.0,297.0,150.0,12000.0,gocspa,Golden-crowned Sparrow,0.3444
+1155604,SYNC/Cam10/2020-11-20/UniFiVideo.Export.20201120.171001-20201120.142001/20201120.164001.JRNVR1Cam10.mp4,2020-11-20 09:40:01,9.0,Spectrogram 1,1.0,351.0,354.0,150.0,12000.0,cliswa,Cliff Swallow,0.2286
+1157280,SYNC/Cam10/2020-11-21/UniFiVideo.Export.20201121.171000-20201121.142001/20201121.162000.JRNVR1Cam10.mp4,2020-11-21 09:20:00,3.0,Spectrogram 1,1.0,312.0,315.0,150.0,12000.0,blkpho,Black Phoebe,0.2518
+1157991,SYNC/Cam02/2020-11-22/UniFiVideo.Export.20201122.171001-20201122.143001/20201122.151001.JRNVR1Cam2.mp4,2020-11-22 08:10:01,11.0,Spectrogram 1,1.0,225.0,228.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.2219
+1160989,SYNC/Cam01/2020-11-23/UniFiVideo.Export.20201123.171001-20201123.142000/20201123.163000.JRNVR1Cam1.mp4,2020-11-23 09:30:00,27.0,Spectrogram 1,1.0,90.0,93.0,150.0,12000.0,caltow,California Towhee,0.1886
+1161850,SYNC/Cam01/2020-11-24/UniFiVideo.Export.20201124.171000-20201124.142000/20201124.144000.JRNVR1Cam1.mp4,2020-11-24 07:40:00,18.0,Spectrogram 1,1.0,48.0,51.0,150.0,12000.0,gocspa,Golden-crowned Sparrow,0.2161
+1162467,SYNC/Cam01/2020-11-24/UniFiVideo.Export.20201124.171000-20201124.142000/20201124.162000.JRNVR1Cam1.mp4,2020-11-24 09:20:00,32.0,Spectrogram 1,1.0,186.0,189.0,150.0,12000.0,whcspa,White-crowned Sparrow,0.1031
+1162872,SYNC/Cam01/2020-11-24/UniFiVideo.Export.20201124.171000-20201124.142000/20201124.171000.JRNVR1Cam1.mp4,2020-11-24 10:10:00,7.0,Spectrogram 1,1.0,60.0,63.0,150.0,12000.0,stejay,Steller's Jay,0.2043
+1167721,SYNC/Cam02/2020-11-28/UniFiVideo.Export.20201128.171000-20201128.143001/20201128.143001.JRNVR1Cam2.mp4,2020-11-28 07:30:01,54.0,Spectrogram 1,1.0,501.0,504.0,150.0,12000.0,gocspa,Golden-crowned Sparrow,0.5964
+1168160,SYNC/Cam10/2020-11-28/UniFiVideo.Export.20201128.171000-20201128.142000/20201128.161000.JRNVR1Cam10.mp4,2020-11-28 09:10:00,36.0,Spectrogram 1,1.0,408.0,411.0,150.0,12000.0,wrenti,Wrentit,0.2589
+1173127,SYNC/Cam01/2020-12-02/UniFiVideo.Export.20201202.171000-20201202.142000/20201202.161000.JRNVR1Cam1.mp4,2020-12-02 09:10:00,70.0,Spectrogram 1,1.0,414.0,417.0,150.0,12000.0,gocspa,Golden-crowned Sparrow,0.4404
+1173807,SYNC/Cam02/2020-12-03/UniFiVideo.Export.20201203.171000-20201203.143001/20201203.144001.JRNVR1Cam2.mp4,2020-12-03 07:40:01,34.0,Spectrogram 1,1.0,399.0,402.0,150.0,12000.0,wrenti,Wrentit,0.5702
+1174778,SYNC/Cam07/2020-12-03/UniFiVideo.Export.20201204.075000-20201203.194000/20201204.075000.JRNVR1Cam7.mp4,2020-12-04 00:50:00,13.0,Spectrogram 1,1.0,351.0,354.0,150.0,12000.0,cangoo,Canada Goose,0.195
+1181955,SYNC/Cam02/2020-12-11/UniFiVideo.Export.20201211.171000-20201211.143000/20201211.145000.JRNVR1Cam2.mp4,2020-12-11 07:50:00,57.0,Spectrogram 1,1.0,309.0,312.0,150.0,12000.0,warvir,Warbling Vireo,0.1876
+1184475,SYNC/Cam01/2020-12-14/UniFiVideo.Export.20201214.171001-20201214.142000/20201214.170001.JRNVR1Cam1.mp4,2020-12-14 10:00:01,5.0,Spectrogram 1,1.0,312.0,315.0,150.0,12000.0,lesgol,Lesser Goldfinch,0.8837
+1185837,SYNC/Cam09/2020-12-15/UniFiVideo.Export.20201215.224000-20201215.144000/20201215.220000.JRNVR1Cam9.mp4,2020-12-15 15:00:00,30.0,Spectrogram 1,1.0,213.0,216.0,150.0,12000.0,weskin,Western Kingbird,0.1053
+1187701,SYNC/Cam07/2020-12-17/UniFiVideo.Export.20201217.224000-20201217.143001/20201217.223000.JRNVR1Cam7.mp4,2020-12-17 15:30:00,5.0,Spectrogram 1,1.0,36.0,39.0,150.0,12000.0,blkpho,Black Phoebe,0.4943
+1188442,SYNC/Cam01/2020-12-18/UniFiVideo.Export.20201218.171001-20201218.142000/20201218.164001.JRNVR1Cam1.mp4,2020-12-18 09:40:01,20.0,Spectrogram 1,1.0,138.0,141.0,150.0,12000.0,houfin,House Finch,0.137
+1196077,SYNC/Cam09/2020-12-25/UniFiVideo.Export.20201225.142001-20201225.081000/20201225.140001.JRNVR1Cam9.mp4,2020-12-25 07:00:01,45.0,Spectrogram 1,1.0,477.0,480.0,150.0,12000.0,grhowl,Great Horned Owl,0.8498
+1200614,SYNC/Cam07/2020-12-30/UniFiVideo.Export.20201230.191000-20201231.040000/20201230.180000.JRNVR1Cam7.mp4,2020-12-30 11:00:00,24.0,Spectrogram 1,1.0,261.0,264.0,150.0,12000.0,houfin,House Finch,0.3103
+1200693,SYNC/Cam09/2020-12-30/UniFiVideo.Export.20201230.224001-20201230.144000/20201230.221001.JRNVR1Cam9.mp4,2020-12-30 15:10:01,4.0,Spectrogram 1,1.0,15.0,18.0,150.0,12000.0,amekes,American Kestrel,0.9575
+1201500,SYNC/Cam10/2020-12-31/UniFiVideo.Export.20201231.171000-20201231.142000/20201231.164001.JRNVR1Cam10.mp4,2020-12-31 09:40:01,7.0,Spectrogram 1,1.0,324.0,327.0,150.0,12000.0,warvir,Warbling Vireo,0.235
+1206393,SYNC/Cam01/2021-01-06/UniFiVideo.Export.20210106.171000-20210106.142000/20210106.152000.JRNVR1Cam1.mp4,2021-01-06 08:20:00,8.0,Spectrogram 1,1.0,192.0,195.0,150.0,12000.0,norfli,Northern Flicker,0.1182
+1206593,SYNC/Cam02/2021-01-06/UniFiVideo.Export.20210106.172000-20210106.143000/20210106.161000.JRNVR1Cam2.mp4,2021-01-06 09:10:00,13.0,Spectrogram 1,1.0,60.0,63.0,150.0,12000.0,calthr,California Thrasher,0.2244
+1209473,SYNC/Cam10/2021-01-10/UniFiVideo.Export.20210110.171000-20210110.142001/20210110.162001.JRNVR1Cam10.mp4,2021-01-10 09:20:01,32.0,Spectrogram 1,1.0,333.0,336.0,150.0,12000.0,acowoo,Acorn Woodpecker,0.1282
+1209789,SYNC/Cam07/2021-01-10/UniFiVideo.Export.20210110.224000-20210110.144001/20210110.222000.JRNVR1Cam7.mp4,2021-01-10 15:20:00,6.0,Spectrogram 1,1.0,48.0,51.0,150.0,12000.0,blkpho,Black Phoebe,0.1713
+1211642,SYNC/Cam10/2021-01-12/UniFiVideo.Export.20210112.171001-20210112.142000/20210112.170001.JRNVR1Cam10.mp4,2021-01-12 10:00:01,23.0,Spectrogram 1,1.0,360.0,363.0,150.0,12000.0,calthr,California Thrasher,0.115
+1213069,SYNC/Cam02/2021-01-13/UniFiVideo.Export.20210113.172001-20210113.143001/20210113.171001.JRNVR1Cam2.mp4,2021-01-13 10:10:01,74.0,Spectrogram 1,1.0,432.0,435.0,150.0,12000.0,hutvir,Hutton's Vireo,0.9455
+1214671,SYNC/Cam07/2021-01-14/UniFiVideo.Export.20210114.224000-20210114.144000/20210114.224000.JRNVR1Cam7.mp4,2021-01-14 15:40:00,25.0,Spectrogram 1,1.0,426.0,429.0,150.0,12000.0,blkpho,Black Phoebe,0.1961
+1215048,SYNC/Cam02/2021-01-15/UniFiVideo.Export.20210115.172000-20210115.143000/20210115.150000.JRNVR1Cam2.mp4,2021-01-15 08:00:00,12.0,Spectrogram 1,1.0,114.0,117.0,150.0,12000.0,mallar3,Mallard,0.1018
+1215426,SYNC/Cam01/2021-01-15/UniFiVideo.Export.20210115.171001-20210115.142000/20210115.160000.JRNVR1Cam1.mp4,2021-01-15 09:00:00,15.0,Spectrogram 1,1.0,297.0,300.0,150.0,12000.0,caltow,California Towhee,0.4808
+1217067,SYNC/Cam01/2021-01-16/UniFiVideo.Export.20210116.171000-20210116.142001/20210116.153001.JRNVR1Cam1.mp4,2021-01-16 08:30:01,11.0,Spectrogram 1,1.0,63.0,66.0,150.0,12000.0,bewwre,Bewick's Wren,0.6299
+1221831,SYNC/Cam07/2021-01-20/UniFiVideo.Export.20210120.142000-20210120.081001/20210120.133000.JRNVR1Cam7.mp4,2021-01-20 06:30:00,9.0,Spectrogram 1,1.0,264.0,267.0,150.0,12000.0,grhowl,Great Horned Owl,0.1006
+1226591,SYNC/Cam01/2021-01-26/UniFiVideo.Export.20210126.171000-20210126.142000/20210126.165000.JRNVR1Cam1.mp4,2021-01-26 09:50:00,49.0,Spectrogram 1,1.0,573.0,576.0,150.0,12000.0,lesgol,Lesser Goldfinch,0.1416
+1229119,"SYNC/Cam07/2021-01-28/04 Camera 7 - 1-28-2021, 12.15.00am (21).mp4",2021-01-28 00:15:00,140.0,Spectrogram 1,1.0,3291.0,3294.0,150.0,12000.0,gadwal,Gadwall,0.6945
+1232058,"SYNC/Cam07/2021-01-29/04 Camera 7 - 1-29-2021, 12.15.00am (7).mp4",2021-01-29 00:15:00,27.0,Spectrogram 1,1.0,243.0,246.0,150.0,12000.0,houfin,House Finch,0.1826
+1233729,"SYNC/Cam07/2021-01-29/04 Camera 7 - 1-29-2021, 12.15.00am (21).mp4",2021-01-29 00:15:00,113.0,Spectrogram 1,1.0,459.0,462.0,150.0,12000.0,mallar3,Mallard,0.1796
+1238105,"SYNC/Cam07/2021-01-29/04 Camera 7 - 1-29-2021, 12.15.00am (10).mp4",2021-01-29 00:15:00,361.0,Spectrogram 1,1.0,2550.0,2553.0,150.0,12000.0,houfin,House Finch,0.2566
+1241877,"SYNC/Cam07/2021-01-29/04 Camera 7 - 1-29-2021, 12.15.00am (17).mp4",2021-01-29 00:15:00,832.0,Spectrogram 1,1.0,3360.0,3363.0,150.0,12000.0,mallar3,Mallard,0.2338
+1242025,"SYNC/Cam07/2021-01-29/04 Camera 7 - 1-29-2021, 12.15.00am (7).mp4",2021-01-29 00:15:00,890.0,Spectrogram 1,1.0,3525.0,3528.0,150.0,12000.0,wrenti,Wrentit,0.1682
+1242030,"SYNC/Cam07/2021-01-29/04 Camera 7 - 1-29-2021, 12.15.00am (20).mp4",2021-01-29 00:15:00,893.0,Spectrogram 1,1.0,3210.0,3213.0,150.0,12000.0,mallar3,Mallard,0.6772
+1243973,"SYNC/Cam07/2021-01-30/04 Camera 7 - 1-30-2021, 12.30.00am (23).mp4",2021-01-30 00:30:00,58.0,Spectrogram 1,1.0,330.0,333.0,150.0,12000.0,mallar3,Mallard,0.3403
+1244145,"SYNC/Cam07/2021-01-30/04 Camera 7 - 1-30-2021, 12.30.00am (19).mp4",2021-01-30 00:30:00,71.0,Spectrogram 1,1.0,312.0,315.0,150.0,12000.0,mallar3,Mallard,0.9773
+1244666,"SYNC/Cam07/2021-01-30/04 Camera 7 - 1-30-2021, 12.30.00am (3).mp4",2021-01-30 00:30:00,111.0,Spectrogram 1,1.0,507.0,510.0,150.0,12000.0,mallar3,Mallard,0.3694
+1245313,"SYNC/Cam07/2021-01-30/04 Camera 7 - 1-30-2021, 12.30.00am (11).mp4",2021-01-30 00:30:00,164.0,Spectrogram 1,1.0,1254.0,1257.0,150.0,12000.0,blkpho,Black Phoebe,0.8363
+1247960,"SYNC/Cam07/2021-01-30/04 Camera 7 - 1-30-2021, 12.30.00am (7).mp4",2021-01-30 00:30:00,445.0,Spectrogram 1,1.0,1488.0,1491.0,150.0,12000.0,blkpho,Black Phoebe,0.6014
+1249110,"SYNC/Cam07/2021-01-30/04 Camera 7 - 1-30-2021, 12.30.00am (7).mp4",2021-01-30 00:30:00,651.0,Spectrogram 1,1.0,2109.0,2112.0,150.0,12000.0,mallar3,Mallard,0.9168
+1249516,"SYNC/Cam07/2021-01-30/04 Camera 7 - 1-30-2021, 12.30.00am (15).mp4",2021-01-30 00:30:00,739.0,Spectrogram 1,1.0,2148.0,2151.0,150.0,12000.0,mallar3,Mallard,0.2564
+1251729,"SYNC/Cam07/2021-01-31/04 Camera 7 - 1-31-2021, 12.30.00am (17).mp4",2021-01-31 00:30:00,38.0,Spectrogram 1,1.0,93.0,96.0,150.0,12000.0,blkpho,Black Phoebe,0.4047
+1253025,"SYNC/Cam07/2021-01-31/04 Camera 7 - 1-31-2021, 12.30.00am (11).mp4",2021-01-31 00:30:00,102.0,Spectrogram 1,1.0,774.0,777.0,150.0,12000.0,blkpho,Black Phoebe,0.1307
+1253678,"SYNC/Cam07/2021-01-31/04 Camera 7 - 1-31-2021, 12.30.00am (16).mp4",2021-01-31 00:30:00,135.0,Spectrogram 1,1.0,570.0,573.0,150.0,12000.0,yerwar,Yellow-rumped Warbler,0.1369
+1255394,"SYNC/Cam07/2021-01-31/04 Camera 7 - 1-31-2021, 12.30.00am (20).mp4",2021-01-31 00:30:00,223.0,Spectrogram 1,1.0,1434.0,1437.0,150.0,12000.0,gadwal,Gadwall,0.8241
+1256464,"SYNC/Cam07/2021-01-31/04 Camera 7 - 1-31-2021, 12.30.00am (6).mp4",2021-01-31 00:30:00,277.0,Spectrogram 1,1.0,954.0,957.0,150.0,12000.0,mallar3,Mallard,0.7282
+1256817,"SYNC/Cam07/2021-01-31/04 Camera 7 - 1-31-2021, 12.30.00am (5).mp4",2021-01-31 00:30:00,295.0,Spectrogram 1,1.0,1194.0,1197.0,150.0,12000.0,mallar3,Mallard,0.9558
+1257572,"SYNC/Cam07/2021-01-31/04 Camera 7 - 1-31-2021, 12.30.00am (12).mp4",2021-01-31 00:30:00,333.0,Spectrogram 1,1.0,2724.0,2727.0,150.0,12000.0,blkpho,Black Phoebe,0.2513
+1260859,"SYNC/Cam07/2021-01-31/04 Camera 7 - 1-31-2021, 12.30.00am (15).mp4",2021-01-31 00:30:00,512.0,Spectrogram 1,1.0,2289.0,2292.0,150.0,12000.0,gadwal,Gadwall,0.7713
+1261235,"SYNC/Cam07/2021-01-31/04 Camera 7 - 1-31-2021, 12.30.00am (21).mp4",2021-01-31 00:30:00,534.0,Spectrogram 1,1.0,2514.0,2517.0,150.0,12000.0,mallar3,Mallard,0.4162
+1261413,"SYNC/Cam07/2021-01-31/04 Camera 7 - 1-31-2021, 12.30.00am (4).mp4",2021-01-31 00:30:00,545.0,Spectrogram 1,1.0,2805.0,2808.0,150.0,12000.0,mallar3,Mallard,0.6514
+1262066,"SYNC/Cam07/2021-01-31/04 Camera 7 - 1-31-2021, 12.30.00am (6).mp4",2021-01-31 00:30:00,591.0,Spectrogram 1,1.0,2166.0,2169.0,150.0,12000.0,blkpho,Black Phoebe,0.6641
+1262718,"SYNC/Cam07/2021-01-31/04 Camera 7 - 1-31-2021, 12.30.00am (7).mp4",2021-01-31 00:30:00,644.0,Spectrogram 1,1.0,2769.0,2772.0,150.0,12000.0,gadwal,Gadwall,0.2283
+1267389,"SYNC/Cam07/2021-02-01/04 Camera 7 - 2-1-2021, 12.30.00am (10).mp4",2021-02-01 00:30:00,116.0,Spectrogram 1,1.0,900.0,903.0,150.0,12000.0,sonspa,Song Sparrow,0.9255
+1267931,"SYNC/Cam07/2021-02-01/04 Camera 7 - 2-1-2021, 12.30.00am (6).mp4",2021-02-01 00:30:00,148.0,Spectrogram 1,1.0,420.0,423.0,150.0,12000.0,gadwal,Gadwall,0.4697
+1268172,"SYNC/Cam07/2021-02-01/04 Camera 7 - 2-1-2021, 12.30.00am (6).mp4",2021-02-01 00:30:00,163.0,Spectrogram 1,1.0,459.0,462.0,150.0,12000.0,mallar3,Mallard,0.7811
+1268174,"SYNC/Cam07/2021-02-01/04 Camera 7 - 2-1-2021, 12.30.00am (13).mp4",2021-02-01 00:30:00,164.0,Spectrogram 1,1.0,3546.0,3549.0,150.0,12000.0,gadwal,Gadwall,0.9943
+1268846,"SYNC/Cam07/2021-02-01/04 Camera 7 - 2-1-2021, 12.30.00am (15).mp4",2021-02-01 00:30:00,206.0,Spectrogram 1,1.0,1422.0,1425.0,150.0,12000.0,gadwal,Gadwall,0.9866
+1269946,"SYNC/Cam07/2021-02-01/04 Camera 7 - 2-1-2021, 12.30.00am (16).mp4",2021-02-01 00:30:00,280.0,Spectrogram 1,1.0,1563.0,1566.0,150.0,12000.0,gadwal,Gadwall,0.1729
+1269960,"SYNC/Cam07/2021-02-01/04 Camera 7 - 2-1-2021, 12.30.00am (9).mp4",2021-02-01 00:30:00,281.0,Spectrogram 1,1.0,1728.0,1731.0,150.0,12000.0,comyel,Common Yellowthroat,0.3291
+1270854,"SYNC/Cam07/2021-02-01/04 Camera 7 - 2-1-2021, 12.30.00am (15).mp4",2021-02-01 00:30:00,344.0,Spectrogram 1,1.0,1932.0,1935.0,150.0,12000.0,blkpho,Black Phoebe,0.4986
+1273364,"SYNC/Cam07/2021-02-01/04 Camera 7 - 2-1-2021, 12.30.00am (2).mp4",2021-02-01 00:30:00,553.0,Spectrogram 1,1.0,2292.0,2295.0,150.0,12000.0,gadwal,Gadwall,0.932
+1276180,"SYNC/Cam07/2021-02-02/04 Camera 7 - 2-2-2021, 12.30.00am (3).mp4",2021-02-02 00:30:00,11.0,Spectrogram 1,1.0,759.0,762.0,150.0,12000.0,gadwal,Gadwall,0.1859
+1284055,"SYNC/Cam07/2021-02-03/04 Camera 7 - 2-3-2021, 12.30.00am (4).mp4",2021-02-03 00:30:00,87.0,Spectrogram 1,1.0,1083.0,1086.0,150.0,12000.0,mallar3,Mallard,0.7448
+1286926,"SYNC/Cam07/2021-02-03/04 Camera 7 - 2-3-2021, 12.30.00am (8).mp4",2021-02-03 00:30:00,352.0,Spectrogram 1,1.0,1599.0,1602.0,150.0,12000.0,blkpho,Black Phoebe,0.1549
+1287652,"SYNC/Cam07/2021-02-03/04 Camera 7 - 2-3-2021, 12.30.00am (8).mp4",2021-02-03 00:30:00,500.0,Spectrogram 1,1.0,2235.0,2238.0,150.0,12000.0,blkpho,Black Phoebe,0.2396
+1290660,"SYNC/Cam07/2021-02-04/04 Camera 7 - 2-4-2021, 12.30.00am (4).mp4",2021-02-04 00:30:00,126.0,Spectrogram 1,1.0,516.0,519.0,150.0,12000.0,mallar3,Mallard,0.2136
+1290952,"SYNC/Cam07/2021-02-04/04 Camera 7 - 2-4-2021, 12.30.00am (15).mp4",2021-02-04 00:30:00,153.0,Spectrogram 1,1.0,1371.0,1374.0,150.0,12000.0,houfin,House Finch,0.2917
+1304479,"SYNC/Cam07/2021-02-06/04 Camera 7 - 2-6-2021, 12.30.00am (13).mp4",2021-02-06 00:30:00,162.0,Spectrogram 1,1.0,2217.0,2220.0,150.0,12000.0,gadwal,Gadwall,0.9913
+1304925,"SYNC/Cam07/2021-02-06/04 Camera 7 - 2-6-2021, 12.30.00am (7).mp4",2021-02-06 00:30:00,223.0,Spectrogram 1,1.0,1239.0,1242.0,150.0,12000.0,gadwal,Gadwall,0.6523
+1305224,"SYNC/Cam07/2021-02-06/04 Camera 7 - 2-6-2021, 12.30.00am (6).mp4",2021-02-06 00:30:00,269.0,Spectrogram 1,1.0,1206.0,1209.0,150.0,12000.0,mallar3,Mallard,0.108
+1307561,"SYNC/Cam09/2021-02-06/06 Camera 9 - 2-6-2021, 4.00.00am (4).mp4",2021-02-06 04:00:00,164.0,Spectrogram 1,1.0,1566.0,1569.0,150.0,12000.0,mallar3,Mallard,0.8933
+1310607,"SYNC/Cam07/2021-02-07/04 Camera 7 - 2-7-2021, 12.30.00am (8).mp4",2021-02-07 00:30:00,154.0,Spectrogram 1,1.0,744.0,747.0,150.0,12000.0,mallar3,Mallard,0.4915
+1311326,"SYNC/Cam07/2021-02-07/04 Camera 7 - 2-7-2021, 12.30.00am (13).mp4",2021-02-07 00:30:00,265.0,Spectrogram 1,1.0,1758.0,1761.0,150.0,12000.0,mallar3,Mallard,0.4678
+1313251,"SYNC/Cam09/2021-02-07/06 Camera 9 - 2-7-2021, 4.00.00am (10).mp4",2021-02-07 04:00:00,135.0,Spectrogram 1,1.0,2718.0,2721.0,150.0,12000.0,houfin,House Finch,0.5388
+1314571,SYNC/Cam10/2021-02-07/UniFiVideo.Export.20210207.181001-20210207.142000/20210207.154001.JRNVR1Cam10.mp4,2021-02-07 08:40:01,53.0,Spectrogram 1,1.0,207.0,210.0,150.0,12000.0,spotow,Spotted Towhee,0.6654
+1317688,"SYNC/Cam07/2021-02-08/04 Camera 7 - 2-8-2021, 12.30.00am (3).mp4",2021-02-08 00:30:00,108.0,Spectrogram 1,1.0,3225.0,3228.0,150.0,12000.0,cangoo,Canada Goose,0.5411
+1317824,"SYNC/Cam07/2021-02-08/04 Camera 7 - 2-8-2021, 12.30.00am (12).mp4",2021-02-08 00:30:00,120.0,Spectrogram 1,1.0,1167.0,1170.0,150.0,12000.0,gadwal,Gadwall,0.9691
+1321014,"SYNC/Cam09/2021-02-08/06 Camera 9 - 2-8-2021, 4.00.00am (10).mp4",2021-02-08 04:00:00,10.0,Spectrogram 1,1.0,45.0,48.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.1197
+1321909,"SYNC/Cam09/2021-02-08/06 Camera 9 - 2-8-2021, 4.00.00am (8).mp4",2021-02-08 04:00:00,130.0,Spectrogram 1,1.0,2709.0,2712.0,150.0,12000.0,greyel,Greater Yellowlegs,0.1438
+1322355,"SYNC/Cam09/2021-02-08/06 Camera 9 - 2-8-2021, 4.00.00am (12).mp4",2021-02-08 04:00:00,239.0,Spectrogram 1,1.0,2367.0,2370.0,150.0,12000.0,bewwre,Bewick's Wren,0.1069
+1322677,SYNC/Cam01/2021-02-08/UniFiVideo.Export.20210208.181001-20210208.142001/20210208.173001.JRNVR1Cam1.mp4,2021-02-08 10:30:01,57.0,Spectrogram 1,1.0,546.0,549.0,150.0,12000.0,haiwoo,Hairy Woodpecker,0.8052
+1322724,SYNC/Cam02/2021-02-08/UniFiVideo.Export.20210208.181000-20210208.143000/20210208.174000.JRNVR1Cam2.mp4,2021-02-08 10:40:00,43.0,Spectrogram 1,1.0,456.0,459.0,150.0,12000.0,spotow,Spotted Towhee,0.3372
+1327051,"SYNC/Cam07/2021-02-09/04 Camera 7 - 2-9-2021, 12.30.00am (6).mp4",2021-02-09 00:30:00,473.0,Spectrogram 1,1.0,2118.0,2121.0,150.0,12000.0,cangoo,Canada Goose,0.7742
+1327775,"SYNC/Cam07/2021-02-09/04 Camera 7 - 2-9-2021, 12.30.00am (7).mp4",2021-02-09 00:30:00,753.0,Spectrogram 1,1.0,3051.0,3054.0,150.0,12000.0,gadwal,Gadwall,0.9629
+1328151,"SYNC/Cam07/2021-02-09/04 Camera 7 - 2-9-2021, 12.30.00am (10).mp4",2021-02-09 00:30:00,987.0,Spectrogram 1,1.0,2775.0,2778.0,150.0,12000.0,mallar3,Mallard,0.9425
+1331345,"SYNC/Cam07/2021-02-10/04 Camera 7 - 2-10-2021, 4.00.00am (9).mp4",2021-02-10 04:00:00,56.0,Spectrogram 1,1.0,222.0,225.0,150.0,12000.0,gadwal,Gadwall,0.8204
+1331373,"SYNC/Cam09/2021-02-10/06 Camera 9 - 2-10-2021, 4.00.00am (9).mp4",2021-02-10 04:00:00,58.0,Spectrogram 1,1.0,1593.0,1596.0,150.0,12000.0,daejun,Dark-eyed Junco,0.1406
+1334524,"SYNC/Cam09/2021-02-10/06 Camera 9 - 2-10-2021, 4.00.00am (3).mp4",2021-02-10 04:00:00,288.0,Spectrogram 1,1.0,3414.0,3417.0,150.0,12000.0,daejun,Dark-eyed Junco,0.3944
+1334590,"SYNC/Cam09/2021-02-10/06 Camera 9 - 2-10-2021, 4.00.00am (12).mp4",2021-02-10 04:00:00,294.0,Spectrogram 1,1.0,2352.0,2355.0,150.0,12000.0,caltow,California Towhee,0.1539
+1335637,"SYNC/Cam07/2021-02-10/04 Camera 7 - 2-10-2021, 4.00.00am (3).mp4",2021-02-10 04:00:00,442.0,Spectrogram 1,1.0,1584.0,1587.0,150.0,12000.0,gocspa,Golden-crowned Sparrow,0.3085
+1338049,"SYNC/Cam10/2021-02-10/11 Camera 10 - 2-10-2021, 6.15.00am (1).mp4",2021-02-10 06:15:00,254.0,Spectrogram 1,1.0,2034.0,2037.0,150.0,12000.0,calthr,California Thrasher,0.6189
+1343454,"SYNC/Cam02/2021-02-10/10 Camera 2 - 2-10-2021, 6.30.00am (2).mp4",2021-02-10 06:30:00,969.0,Spectrogram 1,1.0,3570.0,3573.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.7025
+1344679,"SYNC/Cam09/2021-02-11/06 Camera 9 - 2-11-2021, 4.00.00am (2).mp4",2021-02-11 04:00:00,61.0,Spectrogram 1,1.0,3090.0,3093.0,150.0,12000.0,spotow,Spotted Towhee,0.7187
+1347092,"SYNC/Cam07/2021-02-11/04 Camera 7 - 2-11-2021, 4.00.00am (2).mp4",2021-02-11 04:00:00,229.0,Spectrogram 1,1.0,3093.0,3096.0,150.0,12000.0,rinduc,Ring-necked Duck,0.1797
+1347822,"SYNC/Cam07/2021-02-11/04 Camera 7 - 2-11-2021, 4.00.00am (4).mp4",2021-02-11 04:00:00,308.0,Spectrogram 1,1.0,1917.0,1920.0,150.0,12000.0,sonspa,Song Sparrow,0.3999
+1350276,"SYNC/Cam01/2021-02-11/09 Camera 1 - 2-11-2021, 6.30.00am (10).mp4",2021-02-11 06:30:00,55.0,Spectrogram 1,1.0,2499.0,2502.0,150.0,12000.0,norfli,Northern Flicker,0.4262
+1351004,"SYNC/Cam02/2021-02-11/10 Camera 2 - 2-11-2021, 6.30.00am (4).mp4",2021-02-11 06:30:00,122.0,Spectrogram 1,1.0,3219.0,3222.0,150.0,12000.0,spotow,Spotted Towhee,0.1531
+1353792,"SYNC/Cam09/2021-02-12/06 Camera 9 - 2-12-2021, 4.00.00am (3).mp4",2021-02-12 04:00:00,91.0,Spectrogram 1,1.0,1293.0,1296.0,150.0,12000.0,lesgol,Lesser Goldfinch,0.1826
+1354750,"SYNC/Cam07/2021-02-12/04 Camera 7 - 2-12-2021, 4.00.00am (7).mp4",2021-02-12 04:00:00,152.0,Spectrogram 1,1.0,1692.0,1695.0,150.0,12000.0,gadwal,Gadwall,0.4783
+1356705,"SYNC/Cam07/2021-02-12/04 Camera 7 - 2-12-2021, 4.00.00am (3).mp4",2021-02-12 04:00:00,295.0,Spectrogram 1,1.0,1215.0,1218.0,150.0,12000.0,mallar3,Mallard,0.5473
+1359434,"SYNC/Cam10/2021-02-12/11 Camera 10 - 2-12-2021, 6.15.00am (6).mp4",2021-02-12 06:15:00,23.0,Spectrogram 1,1.0,1212.0,1215.0,150.0,12000.0,norpin,Northern Pintail,0.2045
+1360692,"SYNC/Cam04/2021-02-12/07 Camera 4 - 2-12-2021, 6.30.00am (1).mp4",2021-02-12 06:30:00,20.0,Spectrogram 1,1.0,300.0,303.0,150.0,12000.0,brnowl,Barn Owl,0.1319
+1363183,"SYNC/Cam02/2021-02-12/10 Camera 2 - 2-12-2021, 6.30.00am.mp4",2021-02-12 06:30:00,269.0,Spectrogram 1,1.0,2490.0,2493.0,150.0,12000.0,wrenti,Wrentit,0.8624
+1366639,"SYNC/Cam10/2021-02-13/11 Camera 10 - 2-13-2021, 6.15.00am.mp4",2021-02-13 06:15:00,75.0,Spectrogram 1,1.0,2118.0,2121.0,150.0,12000.0,warvir,Warbling Vireo,0.1376
+1366897,"SYNC/Cam02/2021-02-13/10 Camera 2 - 2-13-2021, 6.30.00am (6).mp4",2021-02-13 06:30:00,4.0,Spectrogram 1,1.0,159.0,162.0,150.0,12000.0,comrav,Common Raven,0.227
+1367829,"SYNC/Cam01/2021-02-13/09 Camera 1 - 2-13-2021, 6.30.00am (2).mp4",2021-02-13 06:30:00,76.0,Spectrogram 1,1.0,957.0,960.0,150.0,12000.0,pygnut,Pygmy Nuthatch,0.3458
+1369238,"SYNC/Cam01/2021-02-13/09 Camera 1 - 2-13-2021, 6.30.00am (2).mp4",2021-02-13 06:30:00,341.0,Spectrogram 1,1.0,3060.0,3063.0,150.0,12000.0,houfin,House Finch,0.1068
+1382874,"SYNC/Cam09/2021-02-15/06 Camera 9 - 2-15-2021, 4.00.00am (6).mp4",2021-02-15 04:00:00,238.0,Spectrogram 1,1.0,2595.0,2598.0,150.0,12000.0,caltow,California Towhee,0.3723
+1386408,"SYNC/Cam10/2021-02-15/11 Camera 10 - 2-15-2021, 6.15.00am (2).mp4",2021-02-15 06:15:00,104.0,Spectrogram 1,1.0,1338.0,1341.0,150.0,12000.0,saypho,Say's Phoebe,0.7132
+1388387,"SYNC/Cam01/2021-02-15/09 Camera 1 - 2-15-2021, 6.30.00am (2).mp4",2021-02-15 06:30:00,135.0,Spectrogram 1,1.0,1722.0,1725.0,150.0,12000.0,sora,Sora,0.1162
+1389494,"SYNC/Cam07/2021-02-16/04 Camera 7 - 2-16-2021, 4.00.00am (16).mp4",2021-02-16 04:00:00,3.0,Spectrogram 1,1.0,1263.0,1266.0,150.0,12000.0,cangoo,Canada Goose,0.4464
+1389959,"SYNC/Cam07/2021-02-16/04 Camera 7 - 2-16-2021, 4.00.00am (14).mp4",2021-02-16 04:00:00,31.0,Spectrogram 1,1.0,1101.0,1104.0,150.0,12000.0,cangoo,Canada Goose,0.2274
+1391289,"SYNC/Cam09/2021-02-16/06 Camera 9 - 2-16-2021, 4.00.00am (11).mp4",2021-02-16 04:00:00,127.0,Spectrogram 1,1.0,765.0,768.0,150.0,12000.0,oaktit,Oak Titmouse,0.1536
+1392217,"SYNC/Cam09/2021-02-16/06 Camera 9 - 2-16-2021, 4.00.00am (12).mp4",2021-02-16 04:00:00,220.0,Spectrogram 1,1.0,2787.0,2790.0,150.0,12000.0,spotow,Spotted Towhee,0.2655
+1396751,"SYNC/Cam02/2021-02-16/10 Camera 2 - 2-16-2021, 6.30.00am (2).mp4",2021-02-16 06:30:00,101.0,Spectrogram 1,1.0,699.0,702.0,150.0,12000.0,daejun,Dark-eyed Junco,0.7716
+1398945,"SYNC/Cam07/2021-02-17/04 Camera 7 - 2-17-2021, 4.00.00am (12).mp4",2021-02-17 04:00:00,84.0,Spectrogram 1,1.0,942.0,945.0,150.0,12000.0,sonspa,Song Sparrow,0.3639
+1400064,"SYNC/Cam09/2021-02-17/06 Camera 9 - 2-17-2021, 4.00.00am (10).mp4",2021-02-17 04:00:00,192.0,Spectrogram 1,1.0,1089.0,1092.0,150.0,12000.0,houfin,House Finch,0.4122
+1402012,"SYNC/Cam07/2021-02-17/04 Camera 7 - 2-17-2021, 4.00.00am (3).mp4",2021-02-17 04:00:00,582.0,Spectrogram 1,1.0,3573.0,3576.0,150.0,12000.0,gadwal,Gadwall,0.1012
+1407710,"SYNC/Cam07/2021-02-18/04 Camera 7 - 2-18-2021, 4.00.00am (12).mp4",2021-02-18 04:00:00,49.0,Spectrogram 1,1.0,540.0,543.0,150.0,12000.0,rinduc,Ring-necked Duck,0.3079
+1407796,"SYNC/Cam07/2021-02-18/04 Camera 7 - 2-18-2021, 4.00.00am (6).mp4",2021-02-18 04:00:00,55.0,Spectrogram 1,1.0,972.0,975.0,150.0,12000.0,gadwal,Gadwall,0.9005
+1408987,"SYNC/Cam07/2021-02-18/04 Camera 7 - 2-18-2021, 4.00.00am (7).mp4",2021-02-18 04:00:00,153.0,Spectrogram 1,1.0,2289.0,2292.0,150.0,12000.0,blkpho,Black Phoebe,0.1845
+1412449,"SYNC/Cam01/2021-02-18/09 Camera 1 - 2-18-2021, 6.20.00am (6).mp4",2021-02-18 06:20:00,180.0,Spectrogram 1,1.0,2382.0,2385.0,150.0,12000.0,houfin,House Finch,0.7773
+1412453,"SYNC/Cam01/2021-02-18/09 Camera 1 - 2-18-2021, 6.20.00am (9).mp4",2021-02-18 06:20:00,181.0,Spectrogram 1,1.0,2217.0,2220.0,150.0,12000.0,blkpho,Black Phoebe,0.9086
+1414451,"SYNC/Cam02/2021-02-18/10 Camera 2 - 2-18-2021, 6.30.00am (1).mp4",2021-02-18 06:30:00,410.0,Spectrogram 1,1.0,3534.0,3537.0,150.0,12000.0,bewwre,Bewick's Wren,0.1498
+1414548,"SYNC/Cam07/2021-02-19/04 Camera 7 - 2-19-2021, 4.00.00am (11).mp4",2021-02-19 04:00:00,4.0,Spectrogram 1,1.0,69.0,72.0,150.0,12000.0,gadwal,Gadwall,0.1662
+1422670,"SYNC/Cam01/2021-02-19/09 Camera 1 - 2-19-2021, 6.20.00am (10).mp4",2021-02-19 06:20:00,117.0,Spectrogram 1,1.0,2025.0,2028.0,150.0,12000.0,houfin,House Finch,0.1888
+1424219,"SYNC/Cam02/2021-02-19/10 Camera 2 - 2-19-2021, 6.25.00am (6).mp4",2021-02-19 06:25:00,163.0,Spectrogram 1,1.0,2802.0,2805.0,150.0,12000.0,calthr,California Thrasher,0.2376
+1424365,"SYNC/Cam02/2021-02-19/10 Camera 2 - 2-19-2021, 6.25.00am (6).mp4",2021-02-19 06:25:00,189.0,Spectrogram 1,1.0,2880.0,2883.0,150.0,12000.0,calthr,California Thrasher,0.8477
+1425299,"SYNC/Cam07/2021-02-20/04 Camera 7 - 2-20-2021, 4.00.00am (12).mp4",2021-02-20 04:00:00,25.0,Spectrogram 1,1.0,318.0,321.0,150.0,12000.0,bewwre,Bewick's Wren,0.2401
+1425532,"SYNC/Cam09/2021-02-20/06 Camera 9 - 2-20-2021, 4.00.00am (5).mp4",2021-02-20 04:00:00,37.0,Spectrogram 1,1.0,1107.0,1110.0,150.0,12000.0,houfin,House Finch,0.121
+1426821,"SYNC/Cam09/2021-02-20/06 Camera 9 - 2-20-2021, 4.00.00am (13).mp4",2021-02-20 04:00:00,130.0,Spectrogram 1,1.0,3258.0,3261.0,150.0,12000.0,bewwre,Bewick's Wren,0.2187
+1427223,"SYNC/Cam07/2021-02-20/04 Camera 7 - 2-20-2021, 4.00.00am (9).mp4",2021-02-20 04:00:00,186.0,Spectrogram 1,1.0,2145.0,2148.0,150.0,12000.0,blkpho,Black Phoebe,0.5174
+1427948,"SYNC/Cam07/2021-02-20/04 Camera 7 - 2-20-2021, 4.00.00am (4).mp4",2021-02-20 04:00:00,375.0,Spectrogram 1,1.0,3225.0,3228.0,150.0,12000.0,gadwal,Gadwall,0.9828
+1430472,"SYNC/Cam01/2021-02-20/09 Camera 1 - 2-20-2021, 6.20.00am (4).mp4",2021-02-20 06:20:00,304.0,Spectrogram 1,1.0,3069.0,3072.0,150.0,12000.0,blkpho,Black Phoebe,0.4173
+1433276,"SYNC/Cam09/2021-02-21/06 Camera 9 - 2-21-2021, 4.00.00am (6).mp4",2021-02-21 04:00:00,45.0,Spectrogram 1,1.0,288.0,291.0,150.0,12000.0,acowoo,Acorn Woodpecker,0.7853
+1436094,"SYNC/Cam09/2021-02-21/06 Camera 9 - 2-21-2021, 4.00.00am (10).mp4",2021-02-21 04:00:00,287.0,Spectrogram 1,1.0,2883.0,2886.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.9574
+1438586,"SYNC/Cam10/2021-02-21/11 Camera 10 - 2-21-2021, 6.15.00am.mp4",2021-02-21 06:15:00,347.0,Spectrogram 1,1.0,1191.0,1194.0,150.0,12000.0,bewwre,Bewick's Wren,0.3095
+1440117,"SYNC/Cam01/2021-02-21/09 Camera 1 - 2-21-2021, 6.20.00am (10).mp4",2021-02-21 06:20:00,162.0,Spectrogram 1,1.0,3201.0,3204.0,150.0,12000.0,calqua,California Quail,0.7392
+1441378,"SYNC/Cam02/2021-02-21/10 Camera 2 - 2-21-2021, 6.25.00am (11).mp4",2021-02-21 06:25:00,106.0,Spectrogram 1,1.0,1962.0,1965.0,150.0,12000.0,bewwre,Bewick's Wren,0.3143
+1441423,"SYNC/Cam02/2021-02-21/10 Camera 2 - 2-21-2021, 6.25.00am.mp4",2021-02-21 06:25:00,118.0,Spectrogram 1,1.0,1371.0,1374.0,150.0,12000.0,bewwre,Bewick's Wren,0.1532
+1442443,"SYNC/Cam02/2021-02-21/10 Camera 2 - 2-21-2021, 6.25.00am (2).mp4",2021-02-21 06:25:00,650.0,Spectrogram 1,1.0,3189.0,3192.0,150.0,12000.0,chispa,Chipping Sparrow,0.2271
+1445065,"SYNC/Cam09/2021-02-22/06 Camera 9 - 2-22-2021, 4.00.00am (13).mp4",2021-02-22 04:00:00,322.0,Spectrogram 1,1.0,1362.0,1365.0,150.0,12000.0,spotow,Spotted Towhee,0.5414
+1446627,"SYNC/Cam10/2021-02-22/11 Camera 10 - 2-22-2021, 6.12.00am (3).mp4",2021-02-22 06:12:00,152.0,Spectrogram 1,1.0,2277.0,2280.0,150.0,12000.0,calthr,California Thrasher,0.2601
+1447182,"SYNC/Cam10/2021-02-22/11 Camera 10 - 2-22-2021, 6.12.00am.mp4",2021-02-22 06:12:00,661.0,Spectrogram 1,1.0,2184.0,2187.0,150.0,12000.0,spotow,Spotted Towhee,0.8131
+1450629,"SYNC/Cam02/2021-02-22/10 Camera 2 - 2-22-2021, 6.23.00am.mp4",2021-02-22 06:23:00,142.0,Spectrogram 1,1.0,972.0,975.0,150.0,12000.0,wrenti,Wrentit,0.9886
+1452135,"SYNC/Cam09/2021-02-23/06 Camera 9 - 2-23-2021, 4.00.00am (10).mp4",2021-02-23 04:00:00,14.0,Spectrogram 1,1.0,408.0,411.0,150.0,12000.0,logshr,Loggerhead Shrike,0.1074
+1453959,"SYNC/Cam09/2021-02-23/06 Camera 9 - 2-23-2021, 4.00.00am (10).mp4",2021-02-23 04:00:00,113.0,Spectrogram 1,1.0,1020.0,1023.0,150.0,12000.0,hutvir,Hutton's Vireo,0.2065
+1455329,"SYNC/Cam07/2021-02-23/04 Camera 7 - 2-23-2021, 4.00.00am (2).mp4",2021-02-23 04:00:00,221.0,Spectrogram 1,1.0,1491.0,1494.0,150.0,12000.0,gadwal,Gadwall,0.6656
+1460496,"SYNC/Cam01/2021-02-23/09 Camera 1 - 2-23-2021, 6.16.00am.mp4",2021-02-23 06:16:00,463.0,Spectrogram 1,1.0,1674.0,1677.0,150.0,12000.0,blkpho,Black Phoebe,0.2646
+1460586,"SYNC/Cam02/2021-02-23/10 Camera 2 - 2-23-2021, 6.23.00am (6).mp4",2021-02-23 06:23:00,8.0,Spectrogram 1,1.0,150.0,153.0,150.0,12000.0,greyel,Greater Yellowlegs,0.1642
+1463754,"SYNC/Cam07/2021-02-24/04 Camera 7 - 2-24-2021, 4.00.00am (6).mp4",2021-02-24 04:00:00,41.0,Spectrogram 1,1.0,1539.0,1542.0,150.0,12000.0,whcspa,White-crowned Sparrow,0.188
+1467201,"SYNC/Cam09/2021-02-24/06 Camera 9 - 2-24-2021, 4.00.00am (4).mp4",2021-02-24 04:00:00,449.0,Spectrogram 1,1.0,3432.0,3435.0,150.0,12000.0,moudov,Mourning Dove,0.1647
+1471658,"SYNC/Cam02/2021-02-24/10 Camera 2 - 2-24-2021, 6.23.00am (2).mp4",2021-02-24 06:23:00,258.0,Spectrogram 1,1.0,2652.0,2655.0,150.0,12000.0,daejun,Dark-eyed Junco,0.174
+1477613,"SYNC/Cam10/2021-02-26/11 Camera 10 - 2-26-2021, 6.12.00am (2).mp4",2021-02-26 06:12:00,98.0,Spectrogram 1,1.0,585.0,588.0,150.0,12000.0,calthr,California Thrasher,0.1382
+1479739,"SYNC/Cam01/2021-02-26/09 Camera 1 - 2-26-2021, 6.16.00am (3).mp4",2021-02-26 06:16:00,124.0,Spectrogram 1,1.0,1857.0,1860.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.2284
+1479970,"SYNC/Cam01/2021-02-26/09 Camera 1 - 2-26-2021, 6.16.00am (10).mp4",2021-02-26 06:16:00,166.0,Spectrogram 1,1.0,3174.0,3177.0,150.0,12000.0,caltow,California Towhee,0.2753
+1481284,"SYNC/Cam02/2021-02-26/10 Camera 2 - 2-26-2021, 6.25.00am (4).mp4",2021-02-26 06:25:00,63.0,Spectrogram 1,1.0,294.0,297.0,150.0,12000.0,daejun,Dark-eyed Junco,0.1275
+1482008,"SYNC/Cam02/2021-02-26/10 Camera 2 - 2-26-2021, 6.25.00am (1).mp4",2021-02-26 06:25:00,225.0,Spectrogram 1,1.0,1989.0,1992.0,150.0,12000.0,daejun,Dark-eyed Junco,0.237
+1482276,"SYNC/Cam02/2021-02-26/10 Camera 2 - 2-26-2021, 6.25.00am (3).mp4",2021-02-26 06:25:00,305.0,Spectrogram 1,1.0,1416.0,1419.0,150.0,12000.0,bewwre,Bewick's Wren,0.9308
+1482957,"SYNC/Cam09/2021-02-27/06 Camera 9 - 2-27-2021, 4.00.00am (3).mp4",2021-02-27 04:00:00,30.0,Spectrogram 1,1.0,633.0,636.0,150.0,12000.0,spotow,Spotted Towhee,0.579
+1490073,"SYNC/Cam09/2021-02-28/06 Camera 9 - 2-28-2021, 4.00.00am (11).mp4",2021-02-28 04:00:00,58.0,Spectrogram 1,1.0,534.0,537.0,150.0,12000.0,yerwar,Yellow-rumped Warbler,0.3558
+1492617,"SYNC/Cam10/2021-02-28/11 Camera 10 - 2-28-2021, 6.12.00am (7).mp4",2021-02-28 06:12:00,71.0,Spectrogram 1,1.0,2715.0,2718.0,150.0,12000.0,oaktit,Oak Titmouse,0.9697
+1495757,"SYNC/Cam02/2021-02-28/10 Camera 2 - 2-28-2021, 6.22.45am (2).mp4",2021-02-28 06:22:45,11.0,Spectrogram 1,1.0,66.0,69.0,150.0,12000.0,wrenti,Wrentit,0.1019
+1498160,"SYNC/Cam10/2021-03-01/11 Camera 10 - 3-1-2021, 6.12.00am (1).mp4",2021-03-01 06:12:00,550.0,Spectrogram 1,1.0,1932.0,1935.0,150.0,12000.0,spotow,Spotted Towhee,0.4336
+1499127,"SYNC/Cam01/2021-03-01/09 Camera 1 - 3-1-2021, 6.16.00am (3).mp4",2021-03-01 06:16:00,155.0,Spectrogram 1,1.0,978.0,981.0,150.0,12000.0,blkpho,Black Phoebe,0.1288
+1500713,"SYNC/Cam02/2021-03-01/10 Camera 2 - 3-1-2021, 6.23.00am (8).mp4",2021-03-01 06:23:00,75.0,Spectrogram 1,1.0,1842.0,1845.0,150.0,12000.0,comrav,Common Raven,0.4302
+1501252,"SYNC/Cam02/2021-03-01/10 Camera 2 - 3-1-2021, 6.23.00am.mp4",2021-03-01 06:23:00,314.0,Spectrogram 1,1.0,1311.0,1314.0,150.0,12000.0,wrenti,Wrentit,0.9205
+1501908,"SYNC/Cam07/2021-03-02/04 Camera 7 - 3-2-2021, 4.00.00am (9).mp4",2021-03-02 04:00:00,28.0,Spectrogram 1,1.0,1161.0,1164.0,150.0,12000.0,nopowl,Northern Pygmy-Owl,0.1064
+1502525,"SYNC/Cam07/2021-03-02/04 Camera 7 - 3-2-2021, 4.00.00am (3).mp4",2021-03-02 04:00:00,59.0,Spectrogram 1,1.0,207.0,210.0,150.0,12000.0,y00475,American Coot,0.1035
+1504350,"SYNC/Cam07/2021-03-02/04 Camera 7 - 3-2-2021, 4.00.00am (6).mp4",2021-03-02 04:00:00,174.0,Spectrogram 1,1.0,2595.0,2598.0,150.0,12000.0,barswa,Barn Swallow,0.2404
+1505245,"SYNC/Cam07/2021-03-02/04 Camera 7 - 3-2-2021, 4.00.00am (10).mp4",2021-03-02 04:00:00,243.0,Spectrogram 1,1.0,3243.0,3246.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.4009
+1507124,"SYNC/Cam07/2021-03-02/04 Camera 7 - 3-2-2021, 4.00.00am (3).mp4",2021-03-02 04:00:00,456.0,Spectrogram 1,1.0,2886.0,2889.0,150.0,12000.0,pibgre,Pied-billed Grebe,0.7974
+1507687,"SYNC/Cam01/2021-03-02/09 Camera 1 - 3-2-2021, 6.16.00am (1).mp4",2021-03-02 06:16:00,19.0,Spectrogram 1,1.0,222.0,225.0,150.0,12000.0,houfin,House Finch,0.1131
+1509234,"SYNC/Cam01/2021-03-02/09 Camera 1 - 3-2-2021, 6.16.00am (1).mp4",2021-03-02 06:16:00,273.0,Spectrogram 1,1.0,2985.0,2988.0,150.0,12000.0,blkpho,Black Phoebe,0.4609
+1510200,"SYNC/Cam02/2021-03-02/10 Camera 2 - 3-2-2021, 6.23.00am (3).mp4",2021-03-02 06:23:00,63.0,Spectrogram 1,1.0,627.0,630.0,150.0,12000.0,wrenti,Wrentit,0.9336
+1510336,"SYNC/Cam02/2021-03-02/10 Camera 2 - 3-2-2021, 6.23.00am (6).mp4",2021-03-02 06:23:00,83.0,Spectrogram 1,1.0,1173.0,1176.0,150.0,12000.0,lesgol,Lesser Goldfinch,0.4734
+1510520,"SYNC/Cam02/2021-03-02/10 Camera 2 - 3-2-2021, 6.23.00am (11).mp4",2021-03-02 06:23:00,113.0,Spectrogram 1,1.0,2136.0,2139.0,150.0,12000.0,daejun,Dark-eyed Junco,0.2588
+1513312,"SYNC/Cam07/2021-03-03/04 Camera 7 - 3-3-2021, 4.00.00am (5).mp4",2021-03-03 04:00:00,100.0,Spectrogram 1,1.0,819.0,822.0,150.0,12000.0,gadwal,Gadwall,0.6247
+1517037,"SYNC/Cam10/2021-03-03/11 Camera 10 - 3-3-2021, 6.12.00am (3).mp4",2021-03-03 06:12:00,30.0,Spectrogram 1,1.0,354.0,357.0,150.0,12000.0,norfli,Northern Flicker,0.5185
+1518083,"SYNC/Cam10/2021-03-03/11 Camera 10 - 3-3-2021, 6.12.00am (1).mp4",2021-03-03 06:12:00,333.0,Spectrogram 1,1.0,3585.0,3588.0,150.0,12000.0,banswa,Bank Swallow,0.285
+1522000,"SYNC/Cam09/2021-03-04/06 Camera 9 - 3-4-2021, 4.00.00am (13).mp4",2021-03-04 04:00:00,5.0,Spectrogram 1,1.0,567.0,570.0,150.0,12000.0,merlin,Merlin,0.4887
+1523097,"SYNC/Cam09/2021-03-04/06 Camera 9 - 3-4-2021, 4.00.00am (4).mp4",2021-03-04 04:00:00,69.0,Spectrogram 1,1.0,696.0,699.0,150.0,12000.0,yerwar,Yellow-rumped Warbler,0.2548
+1524047,"SYNC/Cam09/2021-03-04/06 Camera 9 - 3-4-2021, 4.00.00am (2).mp4",2021-03-04 04:00:00,122.0,Spectrogram 1,1.0,2613.0,2616.0,150.0,12000.0,yerwar,Yellow-rumped Warbler,0.1386
+1531390,"SYNC/Cam02/2021-03-04/10 Camera 2 - 3-4-2021, 6.23.00am (3).mp4",2021-03-04 06:23:00,19.0,Spectrogram 1,1.0,159.0,162.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.8573
+1540918,"SYNC/Cam01/2021-03-05/09 Camera 1 - 3-5-2021, 6.16.00am (2).mp4",2021-03-05 06:16:00,136.0,Spectrogram 1,1.0,732.0,735.0,150.0,12000.0,purfin,Purple Finch,0.1133
+1542009,"SYNC/Cam01/2021-03-05/09 Camera 1 - 3-5-2021, 6.16.00am (5).mp4",2021-03-05 06:16:00,476.0,Spectrogram 1,1.0,3351.0,3354.0,150.0,12000.0,spotow,Spotted Towhee,0.963
+1542667,"SYNC/Cam02/2021-03-05/10 Camera 2 - 3-5-2021, 6.23.00am (3).mp4",2021-03-05 06:23:00,80.0,Spectrogram 1,1.0,537.0,540.0,150.0,12000.0,orcwar,Orange-crowned Warbler,0.4921
+1545032,"SYNC/Cam02/2021-03-05/10 Camera 2 - 3-5-2021, 6.23.00am (4).mp4",2021-03-05 06:23:00,632.0,Spectrogram 1,1.0,2595.0,2598.0,150.0,12000.0,oaktit,Oak Titmouse,0.9431
+1546095,"SYNC/Cam07/2021-03-06/04 Camera 7 - 3-6-2021, 4.00.00am (12).mp4",2021-03-06 04:00:00,38.0,Spectrogram 1,1.0,531.0,534.0,150.0,12000.0,mallar3,Mallard,0.4075
+1546242,"SYNC/Cam09/2021-03-06/06 Camera 9 - 3-6-2021, 4.00.00am (5).mp4",2021-03-06 04:00:00,47.0,Spectrogram 1,1.0,330.0,333.0,150.0,12000.0,wilfly,Willow Flycatcher,0.2958
+1550880,"SYNC/Cam09/2021-03-06/06 Camera 9 - 3-6-2021, 4.00.00am (5).mp4",2021-03-06 04:00:00,345.0,Spectrogram 1,1.0,1677.0,1680.0,150.0,12000.0,acowoo,Acorn Woodpecker,0.3305
+1558586,"SYNC/Cam02/2021-03-06/10 Camera 2 - 3-6-2021, 6.23.00am (2).mp4",2021-03-06 06:23:00,484.0,Spectrogram 1,1.0,3108.0,3111.0,150.0,12000.0,daejun,Dark-eyed Junco,0.1434
+1561683,"SYNC/Cam09/2021-03-07/06 Camera 9 - 3-7-2021, 4.00.00am (1).mp4",2021-03-07 04:00:00,146.0,Spectrogram 1,1.0,3213.0,3216.0,150.0,12000.0,wiltur,Wild Turkey,0.7517
+1565368,"SYNC/Cam10/2021-03-07/11 Camera 10 - 3-7-2021, 6.12.00am (1).mp4",2021-03-07 06:12:00,199.0,Spectrogram 1,1.0,999.0,1002.0,150.0,12000.0,spotow,Spotted Towhee,0.3993
+1567324,"SYNC/Cam01/2021-03-07/09 Camera 1 - 3-7-2021, 6.16.00am (3).mp4",2021-03-07 06:16:00,275.0,Spectrogram 1,1.0,1491.0,1494.0,150.0,12000.0,caltow,California Towhee,0.2311
+1572361,"SYNC/Cam07/2021-03-08/04 Camera 7 - 3-8-2021, 4.00.00am (9).mp4",2021-03-08 04:00:00,111.0,Spectrogram 1,1.0,3516.0,3519.0,150.0,12000.0,cangoo,Canada Goose,0.1019
+1574419,"SYNC/Cam09/2021-03-08/06 Camera 9 - 3-8-2021, 4.00.00am (2).mp4",2021-03-08 04:00:00,408.0,Spectrogram 1,1.0,3045.0,3048.0,150.0,12000.0,spotow,Spotted Towhee,0.1759
+1578851,"SYNC/Cam07/2021-03-09/04 Camera 7 - 3-9-2021, 4.00.00am (4).mp4",2021-03-09 04:00:00,64.0,Spectrogram 1,1.0,552.0,555.0,150.0,12000.0,spotow,Spotted Towhee,0.1328
+1579180,"SYNC/Cam07/2021-03-09/04 Camera 7 - 3-9-2021, 4.00.00am (8).mp4",2021-03-09 04:00:00,88.0,Spectrogram 1,1.0,1488.0,1491.0,150.0,12000.0,rethaw,Red-tailed Hawk,0.1371
+1579682,"SYNC/Cam07/2021-03-09/04 Camera 7 - 3-9-2021, 4.00.00am (9).mp4",2021-03-09 04:00:00,129.0,Spectrogram 1,1.0,1251.0,1254.0,150.0,12000.0,gadwal,Gadwall,0.2336
+1579873,"SYNC/Cam09/2021-03-09/06 Camera 9 - 3-9-2021, 4.00.00am (2).mp4",2021-03-09 04:00:00,149.0,Spectrogram 1,1.0,1533.0,1536.0,150.0,12000.0,caltow,California Towhee,0.5528
+1579889,"SYNC/Cam07/2021-03-09/04 Camera 7 - 3-9-2021, 4.00.00am (9).mp4",2021-03-09 04:00:00,150.0,Spectrogram 1,1.0,1365.0,1368.0,150.0,12000.0,gadwal,Gadwall,0.8509
+1582982,"SYNC/Cam01/2021-03-09/09 Camera 1 - 3-9-2021, 6.16.00am (2).mp4",2021-03-09 06:16:00,73.0,Spectrogram 1,1.0,1074.0,1077.0,150.0,12000.0,blkpho,Black Phoebe,0.2174
+1589186,"SYNC/Cam07/2021-03-10/04 Camera 7 - 3-10-2021, 4.00.00am (6).mp4",2021-03-10 04:00:00,294.0,Spectrogram 1,1.0,2025.0,2028.0,150.0,12000.0,btywar,Black-throated Gray Warbler,0.1198
+1590330,"SYNC/Cam07/2021-03-11/04 Camera 7 - 3-11-2021, 4.00.00am (13).mp4",2021-03-11 04:00:00,8.0,Spectrogram 1,1.0,21.0,24.0,150.0,12000.0,gadwal,Gadwall,0.1923
+1591146,"SYNC/Cam07/2021-03-11/04 Camera 7 - 3-11-2021, 4.00.00am (4).mp4",2021-03-11 04:00:00,51.0,Spectrogram 1,1.0,213.0,216.0,150.0,12000.0,gadwal,Gadwall,0.9425
+1591932,"SYNC/Cam07/2021-03-11/04 Camera 7 - 3-11-2021, 4.00.00am (8).mp4",2021-03-11 04:00:00,97.0,Spectrogram 1,1.0,879.0,882.0,150.0,12000.0,nopowl,Northern Pygmy-Owl,0.3322
+1601672,"SYNC/Cam07/2021-03-12/04 Camera 7 - 3-12-2021, 4.00.00am (12).mp4",2021-03-12 04:00:00,254.0,Spectrogram 1,1.0,1092.0,1095.0,150.0,12000.0,yerwar,Yellow-rumped Warbler,0.1374
+1606570,"SYNC/Cam07/2021-03-18/04 Camera 7 - 3-18-2021, 4.00.00am (10).mp4",2021-03-18 04:00:00,96.0,Spectrogram 1,1.0,2901.0,2904.0,150.0,12000.0,yerwar,Yellow-rumped Warbler,0.1018
+1607562,"SYNC/Cam09/2021-03-18/06 Camera 9 - 3-18-2021, 4.00.00am (4).mp4",2021-03-18 04:00:00,182.0,Spectrogram 1,1.0,741.0,744.0,150.0,12000.0,caltow,California Towhee,0.6445
+1608491,"SYNC/Cam09/2021-03-18/06 Camera 9 - 3-18-2021, 4.00.00am (5).mp4",2021-03-18 04:00:00,314.0,Spectrogram 1,1.0,2172.0,2175.0,150.0,12000.0,caltow,California Towhee,0.2909
+1611275,"SYNC/Cam01/2021-03-18/09 Camera 1 - 3-18-2021, 7.16.00am (9).mp4",2021-03-18 07:16:00,30.0,Spectrogram 1,1.0,1923.0,1926.0,150.0,12000.0,pygnut,Pygmy Nuthatch,0.1498
+1616596,"SYNC/Cam09/2021-03-19/06 Camera 9 - 3-19-2021, 4.00.00am (6).mp4",2021-03-19 04:00:00,205.0,Spectrogram 1,1.0,1083.0,1086.0,150.0,12000.0,calqua,California Quail,0.2518
+1618278,"SYNC/Cam07/2021-03-19/04 Camera 7 - 3-19-2021, 4.00.00am (5).mp4",2021-03-19 04:00:00,341.0,Spectrogram 1,1.0,1815.0,1818.0,150.0,12000.0,comyel,Common Yellowthroat,0.3121
+1618715,"SYNC/Cam07/2021-03-19/04 Camera 7 - 3-19-2021, 4.00.00am (5).mp4",2021-03-19 04:00:00,390.0,Spectrogram 1,1.0,2070.0,2073.0,150.0,12000.0,wilfly,Willow Flycatcher,0.1306
+1623332,"SYNC/Cam02/2021-03-19/10 Camera 2 - 3-19-2021, 7.23.00am (9).mp4",2021-03-19 07:23:00,11.0,Spectrogram 1,1.0,402.0,405.0,150.0,12000.0,calthr,California Thrasher,0.1201
+1625045,"SYNC/Cam02/2021-03-19/10 Camera 2 - 3-19-2021, 7.23.00am (7).mp4",2021-03-19 07:23:00,278.0,Spectrogram 1,1.0,1713.0,1716.0,150.0,12000.0,orcwar,Orange-crowned Warbler,0.1685
+1630160,"SYNC/Cam09/2021-03-20/06 Camera 9 - 3-20-2021, 4.00.00am (5).mp4",2021-03-20 04:00:00,238.0,Spectrogram 1,1.0,1587.0,1590.0,150.0,12000.0,yerwar,Yellow-rumped Warbler,0.8234
+1634836,"SYNC/Cam01/2021-03-20/09 Camera 1 - 3-20-2021, 6.02.00am (4).mp4",2021-03-20 06:02:00,106.0,Spectrogram 1,1.0,1047.0,1050.0,150.0,12000.0,wrenti,Wrentit,0.7403
+1637997,"SYNC/Cam02/2021-03-20/10 Camera 2 - 3-20-2021, 6.09.00am (5).mp4",2021-03-20 06:09:00,312.0,Spectrogram 1,1.0,1404.0,1407.0,150.0,12000.0,daejun,Dark-eyed Junco,0.4448
+1639806,"SYNC/Cam07/2021-03-21/04 Camera 7 - 3-21-2021, 4.00.00am (12).mp4",2021-03-21 04:00:00,20.0,Spectrogram 1,1.0,363.0,366.0,150.0,12000.0,pibgre,Pied-billed Grebe,0.7241
+1639928,"SYNC/Cam09/2021-03-21/06 Camera 9 - 3-21-2021, 4.00.00am (12).mp4",2021-03-21 04:00:00,27.0,Spectrogram 1,1.0,804.0,807.0,150.0,12000.0,houfin,House Finch,0.546
+1640069,"SYNC/Cam09/2021-03-21/06 Camera 9 - 3-21-2021, 4.00.00am (14).mp4",2021-03-21 04:00:00,34.0,Spectrogram 1,1.0,456.0,459.0,150.0,12000.0,wilfly,Willow Flycatcher,0.2362
+1640882,"SYNC/Cam09/2021-03-21/06 Camera 9 - 3-21-2021, 4.00.00am (4).mp4",2021-03-21 04:00:00,79.0,Spectrogram 1,1.0,636.0,639.0,150.0,12000.0,caltow,California Towhee,0.2578
+1643162,"SYNC/Cam09/2021-03-21/06 Camera 9 - 3-21-2021, 4.00.00am (4).mp4",2021-03-21 04:00:00,281.0,Spectrogram 1,1.0,2082.0,2085.0,150.0,12000.0,calqua,California Quail,0.4983
+1644056,"SYNC/Cam07/2021-03-21/04 Camera 7 - 3-21-2021, 4.00.00am (4).mp4",2021-03-21 04:00:00,437.0,Spectrogram 1,1.0,1890.0,1893.0,150.0,12000.0,mallar3,Mallard,0.6978
+1645803,"SYNC/Cam10/2021-03-21/11 Camera 10 - 3-21-2021, 6.00.00am.mp4",2021-03-21 06:00:00,297.0,Spectrogram 1,1.0,2586.0,2589.0,150.0,12000.0,spotow,Spotted Towhee,0.7044
+1648489,"SYNC/Cam02/2021-03-21/10 Camera 2 - 3-21-2021, 6.09.00am (1).mp4",2021-03-21 06:09:00,70.0,Spectrogram 1,1.0,477.0,480.0,150.0,12000.0,oaktit,Oak Titmouse,0.3462
+1652008,"SYNC/Cam07/2021-03-22/04 Camera 7 - 3-22-2021, 4.00.00am (12).mp4",2021-03-22 04:00:00,80.0,Spectrogram 1,1.0,1215.0,1218.0,150.0,12000.0,y00475,American Coot,0.1233
+1652831,"SYNC/Cam07/2021-03-22/04 Camera 7 - 3-22-2021, 4.00.00am (5).mp4",2021-03-22 04:00:00,125.0,Spectrogram 1,1.0,747.0,750.0,150.0,12000.0,comyel,Common Yellowthroat,0.4756
+1655775,"SYNC/Cam09/2021-03-22/06 Camera 9 - 3-22-2021, 4.00.00am (14).mp4",2021-03-22 04:00:00,340.0,Spectrogram 1,1.0,1977.0,1980.0,150.0,12000.0,yerwar,Yellow-rumped Warbler,0.5279
+1656546,"SYNC/Cam07/2021-03-22/04 Camera 7 - 3-22-2021, 4.00.00am (4).mp4",2021-03-22 04:00:00,450.0,Spectrogram 1,1.0,2682.0,2685.0,150.0,12000.0,pibgre,Pied-billed Grebe,0.6851
+1661814,"SYNC/Cam02/2021-03-22/10 Camera 2 - 3-22-2021, 6.09.00am (4).mp4",2021-03-22 06:09:00,64.0,Spectrogram 1,1.0,255.0,258.0,150.0,12000.0,chispa,Chipping Sparrow,0.1208
+1665789,"SYNC/Cam09/2021-03-23/06 Camera 9 - 3-23-2021, 4.00.00am (11).mp4",2021-03-23 04:00:00,60.0,Spectrogram 1,1.0,507.0,510.0,150.0,12000.0,acowoo,Acorn Woodpecker,0.9881
+1665903,"SYNC/Cam09/2021-03-23/06 Camera 9 - 3-23-2021, 4.00.00am (3).mp4",2021-03-23 04:00:00,70.0,Spectrogram 1,1.0,333.0,336.0,150.0,12000.0,caltow,California Towhee,0.4325
+1668965,"SYNC/Cam10/2021-03-23/11 Camera 10 - 3-23-2021, 5.57.00am (2).mp4",2021-03-23 05:57:00,23.0,Spectrogram 1,1.0,372.0,375.0,150.0,12000.0,wesmea,Western Meadowlark,0.1181
+1669543,"SYNC/Cam10/2021-03-23/11 Camera 10 - 3-23-2021, 5.57.00am (3).mp4",2021-03-23 05:57:00,312.0,Spectrogram 1,1.0,1830.0,1833.0,150.0,12000.0,spotow,Spotted Towhee,0.8454
+1670391,"SYNC/Cam01/2021-03-23/09 Camera 1 - 3-23-2021, 6.01.00am (4).mp4",2021-03-23 06:01:00,120.0,Spectrogram 1,1.0,1800.0,1803.0,150.0,12000.0,mallar3,Mallard,0.3041
+1671577,"SYNC/Cam02/2021-03-23/10 Camera 2 - 3-23-2021, 6.09.00am.mp4",2021-03-23 06:09:00,193.0,Spectrogram 1,1.0,2349.0,2352.0,150.0,12000.0,larspa,Lark Sparrow,0.194
+1673719,"SYNC/Cam09/2021-03-24/06 Camera 9 - 3-24-2021, 4.00.00am (5).mp4",2021-03-24 04:00:00,78.0,Spectrogram 1,1.0,318.0,321.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.2362
+1674057,"SYNC/Cam07/2021-03-24/04 Camera 7 - 3-24-2021, 4.00.00am (12).mp4",2021-03-24 04:00:00,97.0,Spectrogram 1,1.0,1548.0,1551.0,150.0,12000.0,mallar3,Mallard,0.1577
+1680314,"SYNC/Cam02/2021-03-24/10 Camera 2 - 3-24-2021, 6.10.00am (11).mp4",2021-03-24 06:10:00,2.0,Spectrogram 1,1.0,72.0,75.0,150.0,12000.0,daejun,Dark-eyed Junco,0.1686
+1681984,"SYNC/Cam02/2021-03-24/10 Camera 2 - 3-24-2021, 6.10.00am (2).mp4",2021-03-24 06:10:00,225.0,Spectrogram 1,1.0,1149.0,1152.0,150.0,12000.0,orcwar,Orange-crowned Warbler,0.249
+1684265,"SYNC/Cam07/2021-03-25/04 Camera 7 - 3-25-2021, 4.00.00am (7).mp4",2021-03-25 04:00:00,31.0,Spectrogram 1,1.0,450.0,453.0,150.0,12000.0,comyel,Common Yellowthroat,0.1674
+1684644,"SYNC/Cam07/2021-03-25/04 Camera 7 - 3-25-2021, 4.00.00am (10).mp4",2021-03-25 04:00:00,55.0,Spectrogram 1,1.0,1167.0,1170.0,150.0,12000.0,mallar3,Mallard,0.1162
+1685801,"SYNC/Cam07/2021-03-25/04 Camera 7 - 3-25-2021, 4.00.00am (5).mp4",2021-03-25 04:00:00,143.0,Spectrogram 1,1.0,993.0,996.0,150.0,12000.0,nrwswa,Northern Rough-winged Swallow,0.1213
+1687307,"SYNC/Cam09/2021-03-25/06 Camera 9 - 3-25-2021, 4.00.00am (5).mp4",2021-03-25 04:00:00,304.0,Spectrogram 1,1.0,2853.0,2856.0,150.0,12000.0,caltow,California Towhee,0.2055
+1689925,"SYNC/Cam02/2021-03-25/10 Camera 2 - 3-25-2021, 6.10.00am (3).mp4",2021-03-25 06:10:00,51.0,Spectrogram 1,1.0,243.0,246.0,150.0,12000.0,larspa,Lark Sparrow,0.3642
+1690456,"SYNC/Cam02/2021-03-25/10 Camera 2 - 3-25-2021, 6.10.00am (1).mp4",2021-03-25 06:10:00,140.0,Spectrogram 1,1.0,1857.0,1860.0,150.0,12000.0,orcwar,Orange-crowned Warbler,0.1064
+1694388,"SYNC/Cam09/2021-03-26/06 Camera 9 - 3-26-2021, 4.00.00am (9).mp4",2021-03-26 04:00:00,96.0,Spectrogram 1,1.0,762.0,765.0,150.0,12000.0,oaktit,Oak Titmouse,0.474
+1696161,"SYNC/Cam09/2021-03-26/06 Camera 9 - 3-26-2021, 4.00.00am (9).mp4",2021-03-26 04:00:00,201.0,Spectrogram 1,1.0,1650.0,1653.0,150.0,12000.0,bulori,Bullock's Oriole,0.1559
+1698504,"SYNC/Cam09/2021-03-26/06 Camera 9 - 3-26-2021, 4.00.00am (14).mp4",2021-03-26 04:00:00,419.0,Spectrogram 1,1.0,2418.0,2421.0,150.0,12000.0,sposan,Spotted Sandpiper,0.2252
+1699450,"SYNC/Cam09/2021-03-26/06 Camera 9 - 3-26-2021, 4.00.00am (5).mp4",2021-03-26 04:00:00,577.0,Spectrogram 1,1.0,2631.0,2634.0,150.0,12000.0,blkpho,Black Phoebe,0.3269
+1700869,"SYNC/Cam10/2021-03-26/11 Camera 10 - 3-26-2021, 6.00.00am (2).mp4",2021-03-26 06:00:00,514.0,Spectrogram 1,1.0,1713.0,1716.0,150.0,12000.0,houwre,House Wren,0.3951
+1705874,"SYNC/Cam02/2021-03-26/10 Camera 2 - 3-26-2021, 6.09.00am (1).mp4",2021-03-26 06:09:00,752.0,Spectrogram 1,1.0,2889.0,2892.0,150.0,12000.0,chispa,Chipping Sparrow,0.1611
+1708196,"SYNC/Cam09/2021-03-31/06 Camera 9 - 3-31-2021, 4.00.00am (12).mp4",2021-03-31 04:00:00,100.0,Spectrogram 1,1.0,2763.0,2766.0,150.0,12000.0,yerwar,Yellow-rumped Warbler,0.1845
+1709941,"SYNC/Cam09/2021-03-31/06 Camera 9 - 3-31-2021, 4.00.00am (5).mp4",2021-03-31 04:00:00,200.0,Spectrogram 1,1.0,1323.0,1326.0,150.0,12000.0,caltow,California Towhee,0.1453
+1711769,"SYNC/Cam07/2021-03-31/04 Camera 7 - 3-31-2021, 4.00.00am (6).mp4",2021-03-31 04:00:00,342.0,Spectrogram 1,1.0,2751.0,2754.0,150.0,12000.0,y00475,American Coot,0.7932
+1716971,"SYNC/Cam01/2021-03-31/09 Camera 1 - 3-31-2021, 6.02.00am (4).mp4",2021-03-31 06:02:00,156.0,Spectrogram 1,1.0,810.0,813.0,150.0,12000.0,spotow,Spotted Towhee,0.8076
+1717227,"SYNC/Cam01/2021-03-31/09 Camera 1 - 3-31-2021, 6.02.00am (2).mp4",2021-03-31 06:02:00,214.0,Spectrogram 1,1.0,1350.0,1353.0,150.0,12000.0,wrenti,Wrentit,0.2446
+1720682,"SYNC/Cam02/2021-03-31/10 Camera 2 - 3-31-2021, 6.10.00am (4).mp4",2021-03-31 06:10:00,273.0,Spectrogram 1,1.0,1557.0,1560.0,150.0,12000.0,rocpig,Rock Pigeon,0.1036
+1723147,"SYNC/Cam07/2021-04-01/04 Camera 7 - 4-1-2021, 4.00.00am (2).mp4",2021-04-01 04:00:00,2.0,Spectrogram 1,1.0,243.0,246.0,150.0,12000.0,comyel,Common Yellowthroat,0.4614
+1725444,"SYNC/Cam09/2021-04-01/06 Camera 9 - 4-1-2021, 4.00.00am (7).mp4",2021-04-01 04:00:00,124.0,Spectrogram 1,1.0,1392.0,1395.0,150.0,12000.0,moudov,Mourning Dove,0.1811
+1728101,"SYNC/Cam07/2021-04-01/04 Camera 7 - 4-1-2021, 4.00.00am (12).mp4",2021-04-01 04:00:00,280.0,Spectrogram 1,1.0,2532.0,2535.0,150.0,12000.0,mallar3,Mallard,0.768
+1728760,"SYNC/Cam07/2021-04-01/04 Camera 7 - 4-1-2021, 4.00.00am (11).mp4",2021-04-01 04:00:00,320.0,Spectrogram 1,1.0,2433.0,2436.0,150.0,12000.0,pibgre,Pied-billed Grebe,0.3891
+1730529,"SYNC/Cam09/2021-04-01/06 Camera 9 - 4-1-2021, 4.00.00am (4).mp4",2021-04-01 04:00:00,470.0,Spectrogram 1,1.0,2091.0,2094.0,150.0,12000.0,caltow,California Towhee,0.3917
+1731037,"SYNC/Cam09/2021-04-01/06 Camera 9 - 4-1-2021, 4.00.00am (5).mp4",2021-04-01 04:00:00,540.0,Spectrogram 1,1.0,2001.0,2004.0,150.0,12000.0,spotow,Spotted Towhee,0.1592
+1731189,"SYNC/Cam09/2021-04-01/06 Camera 9 - 4-1-2021, 4.00.00am (3).mp4",2021-04-01 04:00:00,565.0,Spectrogram 1,1.0,2535.0,2538.0,150.0,12000.0,caltow,California Towhee,0.2122
+1732530,"SYNC/Cam10/2021-04-01/11 Camera 10 - 4-1-2021, 5.57.00am (9).mp4",2021-04-01 05:57:00,79.0,Spectrogram 1,1.0,537.0,540.0,150.0,12000.0,spotow,Spotted Towhee,0.3638
+1733212,"SYNC/Cam10/2021-04-01/11 Camera 10 - 4-1-2021, 5.57.00am (4).mp4",2021-04-01 05:57:00,220.0,Spectrogram 1,1.0,1137.0,1140.0,150.0,12000.0,spotow,Spotted Towhee,0.1394
+1734754,"SYNC/Cam01/2021-04-01/09 Camera 1 - 4-1-2021, 6.01.00am (2).mp4",2021-04-01 06:01:00,61.0,Spectrogram 1,1.0,762.0,765.0,150.0,12000.0,spotow,Spotted Towhee,0.2004
+1737770,"SYNC/Cam02/2021-04-01/10 Camera 2 - 4-1-2021, 6.10.00am (5).mp4",2021-04-01 06:10:00,87.0,Spectrogram 1,1.0,444.0,447.0,150.0,12000.0,bewwre,Bewick's Wren,0.3217
+1742642,"SYNC/Cam04/2021-04-01/07 Camera 4 - 4-1-2021, 6.11.00am (4).mp4",2021-04-01 06:11:00,9.0,Spectrogram 1,1.0,441.0,444.0,150.0,12000.0,wrenti,Wrentit,0.5475
+1743251,"SYNC/Cam07/2021-04-02/04 Camera 7 - 4-2-2021, 4.00.00am (14).mp4",2021-04-02 04:00:00,18.0,Spectrogram 1,1.0,174.0,177.0,150.0,12000.0,caster1,Caspian Tern,0.193
+1744122,"SYNC/Cam07/2021-04-02/04 Camera 7 - 4-2-2021, 4.00.00am (9).mp4",2021-04-02 04:00:00,74.0,Spectrogram 1,1.0,729.0,732.0,150.0,12000.0,comrav,Common Raven,0.1573
+1753988,"SYNC/Cam01/2021-04-02/09 Camera 1 - 4-2-2021, 6.02.00am (3).mp4",2021-04-02 06:02:00,359.0,Spectrogram 1,1.0,2490.0,2493.0,150.0,12000.0,whtswi,White-throated Swift,0.1006
+1758435,"SYNC/Cam02/2021-04-02/10 Camera 2 - 4-2-2021, 6.10.00am.mp4",2021-04-02 06:10:00,537.0,Spectrogram 1,1.0,2754.0,2757.0,150.0,12000.0,larspa,Lark Sparrow,0.1766
+1760248,"SYNC/Cam07/2021-04-03/04 Camera 7 - 4-3-2021, 4.00.00am (13).mp4",2021-04-03 04:00:00,63.0,Spectrogram 1,1.0,1113.0,1116.0,150.0,12000.0,rewbla,Red-winged Blackbird,0.1395
+1769793,"SYNC/Cam09/2021-04-04/06 Camera 9 - 4-4-2021, 4.00.00am (7).mp4",2021-04-04 04:00:00,40.0,Spectrogram 1,1.0,171.0,174.0,150.0,12000.0,caltow,California Towhee,0.5499
+1773939,"SYNC/Cam09/2021-04-04/06 Camera 9 - 4-4-2021, 4.00.00am (6).mp4",2021-04-04 04:00:00,269.0,Spectrogram 1,1.0,1497.0,1500.0,150.0,12000.0,caltow,California Towhee,0.1075
+1774475,"SYNC/Cam09/2021-04-04/06 Camera 9 - 4-4-2021, 4.00.00am (7).mp4",2021-04-04 04:00:00,305.0,Spectrogram 1,1.0,1980.0,1983.0,150.0,12000.0,spotow,Spotted Towhee,0.1281
+1774944,"SYNC/Cam09/2021-04-04/06 Camera 9 - 4-4-2021, 4.00.00am (4).mp4",2021-04-04 04:00:00,341.0,Spectrogram 1,1.0,1503.0,1506.0,150.0,12000.0,caltow,California Towhee,0.2441
+1779002,"SYNC/Cam01/2021-04-04/09 Camera 1 - 4-4-2021, 6.02.00am (3).mp4",2021-04-04 06:02:00,24.0,Spectrogram 1,1.0,60.0,63.0,150.0,12000.0,spotow,Spotted Towhee,0.3815
+1779531,"SYNC/Cam01/2021-04-04/09 Camera 1 - 4-4-2021, 6.02.00am (3).mp4",2021-04-04 06:02:00,98.0,Spectrogram 1,1.0,222.0,225.0,150.0,12000.0,spotow,Spotted Towhee,0.2931
+1781041,"SYNC/Cam01/2021-04-04/09 Camera 1 - 4-4-2021, 6.02.00am.mp4",2021-04-04 06:02:00,439.0,Spectrogram 1,1.0,2994.0,2997.0,150.0,12000.0,reshaw,Red-shouldered Hawk,0.3286
+1781321,"SYNC/Cam02/2021-04-04/10 Camera 2 - 4-4-2021, 6.10.00am (5).mp4",2021-04-04 06:10:00,3.0,Spectrogram 1,1.0,24.0,27.0,150.0,12000.0,wrenti,Wrentit,0.9118
+1790220,"SYNC/Cam09/2021-04-05/06 Camera 9 - 4-5-2021, 4.00.00am (3).mp4",2021-04-05 04:00:00,529.0,Spectrogram 1,1.0,2436.0,2439.0,150.0,12000.0,caltow,California Towhee,0.6711
+1793380,"SYNC/Cam01/2021-04-05/09 Camera 1 - 4-5-2021, 6.02.00am.mp4",2021-04-05 06:02:00,671.0,Spectrogram 1,1.0,3273.0,3276.0,150.0,12000.0,spotow,Spotted Towhee,0.2175
+1793476,"SYNC/Cam02/2021-04-05/10 Camera 2 - 4-5-2021, 6.10.00am (11).mp4",2021-04-05 06:10:00,6.0,Spectrogram 1,1.0,159.0,162.0,150.0,12000.0,wrenti,Wrentit,0.5707
+1795844,"SYNC/Cam04/2021-04-05/07 Camera 4 - 4-5-2021, 6.11.00am (5).mp4",2021-04-05 06:11:00,33.0,Spectrogram 1,1.0,1209.0,1212.0,150.0,12000.0,stejay,Steller's Jay,0.1173
+1797135,"SYNC/Cam07/2021-04-06/04 Camera 7 - 4-6-2021, 4.00.00am (3).mp4",2021-04-06 04:00:00,36.0,Spectrogram 1,1.0,165.0,168.0,150.0,12000.0,wrenti,Wrentit,0.7269
+1799961,"SYNC/Cam07/2021-04-06/04 Camera 7 - 4-6-2021, 4.00.00am (14).mp4",2021-04-06 04:00:00,184.0,Spectrogram 1,1.0,1068.0,1071.0,150.0,12000.0,baleag,Bald Eagle,0.2573
+1800601,"SYNC/Cam07/2021-04-06/04 Camera 7 - 4-6-2021, 4.00.00am (3).mp4",2021-04-06 04:00:00,221.0,Spectrogram 1,1.0,1188.0,1191.0,150.0,12000.0,wilsni1,Wilson's Snipe,0.1426
+1801507,"SYNC/Cam07/2021-04-06/04 Camera 7 - 4-6-2021, 4.00.00am (11).mp4",2021-04-06 04:00:00,272.0,Spectrogram 1,1.0,2763.0,2766.0,150.0,12000.0,caltow,California Towhee,0.6814
+1802254,"SYNC/Cam07/2021-04-06/04 Camera 7 - 4-6-2021, 4.00.00am (13).mp4",2021-04-06 04:00:00,319.0,Spectrogram 1,1.0,3042.0,3045.0,150.0,12000.0,baleag,Bald Eagle,0.1161
+1806429,"SYNC/Cam01/2021-04-06/09 Camera 1 - 4-6-2021, 6.02.00am (3).mp4",2021-04-06 06:02:00,120.0,Spectrogram 1,1.0,639.0,642.0,150.0,12000.0,spotow,Spotted Towhee,0.436
+1808446,"SYNC/Cam02/2021-04-06/10 Camera 2 - 4-6-2021, 6.10.00am (13).mp4",2021-04-06 06:10:00,36.0,Spectrogram 1,1.0,777.0,780.0,150.0,12000.0,wrenti,Wrentit,0.1457
+1809447,"SYNC/Cam02/2021-04-06/10 Camera 2 - 4-6-2021, 6.10.00am (13).mp4",2021-04-06 06:10:00,154.0,Spectrogram 1,1.0,1878.0,1881.0,150.0,12000.0,belkin1,Belted Kingfisher,0.2301
+1809731,"SYNC/Cam02/2021-04-06/10 Camera 2 - 4-6-2021, 6.10.00am (2).mp4",2021-04-06 06:10:00,185.0,Spectrogram 1,1.0,2211.0,2214.0,150.0,12000.0,calthr,California Thrasher,0.1244
+1813350,"SYNC/Cam07/2021-04-07/04 Camera 7 - 4-7-2021, 4.00.00am (6).mp4",2021-04-07 04:00:00,88.0,Spectrogram 1,1.0,555.0,558.0,150.0,12000.0,gadwal,Gadwall,0.471
+1814960,"SYNC/Cam09/2021-04-07/06 Camera 9 - 4-7-2021, 4.00.00am (4).mp4",2021-04-07 04:00:00,185.0,Spectrogram 1,1.0,804.0,807.0,150.0,12000.0,caltow,California Towhee,0.2181
+1816799,"SYNC/Cam07/2021-04-07/04 Camera 7 - 4-7-2021, 4.00.00am (10).mp4",2021-04-07 04:00:00,312.0,Spectrogram 1,1.0,3360.0,3363.0,150.0,12000.0,yerwar,Yellow-rumped Warbler,0.1125
+1819967,"SYNC/Cam09/2021-04-07/06 Camera 9 - 4-7-2021, 4.00.00am (3).mp4",2021-04-07 04:00:00,724.0,Spectrogram 1,1.0,2805.0,2808.0,150.0,12000.0,caltow,California Towhee,0.1383
+1821001,"SYNC/Cam10/2021-04-07/11 Camera 10 - 4-7-2021, 5.57.00am (3).mp4",2021-04-07 05:57:00,146.0,Spectrogram 1,1.0,1623.0,1626.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.9682
+1827454,"SYNC/Cam04/2021-04-07/07 Camera 4 - 4-7-2021, 6.11.00am.mp4",2021-04-07 06:11:00,19.0,Spectrogram 1,1.0,528.0,531.0,150.0,12000.0,grhowl,Great Horned Owl,0.8253
+1828689,"SYNC/Cam07/2021-04-08/04 Camera 7 - 4-8-2021, 4.00.00am (1).mp4",2021-04-08 04:00:00,48.0,Spectrogram 1,1.0,3570.0,3573.0,150.0,12000.0,comyel,Common Yellowthroat,0.2668
+1830194,"SYNC/Cam09/2021-04-08/06 Camera 9 - 4-8-2021, 4.00.00am (8).mp4",2021-04-08 04:00:00,139.0,Spectrogram 1,1.0,1566.0,1569.0,150.0,12000.0,spotow,Spotted Towhee,0.1729
+1831732,"SYNC/Cam09/2021-04-08/06 Camera 9 - 4-8-2021, 4.00.00am (11).mp4",2021-04-08 04:00:00,230.0,Spectrogram 1,1.0,2457.0,2460.0,150.0,12000.0,caltow,California Towhee,0.2253
+1832719,"SYNC/Cam09/2021-04-08/06 Camera 9 - 4-8-2021, 4.00.00am (12).mp4",2021-04-08 04:00:00,289.0,Spectrogram 1,1.0,3519.0,3522.0,150.0,12000.0,spotow,Spotted Towhee,0.1554
+1833111,"SYNC/Cam09/2021-04-08/06 Camera 9 - 4-8-2021, 4.00.00am (6).mp4",2021-04-08 04:00:00,312.0,Spectrogram 1,1.0,2052.0,2055.0,150.0,12000.0,greyel,Greater Yellowlegs,0.1004
+1837168,"SYNC/Cam09/2021-04-08/06 Camera 9 - 4-8-2021, 4.00.00am (3).mp4",2021-04-08 04:00:00,743.0,Spectrogram 1,1.0,3384.0,3387.0,150.0,12000.0,whcspa,White-crowned Sparrow,0.5606
+1838538,"SYNC/Cam10/2021-04-08/11 Camera 10 - 4-8-2021, 5.57.00am (12).mp4",2021-04-08 05:57:00,226.0,Spectrogram 1,1.0,1668.0,1671.0,150.0,12000.0,acowoo,Acorn Woodpecker,0.9345
+1839147,"SYNC/Cam01/2021-04-08/09 Camera 1 - 4-8-2021, 6.01.00am.mp4",2021-04-08 06:01:00,6.0,Spectrogram 1,1.0,30.0,33.0,150.0,12000.0,spotow,Spotted Towhee,0.1237
+1842415,"SYNC/Cam02/2021-04-08/10 Camera 2 - 4-8-2021, 6.10.00am (12).mp4",2021-04-08 06:10:00,145.0,Spectrogram 1,1.0,1944.0,1947.0,150.0,12000.0,wrenti,Wrentit,0.8932
+1844461,"SYNC/Cam02/2021-04-08/10 Camera 2 - 4-8-2021, 6.10.00am.mp4",2021-04-08 06:10:00,627.0,Spectrogram 1,1.0,3234.0,3237.0,150.0,12000.0,bewwre,Bewick's Wren,0.3015
+1850233,"SYNC/Cam07/2021-04-09/04 Camera 7 - 4-9-2021, 4.00.00am (9).mp4",2021-04-09 04:00:00,390.0,Spectrogram 1,1.0,3009.0,3012.0,150.0,12000.0,rinduc,Ring-necked Duck,0.1383
+1850243,"SYNC/Cam07/2021-04-09/04 Camera 7 - 4-9-2021, 4.00.00am (6).mp4",2021-04-09 04:00:00,391.0,Spectrogram 1,1.0,1995.0,1998.0,150.0,12000.0,warvir,Warbling Vireo,0.1521
+1853441,"SYNC/Cam01/2021-04-09/09 Camera 1 - 4-9-2021, 6.01.00am.mp4",2021-04-09 06:01:00,49.0,Spectrogram 1,1.0,519.0,522.0,150.0,12000.0,spotow,Spotted Towhee,0.3335
+1853471,"SYNC/Cam01/2021-04-09/09 Camera 1 - 4-9-2021, 6.01.00am.mp4",2021-04-09 06:01:00,53.0,Spectrogram 1,1.0,534.0,537.0,150.0,12000.0,spotow,Spotted Towhee,0.4989
+1853657,"SYNC/Cam01/2021-04-09/09 Camera 1 - 4-9-2021, 6.01.00am (2).mp4",2021-04-09 06:01:00,81.0,Spectrogram 1,1.0,1185.0,1188.0,150.0,12000.0,blkpho,Black Phoebe,0.2423
+1854589,"SYNC/Cam01/2021-04-09/09 Camera 1 - 4-9-2021, 6.01.00am (3).mp4",2021-04-09 06:01:00,274.0,Spectrogram 1,1.0,2223.0,2226.0,150.0,12000.0,lazbun,Lazuli Bunting,0.1463
+1857186,"SYNC/Cam02/2021-04-09/10 Camera 2 - 4-9-2021, 6.10.00am (2).mp4",2021-04-09 06:10:00,238.0,Spectrogram 1,1.0,1851.0,1854.0,150.0,12000.0,varthr,Varied Thrush,0.339
+1858564,"SYNC/Cam09/2021-04-10/06 Camera 9 - 4-10-2021, 4.00.00am (3).mp4",2021-04-10 04:00:00,29.0,Spectrogram 1,1.0,213.0,216.0,150.0,12000.0,caltow,California Towhee,0.5425
+1860628,"SYNC/Cam09/2021-04-10/06 Camera 9 - 4-10-2021, 4.00.00am (15).mp4",2021-04-10 04:00:00,135.0,Spectrogram 1,1.0,2526.0,2529.0,150.0,12000.0,caltow,California Towhee,0.1401
+1861131,"SYNC/Cam07/2021-04-10/04 Camera 7 - 4-10-2021, 4.00.00am (6).mp4",2021-04-10 04:00:00,163.0,Spectrogram 1,1.0,1059.0,1062.0,150.0,12000.0,y00475,American Coot,0.1449
+1862260,"SYNC/Cam09/2021-04-10/06 Camera 9 - 4-10-2021, 4.00.00am (12).mp4",2021-04-10 04:00:00,229.0,Spectrogram 1,1.0,1749.0,1752.0,150.0,12000.0,lesgol,Lesser Goldfinch,0.1385
+1865297,"SYNC/Cam09/2021-04-10/06 Camera 9 - 4-10-2021, 4.00.00am (13).mp4",2021-04-10 04:00:00,416.0,Spectrogram 1,1.0,1866.0,1869.0,150.0,12000.0,whtspa,White-throated Sparrow,0.1075
+1865901,"SYNC/Cam09/2021-04-10/06 Camera 9 - 4-10-2021, 4.00.00am (11).mp4",2021-04-10 04:00:00,460.0,Spectrogram 1,1.0,2484.0,2487.0,150.0,12000.0,caltow,California Towhee,0.7808
+1867380,"SYNC/Cam09/2021-04-10/06 Camera 9 - 4-10-2021, 4.00.00am (3).mp4",2021-04-10 04:00:00,613.0,Spectrogram 1,1.0,2808.0,2811.0,150.0,12000.0,caltow,California Towhee,0.7387
+1868734,"SYNC/Cam10/2021-04-10/11 Camera 10 - 4-10-2021, 5.57.00am (6).mp4",2021-04-10 05:57:00,17.0,Spectrogram 1,1.0,354.0,357.0,150.0,12000.0,daejun,Dark-eyed Junco,0.4275
+1870528,"SYNC/Cam10/2021-04-10/11 Camera 10 - 4-10-2021, 5.57.00am (1).mp4",2021-04-10 05:57:00,306.0,Spectrogram 1,1.0,2772.0,2775.0,150.0,12000.0,gocspa,Golden-crowned Sparrow,0.8498
+1870639,"SYNC/Cam10/2021-04-10/11 Camera 10 - 4-10-2021, 5.57.00am (1).mp4",2021-04-10 05:57:00,330.0,Spectrogram 1,1.0,2907.0,2910.0,150.0,12000.0,normoc,Northern Mockingbird,0.1187
+1870739,"SYNC/Cam10/2021-04-10/11 Camera 10 - 4-10-2021, 5.57.00am (4).mp4",2021-04-10 05:57:00,354.0,Spectrogram 1,1.0,2682.0,2685.0,150.0,12000.0,houwre,House Wren,0.3016
+1871223,"SYNC/Cam01/2021-04-10/09 Camera 1 - 4-10-2021, 6.01.00am (3).mp4",2021-04-10 06:01:00,16.0,Spectrogram 1,1.0,99.0,102.0,150.0,12000.0,blkpho,Black Phoebe,0.1032
+1875663,"SYNC/Cam02/2021-04-10/10 Camera 2 - 4-10-2021, 6.10.00am.mp4",2021-04-10 06:10:00,322.0,Spectrogram 1,1.0,1593.0,1596.0,150.0,12000.0,bewwre,Bewick's Wren,0.2991
+1877628,"SYNC/Cam07/2021-04-11/04 Camera 7 - 4-11-2021, 4.00.00am (2).mp4",2021-04-11 04:00:00,86.0,Spectrogram 1,1.0,531.0,534.0,150.0,12000.0,y00475,American Coot,0.3488
+1879429,"SYNC/Cam09/2021-04-11/06 Camera 9 - 4-11-2021, 4.00.00am (7).mp4",2021-04-11 04:00:00,200.0,Spectrogram 1,1.0,1503.0,1506.0,150.0,12000.0,wilfly,Willow Flycatcher,0.3079
+1887407,"SYNC/Cam10/2021-04-11/11 Camera 10 - 4-11-2021, 5.58.00am (4).mp4",2021-04-11 05:58:00,119.0,Spectrogram 1,1.0,549.0,552.0,150.0,12000.0,spotow,Spotted Towhee,0.4834
+1888640,"SYNC/Cam10/2021-04-11/11 Camera 10 - 4-11-2021, 5.58.00am (4).mp4",2021-04-11 05:58:00,393.0,Spectrogram 1,1.0,1866.0,1869.0,150.0,12000.0,spotow,Spotted Towhee,0.5808
+1888840,"SYNC/Cam10/2021-04-11/11 Camera 10 - 4-11-2021, 5.58.00am (2).mp4",2021-04-11 05:58:00,489.0,Spectrogram 1,1.0,2997.0,3000.0,150.0,12000.0,orcwar,Orange-crowned Warbler,0.2098
+1889568,"SYNC/Cam01/2021-04-11/09 Camera 1 - 4-11-2021, 6.01.00am (5).mp4",2021-04-11 06:01:00,64.0,Spectrogram 1,1.0,672.0,675.0,150.0,12000.0,whcspa,White-crowned Sparrow,0.1818
+1889804,"SYNC/Cam01/2021-04-11/09 Camera 1 - 4-11-2021, 6.01.00am.mp4",2021-04-11 06:01:00,92.0,Spectrogram 1,1.0,1095.0,1098.0,150.0,12000.0,caltow,California Towhee,0.417
+1892085,"SYNC/Cam02/2021-04-11/10 Camera 2 - 4-11-2021, 6.10.00am (2).mp4",2021-04-11 06:10:00,64.0,Spectrogram 1,1.0,504.0,507.0,150.0,12000.0,moudov,Mourning Dove,0.21
+1892793,"SYNC/Cam02/2021-04-11/10 Camera 2 - 4-11-2021, 6.10.00am (7).mp4",2021-04-11 06:10:00,141.0,Spectrogram 1,1.0,954.0,957.0,150.0,12000.0,belkin1,Belted Kingfisher,0.3927
+1893923,"SYNC/Cam02/2021-04-11/10 Camera 2 - 4-11-2021, 6.10.00am (4).mp4",2021-04-11 06:10:00,263.0,Spectrogram 1,1.0,1263.0,1266.0,150.0,12000.0,wrenti,Wrentit,0.1721
+1897055,"SYNC/Cam02/2021-04-12/10 Camera 2 - 4-12-2021, 6.13.00am (12).mp4",2021-04-12 06:13:00,176.0,Spectrogram 1,1.0,3450.0,3453.0,150.0,12000.0,comrav,Common Raven,0.118
+1903417,"SYNC/Cam02/2021-04-14/10 Camera 2 - 4-14-2021, 6.10.00am (3).mp4",2021-04-14 06:10:00,461.0,Spectrogram 1,1.0,3492.0,3495.0,150.0,12000.0,wrenti,Wrentit,0.854
+1907505,"SYNC/Cam07/2021-04-15/04 Camera 7 - 4-15-2021, 4.00.00am (2).mp4",2021-04-15 04:00:00,238.0,Spectrogram 1,1.0,1083.0,1086.0,150.0,12000.0,amebit,American Bittern,0.1226
+1909423,"SYNC/Cam07/2021-04-15/04 Camera 7 - 4-15-2021, 4.00.00am (11).mp4",2021-04-15 04:00:00,401.0,Spectrogram 1,1.0,2718.0,2721.0,150.0,12000.0,wilfly,Willow Flycatcher,0.1656
+1911031,"SYNC/Cam09/2021-04-15/06 Camera 9 - 4-15-2021, 4.00.00am (2).mp4",2021-04-15 04:00:00,578.0,Spectrogram 1,1.0,1914.0,1917.0,150.0,12000.0,whcspa,White-crowned Sparrow,0.11
+1914958,"SYNC/Cam10/2021-04-15/11 Camera 10 - 4-15-2021, 5.57.00am (1).mp4",2021-04-15 05:57:00,510.0,Spectrogram 1,1.0,3396.0,3399.0,150.0,12000.0,astfly,Ash-throated Flycatcher,0.5375
+1916667,"SYNC/Cam01/2021-04-15/09 Camera 1 - 4-15-2021, 6.01.00am (7).mp4",2021-04-15 06:01:00,257.0,Spectrogram 1,1.0,1998.0,2001.0,150.0,12000.0,spotow,Spotted Towhee,0.2055
+1918430,"SYNC/Cam02/2021-04-15/10 Camera 2 - 4-15-2021, 6.10.00am (4).mp4",2021-04-15 06:10:00,40.0,Spectrogram 1,1.0,210.0,213.0,150.0,12000.0,caltow,California Towhee,0.2193
+1925796,"SYNC/Cam09/2021-04-16/06 Camera 9 - 4-16-2021, 4.00.00am (10).mp4",2021-04-16 04:00:00,235.0,Spectrogram 1,1.0,1920.0,1923.0,150.0,12000.0,comrav,Common Raven,0.4037
+1931659,"SYNC/Cam09/2021-04-16/06 Camera 9 - 4-16-2021, 4.00.00am (3).mp4",2021-04-16 04:00:00,730.0,Spectrogram 1,1.0,3318.0,3321.0,150.0,12000.0,caltow,California Towhee,0.9479
+1931701,"SYNC/Cam09/2021-04-16/06 Camera 9 - 4-16-2021, 4.00.00am (4).mp4",2021-04-16 04:00:00,739.0,Spectrogram 1,1.0,3282.0,3285.0,150.0,12000.0,caltow,California Towhee,0.5765
+1933870,"SYNC/Cam01/2021-04-16/09 Camera 1 - 4-16-2021, 6.01.00am (3).mp4",2021-04-16 06:01:00,13.0,Spectrogram 1,1.0,66.0,69.0,150.0,12000.0,spotow,Spotted Towhee,0.1209
+1934391,"SYNC/Cam01/2021-04-16/09 Camera 1 - 4-16-2021, 6.01.00am (12).mp4",2021-04-16 06:01:00,96.0,Spectrogram 1,1.0,1824.0,1827.0,150.0,12000.0,hutvir,Hutton's Vireo,0.1043
+1936161,"SYNC/Cam01/2021-04-16/09 Camera 1 - 4-16-2021, 6.01.00am.mp4",2021-04-16 06:01:00,644.0,Spectrogram 1,1.0,2202.0,2205.0,150.0,12000.0,spotow,Spotted Towhee,0.4683
+1940361,"SYNC/Cam09/2021-04-17/06 Camera 9 - 4-17-2021, 4.00.00am (8).mp4",2021-04-17 04:00:00,25.0,Spectrogram 1,1.0,213.0,216.0,150.0,12000.0,caltow,California Towhee,0.1864
+1941011,"SYNC/Cam09/2021-04-17/06 Camera 9 - 4-17-2021, 4.00.00am (9).mp4",2021-04-17 04:00:00,57.0,Spectrogram 1,1.0,276.0,279.0,150.0,12000.0,caltow,California Towhee,0.3772
+1943644,"SYNC/Cam07/2021-04-17/04 Camera 7 - 4-17-2021, 4.00.00am (4).mp4",2021-04-17 04:00:00,199.0,Spectrogram 1,1.0,708.0,711.0,150.0,12000.0,amebit,American Bittern,0.144
+1944888,"SYNC/Cam09/2021-04-17/06 Camera 9 - 4-17-2021, 4.00.00am (4).mp4",2021-04-17 04:00:00,271.0,Spectrogram 1,1.0,981.0,984.0,150.0,12000.0,caltow,California Towhee,0.8081
+1946772,"SYNC/Cam07/2021-04-17/04 Camera 7 - 4-17-2021, 4.00.00am (8).mp4",2021-04-17 04:00:00,385.0,Spectrogram 1,1.0,2502.0,2505.0,150.0,12000.0,lesgol,Lesser Goldfinch,0.1491
+1948178,"SYNC/Cam09/2021-04-17/06 Camera 9 - 4-17-2021, 4.00.00am (3).mp4",2021-04-17 04:00:00,478.0,Spectrogram 1,1.0,2415.0,2418.0,150.0,12000.0,caltow,California Towhee,0.2676
+1948401,"SYNC/Cam07/2021-04-17/04 Camera 7 - 4-17-2021, 4.00.00am (3).mp4",2021-04-17 04:00:00,493.0,Spectrogram 1,1.0,1650.0,1653.0,150.0,12000.0,rewbla,Red-winged Blackbird,0.1011
+1949817,"SYNC/Cam07/2021-04-17/04 Camera 7 - 4-17-2021, 4.00.00am (7).mp4",2021-04-17 04:00:00,608.0,Spectrogram 1,1.0,3186.0,3189.0,150.0,12000.0,wilfly,Willow Flycatcher,0.1135
+1952288,"SYNC/Cam10/2021-04-17/11 Camera 10 - 4-17-2021, 5.57.00am (11).mp4",2021-04-17 05:57:00,127.0,Spectrogram 1,1.0,3090.0,3093.0,150.0,12000.0,warvir,Warbling Vireo,0.9671
+1952687,"SYNC/Cam10/2021-04-17/11 Camera 10 - 4-17-2021, 5.57.00am (4).mp4",2021-04-17 05:57:00,182.0,Spectrogram 1,1.0,669.0,672.0,150.0,12000.0,cowscj1,California Scrub-Jay,0.1689
+1952787,"SYNC/Cam10/2021-04-17/11 Camera 10 - 4-17-2021, 5.57.00am (8).mp4",2021-04-17 05:57:00,194.0,Spectrogram 1,1.0,2529.0,2532.0,150.0,12000.0,vesspa,Vesper Sparrow,0.1509
+1956652,"SYNC/Cam01/2021-04-17/09 Camera 1 - 4-17-2021, 6.01.00am.mp4",2021-04-17 06:01:00,340.0,Spectrogram 1,1.0,2019.0,2022.0,150.0,12000.0,caltow,California Towhee,0.1573
+1956691,"SYNC/Cam01/2021-04-17/09 Camera 1 - 4-17-2021, 6.01.00am (8).mp4",2021-04-17 06:01:00,345.0,Spectrogram 1,1.0,3444.0,3447.0,150.0,12000.0,pibgre,Pied-billed Grebe,0.4382
+1960672,"SYNC/Cam02/2021-04-17/10 Camera 2 - 4-17-2021, 6.10.00am (4).mp4",2021-04-17 06:10:00,452.0,Spectrogram 1,1.0,2862.0,2865.0,150.0,12000.0,warvir,Warbling Vireo,0.5812
+1962598,"SYNC/Cam07/2021-04-18/04 Camera 7 - 4-18-2021, 4.00.00am - 13.mp4",2021-04-18 04:00:00,46.0,Spectrogram 1,1.0,489.0,492.0,150.0,12000.0,barswa,Barn Swallow,0.8187
+1965602,"SYNC/Cam09/2021-04-18/06 Camera 9 - 4-18-2021, 4.00.00am - 2.mp4",2021-04-18 04:00:00,223.0,Spectrogram 1,1.0,1224.0,1227.0,150.0,12000.0,caltow,California Towhee,0.1693
+1972781,"SYNC/Cam10/2021-04-18/11 Camera 10 - 4-18-2021, 5.57.00am - 2.mp4",2021-04-18 05:57:00,641.0,Spectrogram 1,1.0,3570.0,3573.0,150.0,12000.0,astfly,Ash-throated Flycatcher,0.2099
+1973728,"SYNC/Cam01/2021-04-18/09 Camera 1 - 4-18-2021, 6.01.00am - 2.mp4",2021-04-18 06:01:00,127.0,Spectrogram 1,1.0,711.0,714.0,150.0,12000.0,spotow,Spotted Towhee,0.2792
+1974195,"SYNC/Cam01/2021-04-18/09 Camera 1 - 4-18-2021, 6.01.00am - 2.mp4",2021-04-18 06:01:00,201.0,Spectrogram 1,1.0,1443.0,1446.0,150.0,12000.0,houfin,House Finch,0.1211
+1977424,"SYNC/Cam02/2021-04-18/10 Camera 2 - 4-18-2021, 6.10.00am (2).mp4",2021-04-18 06:10:00,124.0,Spectrogram 1,1.0,771.0,774.0,150.0,12000.0,orcwar,Orange-crowned Warbler,0.5688
+1983729,"SYNC/Cam07/2021-04-19/04 Camera 7 - 4-19-2021, 4.00.00am - 11.mp4",2021-04-19 04:00:00,151.0,Spectrogram 1,1.0,1056.0,1059.0,150.0,12000.0,rethaw,Red-tailed Hawk,0.2855
+1989125,"SYNC/Cam07/2021-04-19/04 Camera 7 - 4-19-2021, 4.00.00am - 6.mp4",2021-04-19 04:00:00,586.0,Spectrogram 1,1.0,2442.0,2445.0,150.0,12000.0,virrai,Virginia Rail,0.1458
+1991987,"SYNC/Cam10/2021-04-19/11 Camera 10 - 4-19-2021, 5.57.00am - 0.mp4",2021-04-19 05:57:00,463.0,Spectrogram 1,1.0,3069.0,3072.0,150.0,12000.0,astfly,Ash-throated Flycatcher,0.2497
+1992596,"SYNC/Cam01/2021-04-19/09 Camera 1 - 4-19-2021, 6.02.00am - 1.mp4",2021-04-19 06:02:00,54.0,Spectrogram 1,1.0,246.0,249.0,150.0,12000.0,belkin1,Belted Kingfisher,0.964
+1993712,"SYNC/Cam01/2021-04-19/09 Camera 1 - 4-19-2021, 6.02.00am - 7.mp4",2021-04-19 06:02:00,208.0,Spectrogram 1,1.0,1473.0,1476.0,150.0,12000.0,wlswar,Wilson's Warbler,0.4915
+1994467,"SYNC/Cam01/2021-04-19/09 Camera 1 - 4-19-2021, 6.02.00am - 8.mp4",2021-04-19 06:02:00,328.0,Spectrogram 1,1.0,1713.0,1716.0,150.0,12000.0,spotow,Spotted Towhee,0.7023
+1998381,"SYNC/Cam02/2021-04-19/10 Camera 2 - 4-19-2021, 6.10.00am (9).mp4",2021-04-19 06:10:00,291.0,Spectrogram 1,1.0,2187.0,2190.0,150.0,12000.0,bewwre,Bewick's Wren,0.3508
+2000141,"SYNC/Cam02/2021-04-19/10 Camera 2 - 4-19-2021, 6.10.00am (9).mp4",2021-04-19 06:10:00,516.0,Spectrogram 1,1.0,3303.0,3306.0,150.0,12000.0,wrenti,Wrentit,0.7421
+2001304,"SYNC/Cam07/2021-04-20/04 Camera 7 - 4-20-2021, 4.00.00am - 1.mp4",2021-04-20 04:00:00,4.0,Spectrogram 1,1.0,654.0,657.0,150.0,12000.0,rethaw,Red-tailed Hawk,0.3623
+2005300,"SYNC/Cam07/2021-04-20/04 Camera 7 - 4-20-2021, 4.00.00am - 6.mp4",2021-04-20 04:00:00,299.0,Spectrogram 1,1.0,1488.0,1491.0,150.0,12000.0,y00475,American Coot,0.1201
+2005374,"SYNC/Cam07/2021-04-20/04 Camera 7 - 4-20-2021, 4.00.00am - 10.mp4",2021-04-20 04:00:00,306.0,Spectrogram 1,1.0,1773.0,1776.0,150.0,12000.0,balori,Baltimore Oriole,0.1462
+2005507,"SYNC/Cam09/2021-04-20/06 Camera 9 - 4-20-2021, 4.00.00am - 6.mp4",2021-04-20 04:00:00,319.0,Spectrogram 1,1.0,3534.0,3537.0,150.0,12000.0,chispa,Chipping Sparrow,0.4511
+2006148,"SYNC/Cam09/2021-04-20/06 Camera 9 - 4-20-2021, 4.00.00am - 4.mp4",2021-04-20 04:00:00,378.0,Spectrogram 1,1.0,2184.0,2187.0,150.0,12000.0,chispa,Chipping Sparrow,0.1401
+2007475,"SYNC/Cam07/2021-04-20/04 Camera 7 - 4-20-2021, 4.00.00am - 3.mp4",2021-04-20 04:00:00,552.0,Spectrogram 1,1.0,1914.0,1917.0,150.0,12000.0,killde,Killdeer,0.2421
+2007586,"SYNC/Cam07/2021-04-20/04 Camera 7 - 4-20-2021, 4.00.00am - 10.mp4",2021-04-20 04:00:00,572.0,Spectrogram 1,1.0,3114.0,3117.0,150.0,12000.0,rewbla,Red-winged Blackbird,0.1606
+2008348,"SYNC/Cam07/2021-04-20/04 Camera 7 - 4-20-2021, 4.00.00am - 2.mp4",2021-04-20 04:00:00,840.0,Spectrogram 1,1.0,3192.0,3195.0,150.0,12000.0,marwre,Marsh Wren,0.1022
+2009332,"SYNC/Cam10/2021-04-20/11 Camera 10 - 4-20-2021, 5.58.00am - 3.mp4",2021-04-20 05:58:00,184.0,Spectrogram 1,1.0,1470.0,1473.0,150.0,12000.0,lesgol,Lesser Goldfinch,0.1588
+2010651,"SYNC/Cam01/2021-04-20/09 Camera 1 - 4-20-2021, 6.01.00am - 4.mp4",2021-04-20 06:01:00,100.0,Spectrogram 1,1.0,579.0,582.0,150.0,12000.0,houfin,House Finch,0.1013
+2011053,"SYNC/Cam01/2021-04-20/09 Camera 1 - 4-20-2021, 6.01.00am - 4.mp4",2021-04-20 06:01:00,146.0,Spectrogram 1,1.0,879.0,882.0,150.0,12000.0,lesgol,Lesser Goldfinch,0.1849
+2011173,"SYNC/Cam01/2021-04-20/09 Camera 1 - 4-20-2021, 6.01.00am - 8.mp4",2021-04-20 06:01:00,161.0,Spectrogram 1,1.0,1680.0,1683.0,150.0,12000.0,spotow,Spotted Towhee,0.2837
+2011362,"SYNC/Cam01/2021-04-20/09 Camera 1 - 4-20-2021, 6.01.00am - 12.mp4",2021-04-20 06:01:00,186.0,Spectrogram 1,1.0,2922.0,2925.0,150.0,12000.0,norfli,Northern Flicker,0.2007
+2011892,"SYNC/Cam01/2021-04-20/09 Camera 1 - 4-20-2021, 6.01.00am - 12.mp4",2021-04-20 06:01:00,258.0,Spectrogram 1,1.0,3405.0,3408.0,150.0,12000.0,caltow,California Towhee,0.1934
+2012415,"SYNC/Cam01/2021-04-20/09 Camera 1 - 4-20-2021, 6.01.00am - 5.mp4",2021-04-20 06:01:00,366.0,Spectrogram 1,1.0,2706.0,2709.0,150.0,12000.0,lesgol,Lesser Goldfinch,0.8226
+2013491,"SYNC/Cam02/2021-04-20/10 Camera 2 - 4-20-2021, 6.10.00am (13).mp4",2021-04-20 06:10:00,26.0,Spectrogram 1,1.0,330.0,333.0,150.0,12000.0,spotow,Spotted Towhee,0.3581
+2022044,"SYNC/Cam07/2021-04-21/04 Camera 7 - 4-21-2021, 4.00.00am - 4.mp4",2021-04-21 04:00:00,635.0,Spectrogram 1,1.0,2088.0,2091.0,150.0,12000.0,sora,Sora,0.1001
+2022835,"SYNC/Cam10/2021-04-21/11 Camera 10 - 4-21-2021, 5.57.00am - 13.mp4",2021-04-21 05:57:00,48.0,Spectrogram 1,1.0,2370.0,2373.0,150.0,12000.0,caltow,California Towhee,0.1023
+2026268,"SYNC/Cam01/2021-04-21/09 Camera 1 - 4-21-2021, 6.01.00am - 2.mp4",2021-04-21 06:01:00,338.0,Spectrogram 1,1.0,2370.0,2373.0,150.0,12000.0,warvir,Warbling Vireo,0.113
+2026917,"SYNC/Cam01/2021-04-21/09 Camera 1 - 4-21-2021, 6.01.00am - 2.mp4",2021-04-21 06:01:00,530.0,Spectrogram 1,1.0,3375.0,3378.0,150.0,12000.0,spotow,Spotted Towhee,0.1707
+2026968,"SYNC/Cam01/2021-04-21/09 Camera 1 - 4-21-2021, 6.01.00am - 3.mp4",2021-04-21 06:01:00,550.0,Spectrogram 1,1.0,2145.0,2148.0,150.0,12000.0,spotow,Spotted Towhee,0.1675
+2027423,"SYNC/Cam02/2021-04-21/10 Camera 2 - 4-21-2021, 6.10.00am (11).mp4",2021-04-21 06:10:00,8.0,Spectrogram 1,1.0,45.0,48.0,150.0,12000.0,spotow,Spotted Towhee,0.2574
+2034657,"SYNC/Cam07/2021-04-22/04 Camera 7 - 4-22-2021, 4.00.00am - 4.mp4",2021-04-22 04:00:00,363.0,Spectrogram 1,1.0,1326.0,1329.0,150.0,12000.0,rewbla,Red-winged Blackbird,0.1546
+2034884,"SYNC/Cam07/2021-04-22/04 Camera 7 - 4-22-2021, 4.00.00am - 2.mp4",2021-04-22 04:00:00,440.0,Spectrogram 1,1.0,2421.0,2424.0,150.0,12000.0,pibgre,Pied-billed Grebe,0.2987
+2037497,"SYNC/Cam01/2021-04-22/09 Camera 1 - 4-22-2021, 6.01.00am - 4.mp4",2021-04-22 06:01:00,106.0,Spectrogram 1,1.0,2238.0,2241.0,150.0,12000.0,spotow,Spotted Towhee,0.3324
+2040531,"SYNC/Cam02/2021-04-22/10 Camera 2 - 4-22-2021, 6.11.00am (13).mp4",2021-04-22 06:11:00,136.0,Spectrogram 1,1.0,1797.0,1800.0,150.0,12000.0,indbun,Indigo Bunting,0.1801
+2044141,"SYNC/Cam09/2021-04-23/06 Camera 9 - 4-23-2021, 4.00.00am - 1.mp4",2021-04-23 04:00:00,207.0,Spectrogram 1,1.0,3462.0,3465.0,150.0,12000.0,wiltur,Wild Turkey,0.4004
+2045095,"SYNC/Cam07/2021-04-23/04 Camera 7 - 4-23-2021, 4.00.00am - 15.mp4",2021-04-23 04:00:00,343.0,Spectrogram 1,1.0,2100.0,2103.0,150.0,12000.0,virrai,Virginia Rail,0.1044
+2045120,"SYNC/Cam07/2021-04-23/04 Camera 7 - 4-23-2021, 4.00.00am - 5.mp4",2021-04-23 04:00:00,348.0,Spectrogram 1,1.0,1821.0,1824.0,150.0,12000.0,wilfly,Willow Flycatcher,0.1204
+2046459,"SYNC/Cam10/2021-04-23/11 Camera 10 - 4-23-2021, 5.57.00am - 2.mp4",2021-04-23 05:57:00,32.0,Spectrogram 1,1.0,114.0,117.0,150.0,12000.0,lobdow,Long-billed Dowitcher,0.2171
+2047085,"SYNC/Cam10/2021-04-23/11 Camera 10 - 4-23-2021, 5.57.00am - 1.mp4",2021-04-23 05:57:00,209.0,Spectrogram 1,1.0,1677.0,1680.0,150.0,12000.0,spotow,Spotted Towhee,0.1128
+2047457,"SYNC/Cam10/2021-04-23/11 Camera 10 - 4-23-2021, 5.57.00am - 0.mp4",2021-04-23 05:57:00,415.0,Spectrogram 1,1.0,3357.0,3360.0,150.0,12000.0,astfly,Ash-throated Flycatcher,0.8075
+2047669,"SYNC/Cam01/2021-04-23/09 Camera 1 - 4-23-2021, 6.01.00am - 13.mp4",2021-04-23 06:01:00,15.0,Spectrogram 1,1.0,2124.0,2127.0,150.0,12000.0,caltow,California Towhee,0.503
+2049895,"SYNC/Cam02/2021-04-23/10 Camera 2 - 4-23-2021, 6.10.00am (3).mp4",2021-04-23 06:10:00,96.0,Spectrogram 1,1.0,1149.0,1152.0,150.0,12000.0,astfly,Ash-throated Flycatcher,0.101
+2051415,"SYNC/Cam02/2021-04-23/10 Camera 2 - 4-23-2021, 6.10.00am (1).mp4",2021-04-23 06:10:00,510.0,Spectrogram 1,1.0,2826.0,2829.0,150.0,12000.0,wrenti,Wrentit,0.2933
+2051603,"SYNC/Cam04/2021-04-23/07 Camera 4 - 4-23-2021, 6.11.00am - 13.mp4",2021-04-23 06:11:00,36.0,Spectrogram 1,1.0,2550.0,2553.0,150.0,12000.0,grhowl,Great Horned Owl,0.5878
+2054206,"SYNC/Cam09/2021-04-24/06 Camera 9 - 4-24-2021, 4.00.00am - 6.mp4",2021-04-24 04:00:00,179.0,Spectrogram 1,1.0,3324.0,3327.0,150.0,12000.0,caltow,California Towhee,0.1026
+2058294,"SYNC/Cam10/2021-04-24/11 Camera 10 - 4-24-2021, 5.57.00am - 2.mp4",2021-04-24 05:57:00,305.0,Spectrogram 1,1.0,3156.0,3159.0,150.0,12000.0,astfly,Ash-throated Flycatcher,0.5156
+2059140,"SYNC/Cam01/2021-04-24/09 Camera 1 - 4-24-2021, 6.03.00am - 0.mp4",2021-04-24 06:03:00,110.0,Spectrogram 1,1.0,300.0,303.0,150.0,12000.0,caltow,California Towhee,0.4339
+2063169,"SYNC/Cam02/2021-04-24/10 Camera 2 - 4-24-2021, 6.10.00am (13).mp4",2021-04-24 06:10:00,439.0,Spectrogram 1,1.0,3132.0,3135.0,150.0,12000.0,spotow,Spotted Towhee,0.5382
+2066651,"SYNC/Cam09/2021-04-25/06 Camera 9 - 4-25-2021, 4.00.00am - 14.mp4",2021-04-25 04:00:00,180.0,Spectrogram 1,1.0,837.0,840.0,150.0,12000.0,acowoo,Acorn Woodpecker,0.1253
+2066691,"SYNC/Cam07/2021-04-25/04 Camera 7 - 4-25-2021, 4.00.00am - 2.mp4",2021-04-25 04:00:00,182.0,Spectrogram 1,1.0,861.0,864.0,150.0,12000.0,treswa,Tree Swallow,0.2382
+2071273,"SYNC/Cam01/2021-04-25/09 Camera 1 - 4-25-2021, 6.03.00am - 1.mp4",2021-04-25 06:03:00,9.0,Spectrogram 1,1.0,18.0,21.0,150.0,12000.0,warvir,Warbling Vireo,0.1446
+2071693,"SYNC/Cam01/2021-04-25/09 Camera 1 - 4-25-2021, 6.03.00am - 9.mp4",2021-04-25 06:03:00,63.0,Spectrogram 1,1.0,1356.0,1359.0,150.0,12000.0,caltow,California Towhee,0.1924
+2080620,"SYNC/Cam07/2021-04-26/04 Camera 7 - 4-26-2021, 4.00.00am - 10.mp4",2021-04-26 04:00:00,220.0,Spectrogram 1,1.0,1581.0,1584.0,150.0,12000.0,rethaw,Red-tailed Hawk,0.2153
+2082082,"SYNC/Cam09/2021-04-26/06 Camera 9 - 4-26-2021, 4.00.00am - 3.mp4",2021-04-26 04:00:00,320.0,Spectrogram 1,1.0,1914.0,1917.0,150.0,12000.0,caltow,California Towhee,0.2573
+2082129,"SYNC/Cam07/2021-04-26/04 Camera 7 - 4-26-2021, 4.00.00am - 15.mp4",2021-04-26 04:00:00,323.0,Spectrogram 1,1.0,1656.0,1659.0,150.0,12000.0,treswa,Tree Swallow,0.1025
+2082291,"SYNC/Cam07/2021-04-26/04 Camera 7 - 4-26-2021, 4.00.00am - 11.mp4",2021-04-26 04:00:00,336.0,Spectrogram 1,1.0,2637.0,2640.0,150.0,12000.0,barswa,Barn Swallow,0.1012
+2083895,"SYNC/Cam07/2021-04-26/04 Camera 7 - 4-26-2021, 4.00.00am - 14.mp4",2021-04-26 04:00:00,497.0,Spectrogram 1,1.0,2808.0,2811.0,150.0,12000.0,treswa,Tree Swallow,0.1424
+2083968,"SYNC/Cam09/2021-04-26/06 Camera 9 - 4-26-2021, 4.00.00am - 2.mp4",2021-04-26 04:00:00,508.0,Spectrogram 1,1.0,2208.0,2211.0,150.0,12000.0,caltow,California Towhee,0.1861
+2086133,"SYNC/Cam10/2021-04-26/11 Camera 10 - 4-26-2021, 5.57.00am - 2.mp4",2021-04-26 05:57:00,125.0,Spectrogram 1,1.0,522.0,525.0,150.0,12000.0,wrenti,Wrentit,0.5201
+2087594,"SYNC/Cam10/2021-04-26/11 Camera 10 - 4-26-2021, 5.57.00am - 1.mp4",2021-04-26 05:57:00,695.0,Spectrogram 1,1.0,3213.0,3216.0,150.0,12000.0,astfly,Ash-throated Flycatcher,0.363
+2088877,"SYNC/Cam01/2021-04-26/09 Camera 1 - 4-26-2021, 6.01.00am - 0.mp4",2021-04-26 06:01:00,137.0,Spectrogram 1,1.0,720.0,723.0,150.0,12000.0,caltow,California Towhee,0.471
+2092905,"SYNC/Cam02/2021-04-26/10 Camera 2 - 4-26-2021, 6.10.00am (2).mp4",2021-04-26 06:10:00,230.0,Spectrogram 1,1.0,756.0,759.0,150.0,12000.0,spotow,Spotted Towhee,0.5633
