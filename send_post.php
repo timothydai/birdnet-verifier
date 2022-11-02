@@ -1,6 +1,6 @@
 <?php
     // Connecting to sql db.
-    $connect = mysqli_connect("db4free.net", "timdai", "172cb102", "birdnet_ids", "3306");
+    $connect = mysqli_connect("159.89.149.97", "birdnetv_timdai", "b1rdn3tr00l5", "birdnetv_base", "3306");
     $query_format = "INSERT INTO expert_ids VALUES (%d, %d, '%s', '%s', '%s', '%s');";
     // Sending form data to sql db.
     $query = sprintf(

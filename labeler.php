@@ -1,5 +1,5 @@
 <?php
-  $connect = mysqli_connect("db4free.net", "timdai", "172cb102", "birdnet_ids", "3306");
+  $connect = mysqli_connect("159.89.149.97", "birdnetv_timdai", "b1rdn3tr00l5", "birdnetv_base", "3306");
   $detection_id = $_GET["sample"];
   $sample = mysqli_query($connect, "SELECT * FROM birdnet_detections WHERE id = $detection_id;")->fetch_assoc();
 
@@ -16,9 +16,9 @@
   </head>
   <body>
     <audio controls src=<?php echo $sample["uri"] ?>></audio>
-    <div>Location: <?php echo $sample["location"] ?></div>
+    <div>Location: <?php echo $sample["recording_location"] ?></div>
     <div>Filename: <?php echo $sample["filename"] ?></div>
-    <div>Datetime: 2013-07-01 05:20:15</div>
+    <div>Datetime: <?php echo $sample["recording_datetime"] ?></div></div>
     <div>
         <form action=<?php echo $post_url ?> method="post">
             <div>Enter species:</div>
