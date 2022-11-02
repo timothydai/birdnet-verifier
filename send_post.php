@@ -10,6 +10,6 @@
     mysqli_query($connect, $query);
 
     
-    header("Location: labeling_interface.php?sample=". ($_GET["sample"] + 1));
+    header("Location: labeler.php?sample=". ($_GET["sample"] + 1));
     exit;
 ?>

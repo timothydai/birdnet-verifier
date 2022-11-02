@@ -30,9 +30,9 @@
         </form>
     </div>
     <div>
-        <a href="bat_monitoring_recorders.php">Back to Bat Recordings Home</a>
+        <a href="bat_monitoring_recorders.html">Back to Bat Recordings Home</a>
         |
-        <a href="index.php">Back to Labeler Home</a>
+        <a href="index.html">Back to Labeler Home</a>
     </div>
   </body>
 </html>
