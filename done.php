@@ -11,7 +11,7 @@
 <body>
   <div>You reached the end.</div>
   <div>
-    <a href="index.html">Back to Labeler Home</a>
+    <a href="index.php">Back to Labeler Home</a>
   </div>
 </body>
 

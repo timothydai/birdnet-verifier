@@ -1,4 +1,10 @@
 <?php
+session_start();
+if (empty($_SESSION["username"])) {
+  header("Location: index.php");
+  exit;
+}
+
 $connect = mysqli_connect("159.89.149.97", "birdnetv_public", "birdnetrools!", "birdnetv_base", "3306");
 $sample_type = $_GET["sample_type"];
 $sample_idx = $_GET["sample"];
@@ -12,8 +18,16 @@ if (str_contains($location, "all")) {
 }
 
 if ($_GET["sample"] >= $number_of_samples) {
-  header("Location: done.php?location=" . $_GET["location"]);
+  header("Location: done.php");
   exit;
+}
+
+$birdnet_detection_id = $sample["id"];
+$last_updated = mysqli_query($connect, "SELECT * FROM expert_ids WHERE birdnet_detection_id='$birdnet_detection_id' ORDER BY logged_date DESC LIMIT 1;")->fetch_assoc();
+if ($last_updated !== null) {
+  $last_updated_str = $last_updated["logged_user"] . ", on " . $last_updated["logged_date"];
+} else {
+  $last_updated_str = "";
 }
 
 if (isset($_POST["submit"])) {
@@ -34,10 +48,10 @@ if (isset($_POST["submit"])) {
     $value = sprintf(
       $value_format,
       0,
-      $_GET["sample"],
+      $sample["id"],
       $common_name,
       $_POST["comments"],
-      "Timothy Dai",
+      $_SESSION["username"],
       $now
     );
     $values .= $value;
@@ -45,7 +59,7 @@ if (isset($_POST["submit"])) {
   $values = substr($values, 0, -1);
   mysqli_query($connect, sprintf($query_format, $values));
 
-  header("Location: labeler.php?location=" . $_GET["location"] . "&sample=" . ($_GET["sample"] + 1));
+  header("Location: labeler.php?sample_type=" . $sample_type . "&location=" . $_GET["location"] . "&sample=" . ($_GET["sample"] + 1));
   exit;
 }
 ?>
@@ -273,6 +287,7 @@ if (isset($_POST["submit"])) {
         <div></div>
         <input type="submit" name="submit" value="Submit">
       </form>
+      <div>Last updated: <?php echo $last_updated_str; ?></div>
     </div>
     <div>
       <a href="index.php">Back to Labeler Home</a>

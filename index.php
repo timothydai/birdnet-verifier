@@ -1,12 +1,16 @@
 <?php
+session_start();
 if (isset($_POST["submit"])) {
-  if (!(isset($_POST["sample_type"]) && isset($_POST["location"]))) {
-    echo '<script>alert("Fill in all fields.")</script>';
-  } else {
+  if (isset($_POST["username"])) {
+    $_SESSION["username"] = $_POST["username"];
+  }
+  if (isset($_POST["sample_type"]) and isset($_POST["location"]) and isset($_SESSION["username"])) {
     header(
       "Location: labeler.php?sample_type=" . $_POST["sample_type"] . "&location=" . $_POST["location"] . "&sample=0"
     );
     exit;
+  } else {
+    echo "<script>alert('Fill in all fields.');</script>";
   }
 }
 ?>
@@ -27,6 +31,13 @@ if (isset($_POST["submit"])) {
   <div style="text-align:center">
     <form action="" method="post">
       <div style="margin-bottom:15px">
+        <?php if (empty($_SESSION["username"])) { ?>
+          <div>Name: <input type="text" name="username" autocomplete="off"></div>
+        <?php } else { ?>
+          Welcome back, <?php echo $_SESSION["username"]; ?>. <a href=<?php session_destroy(); ?>>I am not <?php echo $_SESSION["username"]; ?>.</a>
+        <?php } ?>
+      </div>
+      <div style="margin-bottom:15px">
         <div>Select Sample Type:</div>
         <input type="radio" id="random" name="sample_type" value="random">
         <label for="random">Random Sample only</label>
@@ -41,7 +52,7 @@ if (isset($_POST["submit"])) {
         <input type="radio" id="video" name="data_source" value="video">
         <label for="video">Video Cameras</label>
       </div>
-      
+
       <div style="margin-bottom:15px">
         <div>Select Location:</div>
         <div id="location_instructions">Select a data source first.</div>
