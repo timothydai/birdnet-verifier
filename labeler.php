@@ -1,12 +1,18 @@
 <?php
-$connect = mysqli_connect("159.89.149.97", "birdnetv_timdai", "b1rdn3tr00l5", "birdnetv_base", "3306");
+$connect = mysqli_connect("159.89.149.97", "birdnetv_public", "birdnetrools!", "birdnetv_base", "3306");
+$sample_type = $_GET["sample_type"];
 $sample_idx = $_GET["sample"];
 $location = $_GET["location"];
-$sample = mysqli_query($connect, "SELECT * FROM birdnet_detections WHERE recording_location = '$location' LIMIT 1 OFFSET $sample_idx;")->fetch_assoc();
-$number_of_samples = mysqli_query($connect, "SELECT COUNT(*) as num_recs FROM birdnet_detections WHERE recording_location = '$location';")->fetch_assoc()["num_recs"];
+if (str_contains($location, "all")) {
+  $sample = mysqli_query($connect, "SELECT * FROM birdnet_detections WHERE sample='$sample_type' LIMIT 1 OFFSET $sample_idx;")->fetch_assoc();
+  $number_of_samples = mysqli_query($connect, "SELECT COUNT(*) as num_recs FROM birdnet_detections WHERE sample='$sample_type';")->fetch_assoc()["num_recs"];
+} else {
+  $sample = mysqli_query($connect, "SELECT * FROM birdnet_detections WHERE recording_location = '$location' AND sample='$sample_type' LIMIT 1 OFFSET $sample_idx;")->fetch_assoc();
+  $number_of_samples = mysqli_query($connect, "SELECT COUNT(*) as num_recs FROM birdnet_detections WHERE recording_location = '$location' AND sample='$sample_type';")->fetch_assoc()["num_recs"];
+}
 
 if ($_GET["sample"] >= $number_of_samples) {
-  header("Location: done.html");
+  header("Location: done.php?location=" . $_GET["location"]);
   exit;
 }
 
@@ -269,13 +275,7 @@ if (isset($_POST["submit"])) {
       </form>
     </div>
     <div>
-      <?php if (str_contains($_GET["location"], "Cam")) { ?>
-        <a href="video_cameras.php">Back to Video Camera Map</a>
-      <?php } else { ?>
-        <a href="bat_monitoring_recorders.php">Back to Bat Recordings Map</a>
-      <?php } ?>
-      |
-      <a href="index.html">Back to Labeler Home</a>
+      <a href="index.php">Back to Labeler Home</a>
     </div>
   </div>
 </body>
