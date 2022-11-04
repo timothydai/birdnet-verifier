@@ -6,17 +6,17 @@ $(document).ready(function () {
         var selected_location = this.value;
         if (selected_location == 'bat') {
             $('#bat_locations').css({
-                'display': 'inline'
+                'display': 'inline',
             });
             $('#cam_locations').css({
                 'display': 'none'
             });
         } else {
             $('#bat_locations').css({
-                'display': 'none'
+                'display': 'none',
             });
             $('#cam_locations').css({
-                'display': 'inline'
+                'display': 'inline',
             });
         }
     });

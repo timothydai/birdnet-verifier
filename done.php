@@ -8,7 +8,7 @@
   <title>JRBP Audio Labeler</title>
 </head>
 
-<body>
+<body style="text-align:center">
   <div>You reached the end.</div>
   <div>
     <a href="index.php">Back to Labeler Home</a>
