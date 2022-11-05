@@ -87,36 +87,48 @@ if (isset($_POST["submit"])) {
       border-collapse: collapse;
       padding: 3px;
       font-weight: normal;
+      table-layout: fixed;
     }
+    table {
+      width:100%;
+    }
+    th {
+      width: 80px;
+    }
+
   </style>
 </head>
 
 <body>
   <div style="display:flex; justify-content:center;">
-    <div style="width:50%;min-width:500px;">
+    <div style="min-width:600px;width:600px;">
       <?php if ($_SESSION["username"] === "Test") { ?>
         <div style="color: red;">Warning: You are labeling as a Test user. Your submissions will not be recorded.</div>
       <?php } ?>
 
       <div style="margin-bottom: 15px">Record <?php echo $sample_idx + 1; ?> of <?php echo $number_of_samples; ?></div>
 
-      <div style="margin-bottom: 15px"><audio controls src=<?php echo $sample["audio_uri"]; ?>></audio></div>
-
-      <div style="margin-bottom: 15px; overflow-x: scroll;">
-        <table>
-          <tr>
-            <th>Location</th>
-            <td><?php echo $sample["recording_location"]; ?></td>
-          </tr>
-          <tr>
-            <th>Filename</th>
-            <td><?php echo $sample["filename"]; ?></td>
-          </tr>
-          <tr>
-            <th>Datetime</th>
-            <td><?php echo $sample["recording_datetime"]; ?></td>
-          </tr>
-        </table>
+      <div style="display:flex;">
+        <div style="width:50%; margin-bottom:30px;">
+          <audio controls src=<?php echo $sample["audio_uri"]; ?> style="margin-bottom: 15px; "></audio>
+          <table>
+            <tr>
+              <th>Location</th>
+              <td><?php echo $sample["recording_location"]; ?></td>
+            </tr>
+            <tr>
+              <th>Filename</th>
+              <td style="overflow-wrap: break-word;"><?php echo $sample["filename"]; ?></td>
+            </tr>
+            <tr>
+              <th>Datetime</th>
+              <td><?php echo $sample["recording_datetime"]; ?></td>
+            </tr>
+          </table>
+        </div>
+        <div style="width:50%;">
+          <img src=<?php echo $sample["spec_uri"] ?> style="width:100%;">
+        </div>
       </div>
 
       <div style="margin-bottom: 15px">
@@ -124,7 +136,7 @@ if (isset($_POST["submit"])) {
           <div style="margin-bottom: 15px;display:flex;justify-content:end;">
             <div style="width:50%">
               <div style="margin-bottom: 5px;">
-                <div style="font-weight:bold;">Select species (Common Name):</div> 
+                <div style="font-weight:bold;">Select species (Common Name):</div>
                 <div style="font-style:italic;">Click a species name again to deselect it.</div>
               </div>
               <div><input type="text" style="width:95%" id="filterMultipleSelection" placeholder="Filter species names here" autocomplete="off" /></div>
