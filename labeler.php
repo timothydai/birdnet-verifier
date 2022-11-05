@@ -2,7 +2,6 @@
 
 session_start();
 if (!isset($_SESSION["username"])) {
-  echo "<script>alert('No user found. Redirectly you to homepage to log in.');</script>";
   header("Location: index.php");
   exit;
 }
@@ -59,7 +58,9 @@ if (isset($_POST["submit"])) {
     $values .= $value;
   }
   $values = substr($values, 0, -1);
-  mysqli_query($connect, sprintf($query_format, $values));
+  if ($_SESSION["username"] !== "Test") {
+    mysqli_query($connect, sprintf($query_format, $values));
+  }
 
   header("Location: labeler.php?sample_type=" . $sample_type . "&location=" . $_GET["location"] . "&sample=" . ($_GET["sample"] + 1));
   exit;
@@ -85,7 +86,7 @@ if (isset($_POST["submit"])) {
       border: 1px solid black;
       border-collapse: collapse;
       padding: 3px;
-      font-weight:normal;
+      font-weight: normal;
     }
   </style>
 </head>
@@ -93,10 +94,13 @@ if (isset($_POST["submit"])) {
 <body>
   <div style="display:flex; justify-content:center;">
     <div style="width:50%;min-width:500px;">
+      <?php if ($_SESSION["username"] === "Test") { ?>
+        <div style="color: red;">Warning: You are labeling as a Test user. Your submissions will not be recorded.</div>
+      <?php } ?>
 
       <div style="margin-bottom: 15px">Record <?php echo $sample_idx + 1; ?> of <?php echo $number_of_samples; ?></div>
 
-      <div style="margin-bottom: 15px"><audio controls src=<?php echo $sample["uri"]; ?>></audio></div>
+      <div style="margin-bottom: 15px"><audio controls src=<?php echo $sample["audio_uri"]; ?>></audio></div>
 
       <div style="margin-bottom: 15px; overflow-x: scroll;">
         <table>
@@ -119,7 +123,10 @@ if (isset($_POST["submit"])) {
         <form action="" method="post">
           <div style="margin-bottom: 15px;display:flex;justify-content:end;">
             <div style="width:50%">
-              <div style="font-weight:bold;">Select species (Common Name):</div>
+              <div style="margin-bottom: 5px;">
+                <div style="font-weight:bold;">Select species (Common Name):</div> 
+                <div style="font-style:italic;">Click a species name again to deselect it.</div>
+              </div>
               <div><input type="text" style="width:95%" id="filterMultipleSelection" placeholder="Filter species names here" autocomplete="off" /></div>
               <select id="species_common_name" name="species_common_name" style="width:100%;height:150px;" multiple>
                 <option value="Acorn Woodpecker">Acorn Woodpecker</option>
@@ -321,6 +328,7 @@ if (isset($_POST["submit"])) {
       </div>
       <div style="margin-bottom: 15px">Last updated: <?php echo $last_updated_str; ?></div>
       <div style="text-align:right">
+        <a href=<?php echo "labeler.php?sample_type=" . $sample_type . "&location=" . $_GET["location"] . "&sample=" . ($_GET["sample"] + 1); ?>>Skip</a> |
         <a href="index.php">Back to Labeler Home</a>
       </div>
     </div>

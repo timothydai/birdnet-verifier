@@ -7,4 +7,3 @@ header(
   "Location: labeler.php?sample_type=" . $_POST["sample_type"] . "&location=" . $_POST["location"] . "&sample=0"
 );
 exit;
-exit;
