@@ -351,8 +351,8 @@ if (isset($_POST["submit"])) {
               <input type="text" id="unlisted" name="unlisted" placeholder="ex. Dodo,Black Swan,Green Peafowl" autocomplete="off" style="width:100%" />
             </div>
             <div style="width:47%;display:flex;flex-direction:column;justify-content:end;">
-              <textarea id="selected_species" readonly placeholder="Your species selections will appear here. Currently: None." name="selected_species" style="background:rgb(210,210,210);height:75%;width:100%;"></textarea>
-              <textarea id="unlisted_selected_species" readonly placeholder="Unlisted species selections will appear here. Currently: None." name="unlisted_selected_species" style="background:rgb(210,210,210);height:20%;width:100%;"></textarea>
+              <textarea id="selected_species" readonly placeholder="Your species selections will appear here. Currently: None." name="selected_species" style="background:rgb(210,210,210);height:82%;width:100%;"></textarea>
+              <textarea id="unlisted_selected_species" readonly placeholder="Unlisted species selections will appear here. Currently: None." name="unlisted_selected_species" style="background:rgb(210,210,210);height:18%;width:100%;"></textarea>
             </div>
           </div>
 
