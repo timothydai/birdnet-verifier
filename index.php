@@ -27,7 +27,7 @@ session_start();
           <?php } else { ?>
             Welcome back, <?php echo $_SESSION["username"]; ?>. <a href="destroy_session.php">I am not <?php echo $_SESSION["username"]; ?>.</a>
           <?php } ?>
-          <div style="font-style:italic;">Using the labeler name "Test" will prevent any of your identifications from being recorded.</div>
+          <div style="font-style:italic;">Using the labeler name "Test" will prevent your identifications from being recorded.</div>
         </div>
 
         <div style="margin-bottom:15px">

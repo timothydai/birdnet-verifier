@@ -37,7 +37,7 @@ if (isset($_POST["submit"])) {
   $connect = mysqli_connect("159.89.149.97", "birdnetv_timdai", "b1rdn3tr00l5", "birdnetv_base", "3306");
   $query_format = "INSERT INTO expert_ids VALUES %s;";
   $values = "";
-  $value_format = '(%d, %d, "%s", "%s", "%s", "%s"),';
+  $value_format = '(%d, %d, "%s", "%s", "%s", "%s", %d),';
 
   // Sending form data to sql db.
   $now = date("Y-m-d H:i:s");
@@ -53,7 +53,21 @@ if (isset($_POST["submit"])) {
       $common_name,
       $_POST["comments"],
       $_SESSION["username"],
-      $now
+      $now,
+      0
+    );
+    $values .= $value;
+  }
+  foreach (array_slice(explode("\n", $_POST["unlisted_selected_species"]), 0, -1) as $common_name) {
+    $value = sprintf(
+      $value_format,
+      0,
+      $sample["id"],
+      $common_name,
+      $_POST["comments"],
+      $_SESSION["username"],
+      $now,
+      1
     );
     $values .= $value;
   }
@@ -89,17 +103,18 @@ if (isset($_POST["submit"])) {
       font-weight: normal;
       table-layout: fixed;
     }
+
     table {
-      width:100%;
+      width: 100%;
     }
+
     th {
       width: 80px;
     }
-
   </style>
 </head>
 
-<body>
+<body style="min-width:600px;">
   <div style="display:flex; justify-content:center;">
     <div style="min-width:600px;width:600px;">
       <?php if ($_SESSION["username"] === "Test") { ?>
@@ -133,14 +148,17 @@ if (isset($_POST["submit"])) {
 
       <div style="margin-bottom: 15px">
         <form action="" method="post">
-          <div style="margin-bottom: 15px;display:flex;justify-content:end;">
-            <div style="width:50%">
+          <div style="margin-bottom: 5px;">
+            <div style="font-weight:bold;">Select species (Common Name):</div>
+            <div style="font-style:italic;">Leave all selections blank if no bird species present.</div>
+          </div>
+          <div style="margin-bottom: 15px;display:flex;justify-content:space-between">
+            <div style="width:47%">
               <div style="margin-bottom: 5px;">
-                <div style="font-weight:bold;">Select species (Common Name):</div>
-                <div style="font-style:italic;">Click a species name again to deselect it.</div>
+                <div>Click on a species name once to select it and again to deselect it.</div>
               </div>
-              <div><input type="text" style="width:95%" id="filterMultipleSelection" placeholder="Filter species names here" autocomplete="off" /></div>
-              <select id="species_common_name" name="species_common_name" style="width:100%;height:150px;" multiple>
+              <div><input type="text" style="width:100%;margin-bottom:5px;" id="filterMultipleSelection" placeholder="Filter species names here" autocomplete="off" /></div>
+              <select id="species_common_name" name="species_common_name" style="width:103%;height:150px;" multiple>
                 <option value="Acorn Woodpecker">Acorn Woodpecker</option>
                 <option value="Allen's Hummingbird">Allen's Hummingbird</option>
                 <option value="American Bittern">American Bittern</option>
@@ -328,14 +346,23 @@ if (isset($_POST["submit"])) {
                 <option value="Yellow Warbler">Yellow Warbler</option>
                 <option value="Yellow-rumped Warbler">Yellow-rumped Warbler</option>
               </select>
+              <!-- <div style="margin-top:15px;margin-bottom:15px;text-align:center;">FOR UNLISTED COMMON NAMES:</div> -->
+              <div style="margin-bottom:5px;margin-top:15px;">Unlisted? Input unlisted common names here, separated by commas:</div>
+              <input type="text" id="unlisted" name="unlisted" placeholder="ex. Dodo,Black Swan,Green Peafowl" autocomplete="off" style="width:100%" />
             </div>
-            <div style="width:50%;display:flex;flex-direction:column;justify-content:end;"><textarea id="selected_species" readonly placeholder="Your selected species will appear here. Currently: None." name="selected_species" style="background:rgb(210,210,210);height:80%;width:100%;"></textarea></div>
+            <div style="width:47%;display:flex;flex-direction:column;justify-content:end;">
+              <textarea id="selected_species" readonly placeholder="Your species selections will appear here. Currently: None." name="selected_species" style="background:rgb(210,210,210);height:75%;width:100%;"></textarea>
+              <textarea id="unlisted_selected_species" readonly placeholder="Unlisted species selections will appear here. Currently: None." name="unlisted_selected_species" style="background:rgb(210,210,210);height:20%;width:100%;"></textarea>
+            </div>
           </div>
-          <div style="margin-bottom: 15px">
+
+          <div style="margin-bottom: 15px;">
             <div style="font-weight:bold;">Additional notes: (Is there anything unique about this recording?)</div>
             <textarea name="comments" rows="4" cols="50" style="width:100%"></textarea>
           </div>
+
           <input type="submit" name="submit" value="Submit">
+
         </form>
       </div>
       <div style="margin-bottom: 15px">Last updated: <?php echo $last_updated_str; ?></div>
