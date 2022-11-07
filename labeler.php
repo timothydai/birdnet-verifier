@@ -347,12 +347,12 @@ if (isset($_POST["submit"])) {
                 <option value="Yellow-rumped Warbler">Yellow-rumped Warbler</option>
               </select>
               <!-- <div style="margin-top:15px;margin-bottom:15px;text-align:center;">FOR UNLISTED COMMON NAMES:</div> -->
-              <div style="margin-bottom:5px;margin-top:15px;">Unlisted? Input unlisted common names here, separated by commas:</div>
+              <div style="margin-bottom:5px;margin-top:15px;">Other/unlisted, separated by commas:</div>
               <input type="text" id="unlisted" name="unlisted" placeholder="ex. Dodo,Black Swan,Green Peafowl" autocomplete="off" style="width:100%" />
             </div>
             <div style="width:47%;display:flex;flex-direction:column;justify-content:end;">
               <textarea id="selected_species" readonly placeholder="Your species selections will appear here. Currently: None." name="selected_species" style="background:rgb(210,210,210);height:82%;width:100%;"></textarea>
-              <textarea id="unlisted_selected_species" readonly placeholder="Unlisted species selections will appear here. Currently: None." name="unlisted_selected_species" style="background:rgb(210,210,210);height:18%;width:100%;"></textarea>
+              <textarea id="unlisted_selected_species" readonly placeholder="Other/unlisted species selections will appear here. Currently: None." name="unlisted_selected_species" style="background:rgb(210,210,210);height:18%;width:100%;"></textarea>
             </div>
           </div>
 
