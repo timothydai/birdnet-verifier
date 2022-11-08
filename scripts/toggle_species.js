@@ -27,6 +27,5 @@ $(document).ready(function () {
         }
 
         document.getElementById("unlisted_selected_species").value = add_species.join("\n");
-        console.log(document.getElementById("unlisted_selected_species").value);
     });
 }); 
