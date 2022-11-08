@@ -42,10 +42,10 @@ if (isset($_POST["submit"])) {
   // Sending form data to sql db.
   $now = date("Y-m-d H:i:s");
 
-  if ($_POST["selected_species"] === "") {
-    $_POST["selected_species"] = "None\n";
-  }
-  foreach (array_slice(explode("\n", $_POST["selected_species"]), 0, -1) as $common_name) {
+  foreach (explode("\n", $_POST["selected_species"]) as $common_name) {
+    if (substr($common_name, -1) === "\r") {
+      $common_name = substr($common_name, 0, -1);
+    }
     $value = sprintf(
       $value_format,
       0,
@@ -58,18 +58,23 @@ if (isset($_POST["submit"])) {
     );
     $values .= $value;
   }
-  foreach (array_slice(explode("\n", $_POST["unlisted_selected_species"]), 0, -1) as $common_name) {
-    $value = sprintf(
-      $value_format,
-      0,
-      $sample["id"],
-      $common_name,
-      $_POST["comments"],
-      $_SESSION["username"],
-      $now,
-      1
-    );
-    $values .= $value;
+  foreach (explode("\n", $_POST["unlisted_selected_species"]) as $common_name) {
+    if ($common_name !== "") {
+      if (substr($common_name, -1) === "\r") {
+        $common_name = substr($common_name, 0, -1);
+      }
+      $value = sprintf(
+        $value_format,
+        0,
+        $sample["id"],
+        $common_name,
+        $_POST["comments"],
+        $_SESSION["username"],
+        $now,
+        1
+      );
+      $values .= $value;
+    }
   }
   $values = substr($values, 0, -1);
   if ($_SESSION["username"] !== "Test") {
@@ -155,7 +160,7 @@ if (isset($_POST["submit"])) {
         </div>
         <div style="width:50%;text-align:right;display:flex;flex-direction:column;">
           <div style="margin-bottom:-40px;z-index:1;position:relative;">
-            <span id="spectrogram_info_bubble" >&#9432;
+            <span id="spectrogram_info_bubble">&#9432;
               <span id="spectrogram_info_text" style="position:absolute;left:102%;width:150px;text-align:left;background-color:rgb(210,210,210);padding:5px;border-radius:5px;">
                 Spectrogram showing time in seconds (x), frequency in Hz (y), and amplitude in dB (color). Each vertical slice is a moment in time, with
                 louder frequencies marked with a brighter color.

@@ -1,9 +1,6 @@
 $(document).ready(function () {
     $('#species_common_name').on('click', function () {
         if (document.getElementById("selected_species").value.length === 0) {
-            document.getElementById("selected_species").value = [];
-        }
-        if (document.getElementById("selected_species").value.length === 0) {
             var current_species = [];
         } else {
             var current_species = document.getElementById("selected_species").value.split("\n");
@@ -30,5 +27,6 @@ $(document).ready(function () {
         }
 
         document.getElementById("unlisted_selected_species").value = add_species.join("\n");
+        console.log(document.getElementById("unlisted_selected_species").value);
     });
 }); 
