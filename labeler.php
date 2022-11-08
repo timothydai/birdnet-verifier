@@ -111,6 +111,18 @@ if (isset($_POST["submit"])) {
     th {
       width: 80px;
     }
+
+    #spectrogram_info_bubble {
+      cursor:default;
+    }
+
+    #spectrogram_info_bubble #spectrogram_info_text {
+      visibility: hidden;
+    }
+
+    #spectrogram_info_bubble:hover #spectrogram_info_text {
+      visibility: visible;
+    }
   </style>
 </head>
 
@@ -141,8 +153,14 @@ if (isset($_POST["submit"])) {
             </tr>
           </table>
         </div>
-        <div style="width:50%;">
-          <img src=<?php echo $sample["spec_uri"] ?> style="width:100%;">
+        <div style="width:50%;text-align:right;display:flex;flex-direction:column;">
+          <div id="spectrogram_info_bubble" style="margin-bottom:-40px;z-index:1;position:relative;">&#9432;
+            <span id="spectrogram_info_text" style="position:absolute;left:102%;width:150px;text-align:left;background-color:rgb(210,210,210);padding:5px;border-radius:5px;">
+              Spectrogram showing time in seconds (x), frequency in Hz (y), and amplitude in dB (color). Each vertical slice is a moment in time, with
+              louder frequencies marked with a brighter color.
+            </span>
+          </div>
+          <img src=<?php echo $sample["spec_uri"] ?> style="width:100%;z-index:-1;">
         </div>
       </div>
 
