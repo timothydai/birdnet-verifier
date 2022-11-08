@@ -163,7 +163,7 @@ if (isset($_POST["submit"])) {
             <span id="spectrogram_info_bubble">&#9432;
               <span id="spectrogram_info_text" style="position:absolute;left:102%;width:150px;text-align:left;background-color:rgb(210,210,210);padding:5px;border-radius:5px;">
                 Spectrogram showing time in seconds (x), frequency in Hz (y), and amplitude in dB (color). Each vertical slice is a moment in time, with
-                louder frequencies marked with a brighter color.
+                louder frequencies marked with a brighter color.
               </span>
             </span>
           </div>
@@ -376,8 +376,8 @@ if (isset($_POST["submit"])) {
               <input type="text" id="unlisted" name="unlisted" placeholder="ex. Dodo,Black Swan,Green Peafowl" autocomplete="off" style="width:100%" />
             </div>
             <div style="width:47%;display:flex;flex-direction:column;justify-content:end;">
-              <textarea id="selected_species" readonly placeholder="Your species selections will appear here. Currently: None." name="selected_species" style="background:rgb(210,210,210);height:82%;width:100%;"></textarea>
-              <textarea id="unlisted_selected_species" readonly placeholder="Other/unlisted species selections will appear here. Currently: None." name="unlisted_selected_species" style="background:rgb(210,210,210);height:18%;width:100%;"></textarea>
+              <textarea id="selected_species" readonly placeholder="Your species selections will appear here. Currently: None." name="selected_species" style="background:rgb(210,210,210);height:50%;width:100%;"></textarea>
+              <textarea id="unlisted_selected_species" readonly placeholder="Other/unlisted species selections will appear here. Currently: None." name="unlisted_selected_species" style="background:rgb(210,210,210);height:50%;width:100%;"></textarea>
             </div>
           </div>
 
