@@ -21,13 +21,13 @@ session_start();
         <div style="margin-bottom:15px">
           <?php if (!isset($_SESSION["username"])) { ?>
             <div>
-              <span style="font-weight:bold">Name:</span>
-              <input type="text" name="username" autocomplete="off" required placeholder="Enter your name here">
+              <span style="font-weight:bold">Labeler Name:</span>
+              <input type="text" name="username" autocomplete="off" required placeholder='Enter your name here, e.g., John Doe' style="width: 250px;">
             </div>
           <?php } else { ?>
             Welcome back, <?php echo $_SESSION["username"]; ?>. <a href="destroy_session.php">I am not <?php echo $_SESSION["username"]; ?>.</a>
           <?php } ?>
-          <div style="font-style:italic;">This name will identify you as the labeler for each of your submissions. If you wish to enter a test mode where your submissions are not recorded at all, use the name "Test".</div>
+          <div>Use <span style="font-style:italic;">Test</span> as your name to enter a test mode where any submitted labels will not be recorded.</div>
         </div>
 
         <div style="margin-bottom:15px">
