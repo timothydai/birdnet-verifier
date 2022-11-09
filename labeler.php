@@ -26,11 +26,13 @@ if ($_GET["sample"] >= $number_of_samples) {
 $birdnet_detection_id = $sample["id"];
 $last_updated = mysqli_query($connect, "SELECT * FROM expert_ids WHERE birdnet_detection_id='$birdnet_detection_id' ORDER BY logged_date DESC LIMIT 1;")->fetch_assoc();
 if ($last_updated !== null) {
-  $logged_user = $last_updated["logged_user"];
+  // Set last updated string.
   $logged_date = $last_updated["logged_date"];
+  $logged_user = $last_updated["logged_user"];
   $last_updated_str = $logged_user . ", on " . $logged_date;
-  $previous_ids = mysqli_query($connect, "SELECT * FROM expert_ids WHERE birdnet_detection_id='$birdnet_detection_id' AND logged_date='$logged_date';");
 
+  // Gather previous identifications.
+  $previous_ids = mysqli_query($connect, "SELECT * FROM expert_ids WHERE birdnet_detection_id='$birdnet_detection_id' AND logged_date='$logged_date';");
   $listed_species = array();
   $unlisted_species = array();
   while ($row = $previous_ids->fetch_assoc()) {
@@ -41,17 +43,51 @@ if ($last_updated !== null) {
     }
   }
 
+  // Pre-populate species identifications.
   $previous_listed_species_textarea = implode("&#13;&#10", $listed_species);
   $previous_unlisted_species_textarea = implode("&#13;&#10", $unlisted_species);
   $previous_unlisted_species_input = implode(",", $unlisted_species);
   $previous_comment = $last_updated["comments"];
+
+  // Disable editing.
+  $unlisted_text_input_readonly_message = "readonly";
+  $species_selector_disabled_message = "disabled";
+  $comments_readonly_message = "readonly";
+
+  // Get number of agreeing labelers.
+  $last_submission_arr = mysqli_query($connect, "SELECT species_common_name, comments FROM expert_ids WHERE birdnet_detection_id='$birdnet_detection_id' AND logged_date='$logged_date' ORDER BY species_common_name;")->fetch_all();
+
+  $dis_submissions = mysqli_query($connect, "SELECT DISTINCT logged_user, logged_date FROM expert_ids WHERE birdnet_detection_id='$birdnet_detection_id' AND logged_date!='$logged_date' AND logged_user!='$logged_user';")->fetch_all();
+
+  $agreeers = array();
+  $agreeers[] = $logged_user;
+  $number_of_agreements = 1;
+  foreach ($dis_submissions as $dis_submission) {
+    $cur_subm_user = $dis_submission[0];
+    $cur_subm_date = $dis_submission[1];
+
+    if (in_array($cur_subm_user, $agreeers)) {
+      continue;
+    }
+    $ids_cur_subm = mysqli_query($connect, "SELECT species_common_name, comments FROM expert_ids WHERE birdnet_detection_id='$birdnet_detection_id' AND logged_user='$cur_subm_user' AND logged_date='$cur_subm_date' ORDER BY species_common_name;")->fetch_all();
+    if ($ids_cur_subm === $last_submission_arr) {
+      $number_of_agreements += 1;
+      $agreeers[] = $cur_subm_user;
+    }
+  }
+  $agreeers_message = implode(" and ", $agreeers);
 } else {
   $last_updated_str = "";
   $previous_listed_species_textarea = "";
   $previous_unlisted_species_textarea = "";
   $previous_unlisted_species_input = "";
   $previous_comment = "";
+
+  $unlisted_text_input_readonly_message = "";
+  $species_selector_disabled_message = "";
+  $comments_readonly_message = "";
 }
+
 
 if (isset($_POST["submit"])) {
   date_default_timezone_set("America/Los_Angeles");
@@ -119,6 +155,7 @@ if (isset($_POST["submit"])) {
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="scripts/filter_species.js"></script>
   <script src="scripts/toggle_species.js"></script>
+  <script src="scripts/agreement.js"></script>
   <style>
     table,
     tr,
@@ -150,6 +187,14 @@ if (isset($_POST["submit"])) {
     #spectrogram_info_bubble:hover #spectrogram_info_text {
       visibility: visible;
     }
+
+    #agreers_bubble #agreers_message {
+      visibility: hidden;
+    }
+
+    #agreers_bubble:hover #agreers_message {
+      visibility: visible;
+    }
   </style>
 </head>
 
@@ -160,47 +205,70 @@ if (isset($_POST["submit"])) {
         <div style="color: red;">Warning: You are labeling as a Test user. Your submissions will not be recorded.</div>
       <?php } ?>
 
-      <div style="margin-bottom: 15px">Record <?php echo $sample_idx + 1; ?> of <?php echo $number_of_samples; ?>
-        <?php if ($last_updated !== null && $last_updated["logged_user"] === "Trevor Hebert") { ?>
-          <span style="background-color:rgb(100,100,255);color:white;border-radius:7px;padding:3px;padding-left:5px;padding-right:5px;margin-left:5px;">
-            Verified by Trevor Hebert. Please skip.
-          </span>
-        <?php } ?>
-      </div>
-
-      <div style="display:flex;">
-        <div style="width:50%; margin-bottom:30px;">
-          <audio controls src=<?php echo $sample["audio_uri"]; ?> style="margin-bottom: 15px; "></audio>
-          <table>
-            <tr>
-              <th>Location</th>
-              <td><?php echo $sample["recording_location"]; ?></td>
-            </tr>
-            <tr>
-              <th>Filename</th>
-              <td style="overflow-wrap: break-word;"><?php echo $sample["filename"]; ?></td>
-            </tr>
-            <tr>
-              <th>Datetime</th>
-              <td><?php echo $sample["recording_datetime"]; ?></td>
-            </tr>
-          </table>
-        </div>
-        <div style="width:50%;text-align:right;display:flex;flex-direction:column;">
-          <div style="margin-bottom:-40px;z-index:1;position:relative;">
-            <span id="spectrogram_info_bubble">&#9432;
-              <span id="spectrogram_info_text" style="position:absolute;left:102%;width:150px;text-align:left;background-color:rgb(210,210,210);padding:5px;border-radius:5px;">
-                Spectrogram showing time in seconds (x), frequency in Hz (y), and amplitude in dB (color). Each vertical slice is a moment in time, with
-                louder frequencies marked with a brighter color.
-              </span>
-            </span>
-          </div>
-          <img src=<?php echo $sample["spec_uri"] ?> style="width:100%;z-index:-1;">
-        </div>
-      </div>
-
+      <div style="margin-bottom: 15px">Record <?php echo $sample_idx + 1; ?> of <?php echo $number_of_samples; ?></div>
       <div style="margin-bottom: 15px">
         <form action="" method="post">
+
+          <?php if ($last_updated_str !== "") { ?>
+            <div style="margin-bottom:30px;">
+              <div style="margin-bottom:15px;">
+                <span id="agreers_bubble" style="position:relative;">
+                  <span id="agreers_message" style="position:absolute;top:120%;left:5px;text-align:center;background-color:rgb(210,210,210);padding:3px;border-radius:5px;">
+                    <?php echo $agreeers_message; ?>
+                  </span>
+                  <span style="background-color:rgb(100,100,255);color:white;border-radius:7px;padding:3px;padding-left:5px;padding-right:5px;margin-left:5px">
+                    <?php echo $number_of_agreements; ?>
+                    <?php if ($number_of_agreements == 1) { ?>
+                      person agrees
+                    <?php } else { ?>
+                      people agree
+                    <?php } ?>
+                    with this label. Do you?
+                  </span>
+                </span>
+                <input type="radio" id="agree" name="agreement" value="agree" required>
+                <label for="agree">I agree</label>
+                <input type="radio" id="disagree" name="agreement" value="disagree">
+                <label for="disagree">I disagree</label>
+              </div>
+
+              <div id="agree-message" style="text-align:right;display:none;">Great! Click "Submit" to record your agreement.</div>
+              <div id="disagree-message" style="text-align:right;display:none;">Amend this label by editing below and clicking "Submit".</div>
+            </div>
+          <?php } ?>
+
+
+          <div style="display:flex;">
+            <div style="width:50%; margin-bottom:30px;">
+              <audio controls src=<?php echo $sample["audio_uri"]; ?> style="margin-bottom: 15px; "></audio>
+              <table>
+                <tr>
+                  <th>Location</th>
+                  <td><?php echo $sample["recording_location"]; ?></td>
+                </tr>
+                <tr>
+                  <th>Filename</th>
+                  <td style="overflow-wrap: break-word;"><?php echo $sample["filename"]; ?></td>
+                </tr>
+                <tr>
+                  <th>Datetime</th>
+                  <td><?php echo $sample["recording_datetime"]; ?></td>
+                </tr>
+              </table>
+            </div>
+            <div style="width:50%;text-align:right;display:flex;flex-direction:column;">
+              <div style="margin-bottom:-40px;z-index:1;position:relative;">
+                <span id="spectrogram_info_bubble">&#9432;
+                  <span id="spectrogram_info_text" style="position:absolute;left:102%;width:150px;text-align:left;background-color:rgb(210,210,210);padding:5px;border-radius:5px;">
+                    Spectrogram showing time in seconds (x), frequency in Hz (y), and amplitude in dB (color). Each vertical slice is a moment in time, with
+                    louder frequencies marked with a brighter color.
+                  </span>
+                </span>
+              </div>
+              <img src=<?php echo $sample["spec_uri"] ?> style="width:100%;z-index:-1;">
+            </div>
+          </div>
+
           <div style="margin-bottom: 5px;">
             <div style="font-weight:bold;">Select species (Common Name):</div>
             <div style="font-style:italic;">Leave all selections blank if no bird species present.</div>
@@ -211,7 +279,7 @@ if (isset($_POST["submit"])) {
                 <div>Click on a species name once to select it and again to deselect it.</div>
               </div>
               <div><input type="text" style="width:100%;margin-bottom:5px;" id="filterMultipleSelection" placeholder="Filter species names here" autocomplete="off" /></div>
-              <select id="species_common_name" name="species_common_name" style="width:103%;height:150px;" multiple>
+              <select id="species_common_name" name="species_common_name" style="width:103%;height:150px;" multiple <?php echo $species_selector_disabled_message; ?>>
                 <option value="Acorn Woodpecker">Acorn Woodpecker</option>
                 <option value="Allen's Hummingbird">Allen's Hummingbird</option>
                 <option value="American Bittern">American Bittern</option>
@@ -401,7 +469,7 @@ if (isset($_POST["submit"])) {
               </select>
               <!-- <div style="margin-top:15px;margin-bottom:15px;text-align:center;">FOR UNLISTED COMMON NAMES:</div> -->
               <div style="margin-bottom:5px;margin-top:15px;">Other/unlisted, separated by commas:</div>
-              <input type="text" id="unlisted" name="unlisted" placeholder="ex. Dodo,Black Swan,Green Peafowl" autocomplete="off" value="<?php echo $previous_unlisted_species_input; ?>" style="width:100%" />
+              <input type="text" id="unlisted" name="unlisted" placeholder="ex. Dodo,Black Swan,Green Peafowl" autocomplete="off" value="<?php echo $previous_unlisted_species_input; ?>" <?php echo $unlisted_text_input_readonly_message; ?> style="width:100%" />
             </div>
             <div style="width:47%;display:flex;flex-direction:column;justify-content:end;">
               <textarea id="selected_species" readonly placeholder="Your species selections will appear here. Currently: None." name="selected_species" style="background:rgb(210,210,210);height:50%;width:100%;"><?php echo $previous_listed_species_textarea; ?></textarea>
@@ -411,14 +479,14 @@ if (isset($_POST["submit"])) {
 
           <div style="margin-bottom: 15px;">
             <div style="font-weight:bold;">Additional notes: (Is there anything unique about this recording?)</div>
-            <textarea name="comments" rows="4" cols="50" style="width:100%"><?php echo $previous_comment; ?></textarea>
+            <textarea id="comments_text_area" name="comments" rows="4" cols="50" style="width:100%" <?php echo $comments_readonly_message; ?>><?php echo $previous_comment; ?></textarea>
           </div>
 
-          <?php if ($last_updated !== null) { ?>
-            <input type="submit" name="submit" value="Submit" onclick="<?php echo "return confirm('Are you sure you want to amend " . $last_updated["logged_user"] . "\'s submission?')"; ?> "/>
+          <!-- <?php if ($last_updated !== null) { ?>
+            <input type="submit" name="submit" value="Submit" onclick="<?php echo "return confirm('Are you sure you want to amend " . $last_updated["logged_user"] . "\'s submission?')"; ?> " />
           <?php } else { ?>
-            <input type="submit" name="submit" value="Submit">
-          <?php } ?>
+            <?php } ?> -->
+          <input type="submit" name="submit" value="Submit">
         </form>
       </div>
       <div style="margin-bottom: 15px">Last updated: <?php echo $last_updated_str; ?></div>
