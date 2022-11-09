@@ -24,11 +24,33 @@ if ($_GET["sample"] >= $number_of_samples) {
 }
 
 $birdnet_detection_id = $sample["id"];
-$last_updated = mysqli_query($connect, "SELECT * FROM expert_ids WHERE birdnet_detection_id='$birdnet_detection_id' ORDER BY logged_date LIMIT 1;")->fetch_assoc();
+$last_updated = mysqli_query($connect, "SELECT * FROM expert_ids WHERE birdnet_detection_id='$birdnet_detection_id' ORDER BY logged_date DESC LIMIT 1;")->fetch_assoc();
 if ($last_updated !== null) {
-  $last_updated_str = $last_updated["logged_user"] . ", on " . $last_updated["logged_date"];
+  $logged_user = $last_updated["logged_user"];
+  $logged_date = $last_updated["logged_date"];
+  $last_updated_str = $logged_user . ", on " . $logged_date;
+  $previous_ids = mysqli_query($connect, "SELECT * FROM expert_ids WHERE birdnet_detection_id='$birdnet_detection_id' AND logged_date='$logged_date';");
+
+  $listed_species = array();
+  $unlisted_species = array();
+  while ($row = $previous_ids->fetch_assoc()) {
+    if ($row["unlisted"] === "1") {
+      $unlisted_species[] = $row["species_common_name"];
+    } else {
+      $listed_species[] = $row["species_common_name"];
+    }
+  }
+
+  $previous_listed_species_textarea = implode("&#13;&#10", $listed_species);
+  $previous_unlisted_species_textarea = implode("&#13;&#10", $unlisted_species);
+  $previous_unlisted_species_input = implode(",", $unlisted_species);
+  $previous_comment = $last_updated["comments"];
 } else {
   $last_updated_str = "";
+  $previous_listed_species_textarea = "";
+  $previous_unlisted_species_textarea = "";
+  $previous_unlisted_species_input = "";
+  $previous_comment = "";
 }
 
 if (isset($_POST["submit"])) {
@@ -138,7 +160,13 @@ if (isset($_POST["submit"])) {
         <div style="color: red;">Warning: You are labeling as a Test user. Your submissions will not be recorded.</div>
       <?php } ?>
 
-      <div style="margin-bottom: 15px">Record <?php echo $sample_idx + 1; ?> of <?php echo $number_of_samples; ?></div>
+      <div style="margin-bottom: 15px">Record <?php echo $sample_idx + 1; ?> of <?php echo $number_of_samples; ?>
+        <?php if ($last_updated !== null && $last_updated["logged_user"] === "Trevor Hebert") { ?>
+          <span style="background-color:rgb(100,100,255);color:white;border-radius:7px;padding:3px;padding-left:5px;padding-right:5px;margin-left:5px;">
+            Verified by Trevor Hebert. Please skip.
+          </span>
+        <?php } ?>
+      </div>
 
       <div style="display:flex;">
         <div style="width:50%; margin-bottom:30px;">
@@ -373,21 +401,24 @@ if (isset($_POST["submit"])) {
               </select>
               <!-- <div style="margin-top:15px;margin-bottom:15px;text-align:center;">FOR UNLISTED COMMON NAMES:</div> -->
               <div style="margin-bottom:5px;margin-top:15px;">Other/unlisted, separated by commas:</div>
-              <input type="text" id="unlisted" name="unlisted" placeholder="ex. Dodo,Black Swan,Green Peafowl" autocomplete="off" style="width:100%" />
+              <input type="text" id="unlisted" name="unlisted" placeholder="ex. Dodo,Black Swan,Green Peafowl" autocomplete="off" value="<?php echo $previous_unlisted_species_input; ?>" style="width:100%" />
             </div>
             <div style="width:47%;display:flex;flex-direction:column;justify-content:end;">
-              <textarea id="selected_species" readonly placeholder="Your species selections will appear here. Currently: None." name="selected_species" style="background:rgb(210,210,210);height:50%;width:100%;"></textarea>
-              <textarea id="unlisted_selected_species" readonly placeholder="Other/unlisted species selections will appear here. Currently: None." name="unlisted_selected_species" style="background:rgb(210,210,210);height:50%;width:100%;"></textarea>
+              <textarea id="selected_species" readonly placeholder="Your species selections will appear here. Currently: None." name="selected_species" style="background:rgb(210,210,210);height:50%;width:100%;"><?php echo $previous_listed_species_textarea; ?></textarea>
+              <textarea id="unlisted_selected_species" readonly placeholder="Other/unlisted species selections will appear here. Currently: None." name="unlisted_selected_species" style="background:rgb(210,210,210);height:50%;width:100%;"><?php echo $previous_unlisted_species_textarea; ?></textarea>
             </div>
           </div>
 
           <div style="margin-bottom: 15px;">
             <div style="font-weight:bold;">Additional notes: (Is there anything unique about this recording?)</div>
-            <textarea name="comments" rows="4" cols="50" style="width:100%"></textarea>
+            <textarea name="comments" rows="4" cols="50" style="width:100%"><?php echo $previous_comment; ?></textarea>
           </div>
 
-          <input type="submit" name="submit" value="Submit">
-
+          <?php if ($last_updated !== null) { ?>
+            <input type="submit" name="submit" value="Submit" onclick="<?php echo "return confirm('Are you sure you want to amend " . $last_updated["logged_user"] . "\'s submission?')"; ?> "/>
+          <?php } else { ?>
+            <input type="submit" name="submit" value="Submit">
+          <?php } ?>
         </form>
       </div>
       <div style="margin-bottom: 15px">Last updated: <?php echo $last_updated_str; ?></div>
