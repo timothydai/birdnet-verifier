@@ -219,17 +219,17 @@ if (isset($_POST["submit"])) {
                   <span style="background-color:rgb(100,100,255);color:white;border-radius:7px;padding:3px;padding-left:5px;padding-right:5px;margin-left:5px">
                     <?php echo $number_of_agreements; ?>
                     <?php if ($number_of_agreements == 1) { ?>
-                      person agrees
+                      person thinks
                     <?php } else { ?>
-                      people agree
+                      people think
                     <?php } ?>
-                    with this label. Do you?
+                    this label is correct. Do you?
                   </span>
                 </span>
                 <input type="radio" id="agree" name="agreement" value="agree" required>
-                <label for="agree">I agree</label>
+                <label for="agree">I think so</label>
                 <input type="radio" id="disagree" name="agreement" value="disagree">
-                <label for="disagree">I disagree</label>
+                <label for="disagree">I don't think so</label>
               </div>
 
               <div id="agree-message" style="text-align:right;display:none;">Great! Click "Submit" to record your agreement.</div>
