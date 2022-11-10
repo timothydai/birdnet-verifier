@@ -6,6 +6,19 @@ if (!isset($_SESSION["username"])) {
   exit;
 }
 
+$connect = mysqli_connect("159.89.149.97", "birdnetv_public", "birdnetrools!", "birdnetv_base", "3306");
+$sample_type = $_GET["sample_type"];
+$location = $_GET["location"];
+$sample_idx = $_GET["sample"];
+
+if (str_contains($location, "all")) {
+  $sample = mysqli_query($connect, "SELECT * FROM birdnet_detections WHERE sample='$sample_type' LIMIT 1 OFFSET $sample_idx;")->fetch_assoc();
+  $number_of_samples = mysqli_query($connect, "SELECT COUNT(*) as num_recs FROM birdnet_detections WHERE sample='$sample_type';")->fetch_assoc()["num_recs"];
+} else {
+  $sample = mysqli_query($connect, "SELECT * FROM birdnet_detections WHERE recording_location = '$location' AND sample='$sample_type' LIMIT 1 OFFSET $sample_idx;")->fetch_assoc();
+  $number_of_samples = mysqli_query($connect, "SELECT COUNT(*) as num_recs FROM birdnet_detections WHERE recording_location = '$location' AND sample='$sample_type';")->fetch_assoc()["num_recs"];
+}
+
 if (isset($_POST["submit"])) {
   date_default_timezone_set("America/Los_Angeles");
   // Connecting to sql db.
@@ -60,18 +73,6 @@ if (isset($_POST["submit"])) {
   exit;
 }
 
-$connect = mysqli_connect("159.89.149.97", "birdnetv_public", "birdnetrools!", "birdnetv_base", "3306");
-$sample_type = $_GET["sample_type"];
-$location = $_GET["location"];
-$sample_idx = $_GET["sample"];
-if (str_contains($location, "all")) {
-  $sample = mysqli_query($connect, "SELECT * FROM birdnet_detections WHERE sample='$sample_type' LIMIT 1 OFFSET $sample_idx;")->fetch_assoc();
-  $number_of_samples = mysqli_query($connect, "SELECT COUNT(*) as num_recs FROM birdnet_detections WHERE sample='$sample_type';")->fetch_assoc()["num_recs"];
-} else {
-  $sample = mysqli_query($connect, "SELECT * FROM birdnet_detections WHERE recording_location = '$location' AND sample='$sample_type' LIMIT 1 OFFSET $sample_idx;")->fetch_assoc();
-  $number_of_samples = mysqli_query($connect, "SELECT COUNT(*) as num_recs FROM birdnet_detections WHERE recording_location = '$location' AND sample='$sample_type';")->fetch_assoc()["num_recs"];
-}
-
 if ($_GET["sample"] >= $number_of_samples) {
   header("Location: done.php");
   exit;
@@ -106,25 +107,33 @@ if ($last_submission !== null) {
   // Get number of agreeing labelers.
   $last_submission_arr = mysqli_query($connect, "SELECT species_common_name, comments FROM expert_ids WHERE birdnet_detection_id='$birdnet_detection_id' AND logged_date='$logged_date' ORDER BY species_common_name;")->fetch_all();
 
-  $dist_submissions = mysqli_query($connect, "SELECT DISTINCT logged_user, logged_date FROM expert_ids WHERE birdnet_detection_id='$birdnet_detection_id' AND logged_date!='$logged_date' AND logged_user!='$logged_user';")->fetch_all();
+  $dist_submissions = mysqli_query($connect, "SELECT DISTINCT logged_user, logged_date FROM expert_ids WHERE birdnet_detection_id='$birdnet_detection_id' ORDER BY logged_date DESC;")->fetch_all();
 
+  $number_of_agreements = 1;
   $agreers = array();
   $agreers[] = $logged_user;
-  $number_of_agreements = 1;
+  $seen_labelers = array();
   foreach ($dist_submissions as $dist_submission) {
     $cur_subm_user = $dist_submission[0];
     $cur_subm_date = $dist_submission[1];
 
+    // Only assess the user's most recent submission.
+    if (in_array($cur_subm_user, $seen_labelers)) {
+      continue;
+    }
+    $seen_labelers[] = $cur_subm_user;
+
     if (in_array($cur_subm_user, $agreers)) {
       continue;
     }
+
     $ids_cur_subm = mysqli_query($connect, "SELECT species_common_name, comments FROM expert_ids WHERE birdnet_detection_id='$birdnet_detection_id' AND logged_user='$cur_subm_user' AND logged_date='$cur_subm_date' ORDER BY species_common_name;")->fetch_all();
     if ($ids_cur_subm === $last_submission_arr) {
       $number_of_agreements += 1;
       $agreers[] = $cur_subm_user;
     }
   }
-  $agreers_message = implode(" and ", $agreers);
+  $agreers_message = implode("; ", $agreers);
 } else {
   $last_updated_str = "";
   $last_listed_species_textarea = "";
