@@ -31,14 +31,6 @@ session_start();
         </div>
 
         <div style="margin-bottom:15px">
-          <div style="font-weight:bold">Select Sample Type:</div>
-          <input type="radio" id="random" name="sample_type" value="random" required>
-          <label for="random">Random samples</label>
-          <input type="radio" id="high" name="sample_type" value="randomhighconfidence">
-          <label for="high">High confidence samples</label>
-        </div>
-
-        <div style="margin-bottom:15px">
           <div style="font-weight:bold">Select Data Source:</div>
           <input type="radio" id="bat" name="data_source" value="bat" required>
           <label for="bat">Bat Monitoring Recorders</label>

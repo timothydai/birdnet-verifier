@@ -7,16 +7,20 @@ if (!isset($_SESSION["username"])) {
 }
 
 $connect = mysqli_connect("159.89.149.97", "birdnetv_public", "birdnetrools!", "birdnetv_base", "3306");
-$sample_type = $_GET["sample_type"];
 $location = $_GET["location"];
 $sample_idx = $_GET["sample"];
 
 if (str_contains($location, "all")) {
-  $sample = mysqli_query($connect, "SELECT * FROM birdnet_detections WHERE sample='$sample_type' LIMIT 1 OFFSET $sample_idx;")->fetch_assoc();
-  $number_of_samples = mysqli_query($connect, "SELECT COUNT(*) as num_recs FROM birdnet_detections WHERE sample='$sample_type';")->fetch_assoc()["num_recs"];
+  if (str_contains($location, "cam")) {
+    $sample = mysqli_query($connect, "SELECT * FROM birdnet_detections WHERE recording_location LIKE 'Cam%' LIMIT 1 OFFSET $sample_idx;")->fetch_assoc();
+    $number_of_samples = mysqli_query($connect, "SELECT COUNT(*) as num_recs FROM birdnet_detections WHERE recording_location LIKE 'Cam%';")->fetch_assoc()["num_recs"];
+  } else {
+    $sample = mysqli_query($connect, "SELECT * FROM birdnet_detections WHERE recording_location NOT LIKE 'Cam%' LIMIT 1 OFFSET $sample_idx;")->fetch_assoc();
+    $number_of_samples = mysqli_query($connect, "SELECT COUNT(*) as num_recs FROM birdnet_detections WHERE recording_location NOT LIKE 'Cam%';")->fetch_assoc()["num_recs"];
+  }
 } else {
-  $sample = mysqli_query($connect, "SELECT * FROM birdnet_detections WHERE recording_location = '$location' AND sample='$sample_type' LIMIT 1 OFFSET $sample_idx;")->fetch_assoc();
-  $number_of_samples = mysqli_query($connect, "SELECT COUNT(*) as num_recs FROM birdnet_detections WHERE recording_location = '$location' AND sample='$sample_type';")->fetch_assoc()["num_recs"];
+  $sample = mysqli_query($connect, "SELECT * FROM birdnet_detections WHERE recording_location = '$location' LIMIT 1 OFFSET $sample_idx;")->fetch_assoc();
+  $number_of_samples = mysqli_query($connect, "SELECT COUNT(*) as num_recs FROM birdnet_detections WHERE recording_location = '$location';")->fetch_assoc()["num_recs"];
 }
 
 if (isset($_POST["submit"])) {
@@ -69,7 +73,7 @@ if (isset($_POST["submit"])) {
     mysqli_query($connect, sprintf($query_format, $values));
   }
 
-  header("Location: labeler.php?sample_type=" . $sample_type . "&location=" . $_GET["location"] . "&sample=" . ($_GET["sample"] + 1));
+  header("Location: labeler.php?location=" . $_GET["location"] . "&sample=" . ($_GET["sample"] + 1));
   exit;
 }
 
@@ -499,7 +503,7 @@ if ($last_submission !== null) {
 
     <!-- Navigation buttons -->
     <div style="text-align:right">
-      <a href='<?php echo "labeler.php?sample_type=" . $sample_type . "&location=" . $_GET["location"] . "&sample=" . ($_GET["sample"] + 1); ?>'>Skip</a> |
+      <a href='<?php echo "labeler.php?location=" . $_GET["location"] . "&sample=" . ($_GET["sample"] + 1); ?>'>Skip</a> |
       <a href="index.php">Back to Labeler Home</a>
     </div>
   </div>
