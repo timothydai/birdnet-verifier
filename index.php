@@ -37,7 +37,7 @@ session_start();
           <input type="radio" id="video" name="data_source" value="video">
           <label for="video">Video Cameras</label>
           <input type="radio" id="audio" name="data_source" value="audio">
-          <label for="audio">Audio Streamer</label>
+          <label for="audio">Audio Streamers</label>
         </div>
 
         <div style="margin-bottom:15px">
