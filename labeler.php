@@ -14,9 +14,12 @@ if (str_contains($location, "all")) {
   if (str_contains($location, "cam")) {
     $sample = mysqli_query($connect, "SELECT * FROM birdnet_detections WHERE recording_location LIKE 'Cam%' LIMIT 1 OFFSET $sample_idx;")->fetch_assoc();
     $number_of_samples = mysqli_query($connect, "SELECT COUNT(*) as num_recs FROM birdnet_detections WHERE recording_location LIKE 'Cam%';")->fetch_assoc()["num_recs"];
+  } else if (str_contains($location, "streamer")) {
+    $sample = mysqli_query($connect, "SELECT * FROM birdnet_detections WHERE recording_location = 'dusk' OR recording_location = 'dawn' LIMIT 1 OFFSET $sample_idx;")->fetch_assoc();
+    $number_of_samples = mysqli_query($connect, "SELECT COUNT(*) as num_recs FROM birdnet_detections WHERE recording_location = 'dusk' OR recording_location = 'dawn';")->fetch_assoc()["num_recs"];
   } else {
-    $sample = mysqli_query($connect, "SELECT * FROM birdnet_detections WHERE recording_location NOT LIKE 'Cam%' LIMIT 1 OFFSET $sample_idx;")->fetch_assoc();
-    $number_of_samples = mysqli_query($connect, "SELECT COUNT(*) as num_recs FROM birdnet_detections WHERE recording_location NOT LIKE 'Cam%';")->fetch_assoc()["num_recs"];
+    $sample = mysqli_query($connect, "SELECT * FROM birdnet_detections WHERE recording_location NOT LIKE 'Cam%' AND recording_location != 'dusk' AND recording_location != 'dawn' LIMIT 1 OFFSET $sample_idx;")->fetch_assoc();
+    $number_of_samples = mysqli_query($connect, "SELECT COUNT(*) as num_recs FROM birdnet_detections WHERE recording_location NOT LIKE 'Cam%' AND recording_location != 'dusk' AND recording_location != 'dawn';")->fetch_assoc()["num_recs"];
   }
 } else {
   $sample = mysqli_query($connect, "SELECT * FROM birdnet_detections WHERE recording_location = '$location' LIMIT 1 OFFSET $sample_idx;")->fetch_assoc();

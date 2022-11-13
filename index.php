@@ -36,6 +36,8 @@ session_start();
           <label for="bat">Bat Monitoring Recorders</label>
           <input type="radio" id="video" name="data_source" value="video">
           <label for="video">Video Cameras</label>
+          <input type="radio" id="audio" name="data_source" value="audio">
+          <label for="audio">Audio Streamer</label>
         </div>
 
         <div style="margin-bottom:15px">
@@ -90,6 +92,11 @@ session_start();
             <input type="radio" id="cam10" name="location" value="cam10">
             <label for="cam10">Cam10</label>
             <div style="margin-top:15px"><img src="static_images/video_camera_map.png" style="width:100%"></div>
+          </div>
+          <div id="audio_locations" style="display:none;">
+            <input type="radio" id="all_audio_streamers" name="location" value="all_audio_streamers">
+            <label for="all_audio_streamers">All audio streamers</label>
+            <div style="margin-top:15px"><img src="static_images/streamer_map.png" style="width:100%"></div>
           </div>
         </div>
         <input type="submit" name="submit" value="Start labeling!">
