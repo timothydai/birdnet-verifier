@@ -1,5 +1,10 @@
 <?php
 session_start();
+
+$connect = mysqli_connect("159.89.149.97", "birdnetv_public", "birdnetrools!", "birdnetv_base", "3306");
+$num_labeled = mysqli_query($connect, "SELECT COUNT(DISTINCT birdnet_detection_id) as num_labeled FROM expert_ids;")->fetch_assoc()["num_labeled"];
+$num_clips = mysqli_query($connect, "SELECT COUNT(DISTINCT id) as num_clips FROM birdnet_detections;")->fetch_assoc()["num_clips"];
+
 ?>
 
 <!DOCTYPE html>
@@ -17,6 +22,7 @@ session_start();
 <body>
   <div style="display:flex;justify-content:center;">
     <div style="width:800px;">
+      <div style="margin-bottom: 15px;"><?php echo $num_labeled ?> of <?php echo $num_clips ?> clips labeled </div>
       <form action="index_to_labeler.php" method="post">
         <div style="margin-bottom:15px">
           <?php if (!isset($_SESSION["username"])) { ?>
