@@ -72,7 +72,7 @@ if (isset($_POST["submit"])) {
     }
   }
   $values = substr($values, 0, -1);
-  if ($_SESSION["username"] !== "Test" && $_SESSION["username"] !== "test") {
+  if (trim(strtolower($_SESSION["username"])) !== "test") {
     mysqli_query($connect, sprintf($query_format, $values));
   }
 
@@ -198,8 +198,8 @@ if ($last_submission !== null) {
 <body style="min-width:600px;display:flex;justify-content:center;">
   <div style="min-width:600px;width:600px;">
     <!-- Test user warning -->
-    <?php if ($_SESSION["username"] === "Test" || $_SESSION["username"] === "test") { ?>
-      <div style="color: red;">Warning: You are labeling as a Test user. Your submissions will not be recorded.</div>
+    <?php if (trim(strtolower($_SESSION["username"])) === "test") { ?>
+      <div style="color: red;">Warning: You are labeling as a test user. Your submissions will not be recorded.</div>
     <?php } ?>
 
     <!-- Record count -->
