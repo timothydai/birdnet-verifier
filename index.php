@@ -107,7 +107,7 @@ $num_clips = mysqli_query($connect, "SELECT COUNT(DISTINCT id) as num_clips FROM
         </div>
         <input type="submit" name="submit" value="Start labeling!">
         <div style="margin-top: 15px; margin-bottom:15px;">-- OR --</div>
-        <input type="submit" name="submit" value="See a list of all records">
+        <input type="submit" name="submit" value="See list of labeled records">
       </form>
     </div>
   </div>

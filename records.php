@@ -15,11 +15,11 @@ $birdnet_detections = mysqli_query($connect, "SELECT id, recording_location FROM
 $ids_and_agreers_per_clip = mysqli_query(
     $connect,
     "SELECT id, recording_location, ids, comments, agreers, most_recent_logged_date, comments
-    FROM birdnet_detections LEFT JOIN (SELECT birdnet_detection_id, agreers, max(logged_date) as most_recent_logged_date, ids, comments
+    FROM (SELECT birdnet_detection_id, agreers, max(logged_date) as most_recent_logged_date, ids, comments
 FROM (SELECT birdnet_detection_id, GROUP_CONCAT(logged_user SEPARATOR '; ') AS agreers, logged_date, ids, comments
 FROM (SELECT birdnet_detection_id, logged_user, logged_date, GROUP_CONCAT(species_common_name SEPARATOR '; ') AS ids, comments FROM expert_ids GROUP BY logged_date ORDER BY logged_date DESC) AS submissions
 GROUP BY birdnet_detection_id, ids ORDER BY logged_date DESC) as agreed_submissions
-GROUP BY birdnet_detection_id) as most_recent_agreed_submissions ON birdnet_detections.id = most_recent_agreed_submissions.birdnet_detection_id;",
+GROUP BY birdnet_detection_id) as most_recent_agreed_submissions LEFT JOIN birdnet_detections ON birdnet_detections.id = most_recent_agreed_submissions.birdnet_detection_id ORDER BY recording_location, most_recent_logged_date DESC;",
 )->fetch_all();
 ?>
 
@@ -52,6 +52,18 @@ GROUP BY birdnet_detection_id) as most_recent_agreed_submissions ON birdnet_dete
             /* width: 80px; */
             font-weight: bold;
         }
+
+        #verified_bubble {
+            cursor: default;
+        }
+
+        #verified_bubble #verified_bubble_text {
+            visibility: hidden;
+        }
+
+        #verified_bubble:hover #verified_bubble_text {
+            visibility: visible;
+        }
     </style>
 </head>
 
@@ -67,7 +79,14 @@ GROUP BY birdnet_detection_id) as most_recent_agreed_submissions ON birdnet_dete
                     <th>Comments</th>
                     <th>Labeler Name(s)</th>
                     <th>Submission Date</th>
-                    <th>Do You (Name: <?php echo $_SESSION["username"]; ?>) Agree?</th>
+                    <th style="position:relative">
+                        Verified
+                        <span id="verified_bubble">&#9432;
+                            <span id="verified_bubble_text" style="position:absolute;width:150px;top:102%;left:-50%;text-align:left;background-color:rgb(210,210,210);padding:5px;border-radius:5px;">
+                                Reviewed by at least 2 people, i.e., a total of 3 agreeing submissions.
+                            </span>
+                        </span>
+                    </th>
                     <th>Label Link</th>
                 </tr>
                 <?php foreach ($ids_and_agreers_per_clip as $row) { ?>
@@ -97,7 +116,7 @@ GROUP BY birdnet_detection_id) as most_recent_agreed_submissions ON birdnet_dete
 
                         <?php if ($row[4] === null) {
                             echo "<td style='text-align:center;background-color:RGB(0,0,0,0.5);'>N/A</td>";
-                        } else if (in_array($_SESSION["username"], explode("; ", $row[4]))) {
+                        } else if (count(explode("; ", $row[4])) >= 3) {
                             echo "<td style='text-align:center;background-color:RGB(0,255,0,0.5);'>YES</td>";
                         } else {
                             echo "<td style='text-align:center;background-color:RGB(255,0,0,0.5);'>NO</td>";
