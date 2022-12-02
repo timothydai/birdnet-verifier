@@ -14,12 +14,12 @@ $birdnet_detections = mysqli_query($connect, "SELECT id, recording_location FROM
 
 $ids_and_agreers_per_clip = mysqli_query(
     $connect,
-    "SELECT id, recording_location, ids, comments, agreers, most_recent_logged_date, comments
+    "SELECT id, recording_location, recording_datetime, ids, comments, agreers, most_recent_logged_date, comments
     FROM (SELECT birdnet_detection_id, agreers, max(logged_date) as most_recent_logged_date, ids, comments
 FROM (SELECT birdnet_detection_id, GROUP_CONCAT(logged_user SEPARATOR '; ') AS agreers, logged_date, ids, comments
 FROM (SELECT birdnet_detection_id, logged_user, logged_date, GROUP_CONCAT(species_common_name SEPARATOR '; ') AS ids, comments FROM expert_ids GROUP BY logged_date ORDER BY logged_date DESC) AS submissions
 GROUP BY birdnet_detection_id, ids ORDER BY logged_date DESC) as agreed_submissions
-GROUP BY birdnet_detection_id) as most_recent_agreed_submissions LEFT JOIN birdnet_detections ON birdnet_detections.id = most_recent_agreed_submissions.birdnet_detection_id ORDER BY recording_location, most_recent_logged_date DESC;",
+GROUP BY birdnet_detection_id) as most_recent_agreed_submissions LEFT JOIN birdnet_detections ON birdnet_detections.id = most_recent_agreed_submissions.birdnet_detection_id ORDER BY recording_location, recording_datetime;",
 )->fetch_all();
 ?>
 
@@ -74,16 +74,17 @@ GROUP BY birdnet_detection_id) as most_recent_agreed_submissions LEFT JOIN birdn
             <table>
                 <tr>
                     <th>Clip ID</th>
-                    <th>Location</th>
+                    <th>Recording Location</th>
+                    <th>Recording Datetime</th>
                     <th>Most Recent Label</th>
                     <th>Comments</th>
                     <th>Labeler Name(s)</th>
-                    <th>Submission Date</th>
+                    <th>Submission Datetime</th>
                     <th style="position:relative">
                         Verified
                         <span id="verified_bubble">&#9432;
                             <span id="verified_bubble_text" style="position:absolute;width:150px;top:102%;left:-50%;text-align:left;background-color:rgb(210,210,210);padding:5px;border-radius:5px;">
-                                Reviewed by at least 2 people, i.e., a total of 3 agreeing submissions.
+                                Reviewed by at least 1 other person, i.e., a total of 2 agreeing submissions.
                             </span>
                         </span>
                     </th>
@@ -93,11 +94,7 @@ GROUP BY birdnet_detection_id) as most_recent_agreed_submissions LEFT JOIN birdn
                     <tr>
                         <td><?php echo $row[0]; ?></td>
                         <td><?php echo $row[1]; ?></td>
-                        <td><?php if ($row[2] === null) {
-                                echo "";
-                            } else {
-                                echo $row[2];
-                            } ?></td>
+                        <td><?php echo $row[2]; ?></td>
                         <td><?php if ($row[3] === null) {
                                 echo "";
                             } else {
@@ -113,10 +110,15 @@ GROUP BY birdnet_detection_id) as most_recent_agreed_submissions LEFT JOIN birdn
                             } else {
                                 echo $row[5];
                             } ?></td>
+                        <td><?php if ($row[6] === null) {
+                                echo "";
+                            } else {
+                                echo $row[6];
+                            } ?></td>
 
-                        <?php if ($row[4] === null) {
+                        <?php if ($row[5] === null) {
                             echo "<td style='text-align:center;background-color:RGB(0,0,0,0.5);'>N/A</td>";
-                        } else if (count(explode("; ", $row[4])) >= 3) {
+                        } else if (count(explode("; ", $row[5])) >= 2) {
                             echo "<td style='text-align:center;background-color:RGB(0,255,0,0.5);'>YES</td>";
                         } else {
                             echo "<td style='text-align:center;background-color:RGB(255,0,0,0.5);'>NO</td>";
