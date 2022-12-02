@@ -38,7 +38,7 @@ $num_clips = mysqli_query($connect, "SELECT COUNT(DISTINCT id) as num_clips FROM
 
         <div style="margin-bottom:15px">
           <div style="font-weight:bold">Select Data Source:</div>
-          <input type="radio" id="bat" name="data_source" value="bat" required>
+          <input type="radio" id="bat" name="data_source" value="bat">
           <label for="bat">Bat Monitoring Recorders</label>
           <input type="radio" id="video" name="data_source" value="video">
           <label for="video">Video Cameras</label>
@@ -50,7 +50,7 @@ $num_clips = mysqli_query($connect, "SELECT COUNT(DISTINCT id) as num_clips FROM
           <div style="font-weight:bold">Select Location:</div>
           <div id="location_instructions">Select a data source first.</div>
           <div id="bat_locations" style="display: none;">
-            <input type="radio" id="all_bat_locs" name="location" value="all_bat_locs" required>
+            <input type="radio" id="all_bat_locs" name="location" value="all_bat_locs">
             <label for="all_bat_locs">All bat locations</label>
 
             <input type="radio" id="lake1" name="location" value="lake1">
@@ -106,6 +106,8 @@ $num_clips = mysqli_query($connect, "SELECT COUNT(DISTINCT id) as num_clips FROM
           </div>
         </div>
         <input type="submit" name="submit" value="Start labeling!">
+        <div style="margin-top: 15px; margin-bottom:15px;">-- OR --</div>
+        <input type="submit" name="submit" value="See a list of all records">
       </form>
     </div>
   </div>

@@ -7,23 +7,32 @@ if (!isset($_SESSION["username"])) {
 }
 
 $connect = mysqli_connect("159.89.149.97", "birdnetv_public", "birdnetrools!", "birdnetv_base", "3306");
-$location = $_GET["location"];
-$sample_idx = $_GET["sample"];
 
-if (str_contains($location, "all")) {
-  if (str_contains($location, "cam")) {
-    $sample = mysqli_query($connect, "SELECT * FROM birdnet_detections WHERE recording_location LIKE 'Cam%' LIMIT 1 OFFSET $sample_idx;")->fetch_assoc();
-    $number_of_samples = mysqli_query($connect, "SELECT COUNT(*) as num_recs FROM birdnet_detections WHERE recording_location LIKE 'Cam%';")->fetch_assoc()["num_recs"];
-  } else if (str_contains($location, "streamer")) {
-    $sample = mysqli_query($connect, "SELECT * FROM birdnet_detections WHERE recording_location = 'dusk' OR recording_location = 'dawn' LIMIT 1 OFFSET $sample_idx;")->fetch_assoc();
-    $number_of_samples = mysqli_query($connect, "SELECT COUNT(*) as num_recs FROM birdnet_detections WHERE recording_location = 'dusk' OR recording_location = 'dawn';")->fetch_assoc()["num_recs"];
+$sample_idx = $_GET["sample"];
+if (isset($_GET["birdnet_detection_id"])) {
+  $number_of_samples = 1;
+  $birdnet_detection_id = $_GET["birdnet_detection_id"];
+  $sample = mysqli_query($connect, "SELECT * FROM birdnet_detections WHERE id=$birdnet_detection_id LIMIT 1;")->fetch_assoc();
+} else if (isset($_GET["location"])) {
+  $location = $_GET["location"];
+  if (str_contains($location, "all")) {
+    if (str_contains($location, "cam")) {
+      $sample = mysqli_query($connect, "SELECT * FROM birdnet_detections WHERE recording_location LIKE 'Cam%' LIMIT 1 OFFSET $sample_idx;")->fetch_assoc();
+      $number_of_samples = mysqli_query($connect, "SELECT COUNT(*) as num_recs FROM birdnet_detections WHERE recording_location LIKE 'Cam%';")->fetch_assoc()["num_recs"];
+    } else if (str_contains($location, "streamer")) {
+      $sample = mysqli_query($connect, "SELECT * FROM birdnet_detections WHERE recording_location = 'dusk' OR recording_location = 'dawn' LIMIT 1 OFFSET $sample_idx;")->fetch_assoc();
+      $number_of_samples = mysqli_query($connect, "SELECT COUNT(*) as num_recs FROM birdnet_detections WHERE recording_location = 'dusk' OR recording_location = 'dawn';")->fetch_assoc()["num_recs"];
+    } else {
+      $sample = mysqli_query($connect, "SELECT * FROM birdnet_detections WHERE recording_location NOT LIKE 'Cam%' AND recording_location != 'dusk' AND recording_location != 'dawn' LIMIT 1 OFFSET $sample_idx;")->fetch_assoc();
+      $number_of_samples = mysqli_query($connect, "SELECT COUNT(*) as num_recs FROM birdnet_detections WHERE recording_location NOT LIKE 'Cam%' AND recording_location != 'dusk' AND recording_location != 'dawn';")->fetch_assoc()["num_recs"];
+    }
   } else {
-    $sample = mysqli_query($connect, "SELECT * FROM birdnet_detections WHERE recording_location NOT LIKE 'Cam%' AND recording_location != 'dusk' AND recording_location != 'dawn' LIMIT 1 OFFSET $sample_idx;")->fetch_assoc();
-    $number_of_samples = mysqli_query($connect, "SELECT COUNT(*) as num_recs FROM birdnet_detections WHERE recording_location NOT LIKE 'Cam%' AND recording_location != 'dusk' AND recording_location != 'dawn';")->fetch_assoc()["num_recs"];
+    $sample = mysqli_query($connect, "SELECT * FROM birdnet_detections WHERE recording_location = '$location' LIMIT 1 OFFSET $sample_idx;")->fetch_assoc();
+    $number_of_samples = mysqli_query($connect, "SELECT COUNT(*) as num_recs FROM birdnet_detections WHERE recording_location = '$location';")->fetch_assoc()["num_recs"];
   }
 } else {
-  $sample = mysqli_query($connect, "SELECT * FROM birdnet_detections WHERE recording_location = '$location' LIMIT 1 OFFSET $sample_idx;")->fetch_assoc();
-  $number_of_samples = mysqli_query($connect, "SELECT COUNT(*) as num_recs FROM birdnet_detections WHERE recording_location = '$location';")->fetch_assoc()["num_recs"];
+  $sample = mysqli_query($connect, "SELECT * FROM birdnet_detections LIMIT 1 OFFSET $sample_idx;")->fetch_assoc();
+  $number_of_samples = mysqli_query($connect, "SELECT COUNT(*) as num_recs FROM birdnet_detections;")->fetch_assoc()["num_recs"];
 }
 
 if (isset($_POST["submit"])) {
@@ -76,7 +85,13 @@ if (isset($_POST["submit"])) {
     mysqli_query($connect, sprintf($query_format, $values));
   }
 
-  header("Location: labeler.php?location=" . $_GET["location"] . "&sample=" . ($_GET["sample"] + 1));
+  if (isset($_GET["location"])) {
+    header("Location: labeler.php?location=" . $_GET["location"] . "&sample=" . ($_GET["sample"] + 1));
+  } else if (isset($_GET["birdnet_detection_id"])) {
+    header("Location: done.php");
+  } else {
+    header("Location: labeler.php?sample=" . ($_GET["sample"] + 1));
+  }
   exit;
 }
 
@@ -506,7 +521,13 @@ if ($last_submission !== null) {
 
     <!-- Navigation buttons -->
     <div style="text-align:right">
-      <a href='<?php echo "labeler.php?location=" . $_GET["location"] . "&sample=" . ($_GET["sample"] + 1); ?>'>Skip</a> |
+      <a href='<?php if (isset($_GET["location"])) {
+                  echo "labeler.php?location=" . $_GET["location"] . "&sample=" . ($_GET["sample"] + 1);
+                } else if (isset($_GET["birdnet_detection_id"])) {
+                  echo "done.php";
+                } else {
+                  echo "labeler.php?sample=" . ($_GET["sample"] + 1);
+                } ?>'>Skip</a> |
       <a href="index.php">Back to Labeler Home</a>
     </div>
   </div>
