@@ -32,6 +32,16 @@ GROUP BY birdnet_detection_id) as most_recent_agreed_submissions LEFT JOIN birdn
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JRBP Audio Labeler</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            var scrollpos = localStorage.getItem('scrollpos');
+            if (scrollpos) window.scrollTo(0, scrollpos);
+        });
+
+        window.onbeforeunload = function(e) {
+            localStorage.setItem('scrollpos', window.scrollY);
+        };
+    </script>
     <style>
         table,
         tr,
@@ -123,7 +133,7 @@ GROUP BY birdnet_detection_id) as most_recent_agreed_submissions LEFT JOIN birdn
                         } else {
                             echo "<td style='text-align:center;background-color:RGB(255,0,0,0.5);'>NO</td>";
                         } ?></td>
-                        <td style="text-align:center;"><a target="_blank" rel="noopener noreferrer" href="<?php echo 'labeler.php?sample=0&birdnet_detection_id=' . $row[0]; ?>">Link</a> </td>
+                        <td style="text-align:center;"><a href="<?php echo 'labeler.php?sample=0&birdnet_detection_id=' . $row[0]; ?>">Link</a> </td>
                     </tr>
                 <?php } ?>
             </table>

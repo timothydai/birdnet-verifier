@@ -88,7 +88,7 @@ if (isset($_POST["submit"])) {
   if (isset($_GET["location"])) {
     header("Location: labeler.php?location=" . $_GET["location"] . "&sample=" . ($_GET["sample"] + 1));
   } else if (isset($_GET["birdnet_detection_id"])) {
-    header("Location: done.php");
+    header("Location: records.php");
   } else {
     header("Location: labeler.php?sample=" . ($_GET["sample"] + 1));
   }
@@ -524,7 +524,7 @@ if ($last_submission !== null) {
       <a href='<?php if (isset($_GET["location"])) {
                   echo "labeler.php?location=" . $_GET["location"] . "&sample=" . ($_GET["sample"] + 1);
                 } else if (isset($_GET["birdnet_detection_id"])) {
-                  echo "done.php";
+                  echo "records.php";
                 } else {
                   echo "labeler.php?sample=" . ($_GET["sample"] + 1);
                 } ?>'>Skip</a> |
